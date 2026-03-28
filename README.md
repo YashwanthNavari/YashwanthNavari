@@ -8,14 +8,16 @@
 
 
 
-<p align="center">
-  <img 
-    src="https://capsule-render.vercel.app/api?type=rect&height=220&color=0:111827,50:f97316,100:fb923c&text=Yashwanth%20Navari&fontSize=42&fontColor=ffffff&fontAlignY=40&desc=AI%20Products%20%7C%20Cloud%20%7C%20Innovation&descAlignY=62&animation=fadeIn" 
-    width="100%" 
-  />
-</p>
-```
 
+<p align="center">
+  <img src="./assets/cyber-banner.png" width="100%" alt="Cyber Banner"/>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/AI%20Builder-Real%20World%20Systems-2563eb?style=flat-square"/>
+  <img src="https://img.shields.io/badge/SaaS-Cloud%20Explorer-7c3aed?style=flat-square"/>
+  <img src="https://img.shields.io/badge/Open%20for-Internships%20%26%20Projects-16a34a?style=flat-square"/>
+</p>
 
 
 
