@@ -1,7 +1,7 @@
 <div align="center">
 
-# 🌐 Navari Yashwanth Reddy
-**B.Tech Data Science | IoT Innovator | ML Engineer | Design Patent Holder**
+# <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Waving%20Hand.png" alt="Waving Hand" width="45" /> Navari Yashwanth Reddy
+### **B.Tech Data Science | IoT Innovator | ML Engineer | Design Patent Holder**
 
 <a href="https://yashwanthnavari.github.io/yashwanth-portfolio/" target="_blank">
   <img src="https://img.shields.io/badge/🌟_VISIT_MY_INTERACTIVE_3D_PORTFOLIO-0f172a?style=for-the-badge&logo=googlechrome&logoColor=38BDF8&labelColor=1e293b"/>
@@ -9,11 +9,13 @@
 
 <br>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=24&pause=1000&color=38BDF8&center=true&vCenter=true&width=1000&lines=Building+Scalable+AI+Products;Deployable+SaaS+Solutions;Data-Driven+Intelligence;IoT+Connectivity+Devices" alt="Typing Animation" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=24&pause=1000&color=F97316&center=true&vCenter=true&width=1000&lines=Building+Scalable+AI+Products;Deployable+SaaS+Solutions;Data-Driven+Intelligence;IoT+Connectivity+Devices" alt="Typing Animation" />
 
 <br>
 
-![Cyber Banner](./assets/cyber-banner.png)
+<div align="center">
+  <img src="./assets/geo-banner.png" alt="Tech Banner" width="100%"/>
+</div>
 
 <br>
 
@@ -27,7 +29,7 @@
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
-### 🚀 About Me
+### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Rocket.png" alt="Rocket" width="35" /> About Me
 
 I love working on projects where **data meets product design**, turning raw datasets and ML models into **working systems that people can actually use**. My workflow revolves around:
 
@@ -37,27 +39,17 @@ With a 98% model accuracy track record, 11+ Certifications, and a deep-dive appr
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
-### 🛠️ Tech Arsenal
+### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Laptop.png" alt="Laptop" width="35" /> Tech Arsenal
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Python-111827?style=for-the-badge&logo=python&logoColor=38BDF8"/>
-  <img src="https://img.shields.io/badge/Java-111827?style=for-the-badge&logo=openjdk&logoColor=38BDF8"/>
-  <img src="https://img.shields.io/badge/JavaScript-111827?style=for-the-badge&logo=javascript&logoColor=38BDF8"/>
-  <br>
-  <img src="https://img.shields.io/badge/TensorFlow-111827?style=for-the-badge&logo=tensorflow&logoColor=FF6F00"/>
-  <img src="https://img.shields.io/badge/PyTorch-111827?style=for-the-badge&logo=pytorch&logoColor=EE4C2C"/>
-  <img src="https://img.shields.io/badge/Scikit--Learn-111827?style=for-the-badge&logo=scikit-learn&logoColor=F7931E"/>
-  <img src="https://img.shields.io/badge/Pandas-111827?style=for-the-badge&logo=pandas&logoColor=150458"/>
-  <br>
-  <img src="https://img.shields.io/badge/React-111827?style=for-the-badge&logo=react&logoColor=61DAFB"/>
-  <img src="https://img.shields.io/badge/Flask-111827?style=for-the-badge&logo=flask&logoColor=white"/>
-  <img src="https://img.shields.io/badge/MySQL-111827?style=for-the-badge&logo=mysql&logoColor=4479A1"/>
-  <img src="https://img.shields.io/badge/AWS-111827?style=for-the-badge&logo=amazonaws&logoColor=FF9900"/>
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=python,java,js,react,mysql,aws,git,tensorflow,pytorch,opencv,flask&theme=dark" alt="My Skills" />
+  </a>
 </p>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
-### 🌟 Advanced Projects
+### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Microscope.png" alt="Microscope" width="35" /> Advanced Projects
 
 <table>
   <tr>
@@ -80,7 +72,7 @@ With a 98% model accuracy track record, 11+ Certifications, and a deep-dive appr
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
-### 📈 GitHub Telemetry
+### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Chart%20Increasing.png" alt="Chart" width="35" /> GitHub Telemetry
 
 <p align="center">
   <a href="https://github.com/YashwanthNavari">
@@ -92,18 +84,29 @@ With a 98% model accuracy track record, 11+ Certifications, and a deep-dive appr
 </p>
 
 <p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=YashwanthNavari&theme=tokyonight&hide_border=true&background=0D1117" alt="GitHub Streak" width="98%"/>
+</p>
+
+<p align="center">
   <a href="https://github.com/YashwanthNavari">
     <img width="98%" src="https://github-readme-activity-graph.vercel.app/graph?username=YashwanthNavari&theme=tokyo-night&bg_color=0D1117&hide_border=true"/>
   </a>
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=YashwanthNavari&label=Profile%20Views&color=38BDF8&style=flat-square" alt="YashwanthNavari" />
+  <a href="https://github.com/ryo-ma/github-profile-trophy">
+    <img src="https://github-profile-trophy.vercel.app/?username=YashwanthNavari&theme=tokyonight&margin-w=15&margin-h=15&no-frame=true&no-bg=true" alt="YashwanthNavari Trophies" />
+  </a>
+</p>
+
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=YashwanthNavari&label=Profile%20Views&color=F97316&style=flat-square" alt="YashwanthNavari" />
 </p>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
-### 🌐 Let's Connect
+### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Globe%20Showing%20Americas.png" alt="Globe" width="35" /> Let's Connect
 
 <p align="center">
   <a href="https://www.linkedin.com/in/navari-yashwanth-reddy-4a7065357/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
