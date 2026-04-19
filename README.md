@@ -13,12 +13,6 @@
 
 <br>
 
-<div align="center">
-  <img src="./assets/geo-banner.png" alt="Tech Banner" width="100%"/>
-</div>
-
-<br>
-
 <p align="center">
   <a href="https://yashwanthnavari.github.io/yashwanth-portfolio/"><img src="https://img.shields.io/badge/AI%20Builder-Real%20World%20Systems-2563eb?style=flat-square"/></a>
   <a href="https://yashwanthnavari.github.io/yashwanth-portfolio/experience.html"><img src="https://img.shields.io/badge/SaaS-Cloud%20Explorer-7c3aed?style=flat-square"/></a>
@@ -31,11 +25,15 @@
 
 ### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Rocket.png" alt="Rocket" width="35" /> About Me
 
-I love working on projects where **data meets product design**, turning raw datasets and ML models into **working systems that people can actually use**. My workflow revolves around:
+**"Engineering isn't always perfect. It's about how you approach the failures and iterate towards the solution."**
 
-☁️ **Machine Learning & AI** | 🌐 **Web Applications** | 🛠️ **Deployable SaaS** | 📡 **IoT Hardware (Design Patent Holder)**
+I am an engineering student at **Woxsen University** pursuing my B.Tech in Data Science. For me, machine learning isn't just theory—*every node is a concept, every edge is a connection*. I don't simply build toy models; I tackle real-world challenges by diving deep into algorithmic complexity, computational problem-solving, and scalable full-stack architectures. 
 
-With a 98% model accuracy track record, 11+ Certifications, and a deep-dive approach to problem-solving, I am always looking to build **scalable architecture** over simple scripts. 
+* 🏛 **Government Recognition**: Issued an official **IoT Connectivity Device Design Patent** by the Intellectual Property Office, Government of India (Design No: 470097-001) for originating authentic machine-to-machine communication hardware. 
+* 🧠 **System Reliability Over Pure Metrics**: I once built an ML model that hit 99% accuracy but failed real-world tests via over-fitting. Rather than accepting it, I tore the model down, implemented deep K-Fold cross-validation, pruned the neural network layers, applied L2 Regularization, and stabilized it into a robust, deployed system at 92% real-world accuracy.
+* 📚 **Continuous Learner**: Successfully completed **11+ comprehensive certifications** focusing on Advanced ML, Cloud Deployment frameworks, and Software Engineering. I regularly push boundaries between AI models and deployable web services.
+
+My primary focus right now is bridging the gap between isolated data models and **fully functional SaaS platforms** that everyday end-users can seamlessly operate.
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
