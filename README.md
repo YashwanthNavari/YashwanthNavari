@@ -90,19 +90,164 @@ My journey is backed by an intense curriculum of advanced development, rigorous 
 
 ## 🛰️ Deep Work & Flagship Deployments 
 
-What makes my work unique is the crossover between **Deep Tech AI** and **Consumer Web Platforms**. 
+<div align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=F97316&center=true&vCenter=true&width=1000&lines=Deploying+Models+to+Production;Engineering+Robust+Backends;Building+Interactive+UIs;Bridging+Nodes+with+IoT" alt="Typing Animation" />
+</div>
 
-### 1. 🧠 StrokeGuard.ai — *Clinical Predictive Modeling*
-This isn't a simple `.predict()` script. It analyzes disparate, noisy patient health vectors (age, glucose levels, BMI, work status) to output precise, statistically-backed stroke risk classifications. I focused heavily on handling imbalanced medical datasets using SMOTE and threshold calibration to minimize false negatives, which is hyper-critical in clinical triage operations.
+What makes my work unique is the crossover between **Deep Tech AI**, **Hardware Operations**, and **Consumer Web Platforms**. I approach every individual project as an enterprise deployment.
 
-### 2. 🌾 AgriSathi — *Agri-Tech Decision Engine*
-A multi-parameter agricultural intelligence system. Rather than just guessing optimal crops, it pulls historical soil N-P-K data, current climatic markers, and regional pH values to dynamically output actionable farming strategies. I successfully married a responsive `.js`/React front-end visualization layer right onto an active core Flask inference API. 
+<br>
 
-### 3. 🏥 MedStack Platform — *Enterprise Hospital Management*
-Built the core scaffolding for end-to-end administration. Eliminated asynchronous blocking by utilizing efficient backend pooling for concurrent doctor scheduling tasks, dynamic patient billing pipeline calculations, and WebSocket-driven real-time bed telemetry across hospital wings.
+<details open>
+<summary><b><kbd>🧠</kbd> StrokeGuard.ai — Clinical Predictive Modeling</b></summary>
+<br>
+<div align="center">
+  <img src="https://media1.tenor.com/m/_kR1rM3i0iAAAAAd/brain-spinning.gif" width="220" align="right" style="margin-left: 20px; border-radius: 10px;" />
+</div>
+<br>
 
-### 4. 🖲️ Patented M2M Hardware Node
-Researched, diagrammed, structured, and patented an **IoT Connectivity Device** that bridges local sensor data with global cloud ingestion architectures. Reduced packet loss overhead and optimized power draw for remote edge computing arrays. *(Design Patent No: 470097-001 by Intellectual Property India)*.
+**Overview:**  
+This isn't just a simple `.predict()` script. It actively analyzes disparate, noisy patient health vectors (age, glucose levels, BMI, work status) to output precise, statistically-backed stroke risk classifications.
+
+**Technical Execution:**
+* 🎯 **Algorithmic Focus:** Developed logic for highly imbalanced medical datasets utilizing **SMOTE** oversampling and rigorous threshold calibration techniques.
+* 🛡️ **Optimization:** Obsessively pushed to minimize false negatives, an absolute necessity in real-world clinical triage operations where errors mean lives.
+* ⚙️ **Deployment Architecture:** Abstracted complex pipeline states into a modular inference framework, bridging notebook experimentation with actionable dashboards.
+
+<p align="left">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" />
+  <img src="https://img.shields.io/badge/Data_Science-150458?style=for-the-badge&logo=pandas&logoColor=white" />
+</p>
+<br clear="both"/>
+</details>
+
+<br>
+
+<details open>
+<summary><b><kbd>🌾</kbd> AgriSathi — Agri-Tech Decision Engine (V3 Evolution)</b></summary>
+<br>
+<div align="center">
+  <img src="https://media.tenor.com/6U1t3MhKxWwAAAAC/circuit-board-technology.gif" width="220" align="left" style="margin-right: 20px; border-radius: 10px;" />
+</div>
+<br>
+
+**Overview:**  
+A multi-parameter agricultural intelligence system. It pulls historical soil N-P-K data, current climatic markers, and regional pH values to dynamically output actionable farming strategies.
+
+**Technical Execution:**
+* 🧠 **Inference API:** A core Flask backend seamlessly serves predictive intelligence based on real-time and simulated metrics.
+* ⚛️ **Frontend V3 Architecture:** Built a completely responsive `.js`/React visualization layer. Fixed critical UI routing, and integrated a persistent browser-based shopping cart backend via local storage.
+* 🚀 **Simulated Infrastructure:** Upgraded the system to a production-ready Web App on GitHub Pages, ensuring every interaction triggers persistent real state changes rather than static visual effects.
+
+<p align="right">
+  <img src="https://img.shields.io/badge/React-20232a?style=for-the-badge&logo=react&logoColor=61dafb" />
+  <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+</p>
+<br clear="both"/>
+</details>
+
+<br>
+
+<details open>
+<summary><b><kbd>🏥</kbd> MedStack Platform — Enterprise Hospital Management</b></summary>
+<br>
+<div align="center">
+  <img src="https://media.tenor.com/b_xHh-L_Eq4AAAAC/dna-data.gif" width="220" align="right" style="margin-left: 20px; border-radius: 10px;" />
+</div>
+<br>
+
+**Overview:**  
+Built the raw core scaffolding for end-to-end medical administration, eliminating asynchronous latency across heavily networked hospital wings.
+
+**Technical Execution:**
+* ⚡ **Backend Pooling:** Designed highly efficient backend pooling structures for concurrent doctor scheduling tasks and dynamic patient billing pipeline calculations without deadlocking.
+* 📡 **Live Telemetry:** Engineered a WebSocket-driven infrastructure to handle real-time bed telemetry and critical updates simultaneously across multiple integrated client surfaces.
+
+<p align="left">
+  <img src="https://img.shields.io/badge/Enterprise_Architecture-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/WebSockets-010101?style=for-the-badge&logo=socketdotio&logoColor=white" />
+  <img src="https://img.shields.io/badge/Database_Modeling-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
+</p>
+<br clear="both"/>
+</details>
+
+<br>
+
+<details open>
+<summary><b><kbd>🎯</kbd> AI Computer Vision Deployments</b></summary>
+<br>
+<div align="center">
+  <img src="https://media.tenor.com/9vGv1m261X8AAAAC/face-recognition-scanning.gif" width="220" align="left" style="margin-right: 20px; border-radius: 10px;" />
+</div>
+<br>
+
+**Overview:**  
+A dual-focus portfolio pushing serverless deployment limits, containing both a high-fidelity **Age & Gender Detection** model and an **ML Object Detection** inference unit.
+
+**Technical Execution:**
+* ☁️ **WebAssembly Integrations:** Deployed serverless python logic across Hugging Face and GitHub Pages via Gradio Lite, specifically pinning version conflicts to load large `huggingface-hub` Caffe models purely client-side.
+* 👁️ **Model Integrity:** Architected complex image manipulation streams ensuring latency-free inferences using heavy multi-classification parameters directly within the browser sandbox. 
+
+<p align="right">
+  <img src="https://img.shields.io/badge/Computer_Vision-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white" />
+  <img src="https://img.shields.io/badge/Gradio_Lite-FFA500?style=for-the-badge&logo=gradio&logoColor=white" />
+  <img src="https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" />
+</p>
+<br clear="both"/>
+</details>
+
+<br>
+
+<details open>
+<summary><b><kbd>🖲️</kbd> Patented M2M Hardware Node (IoT)</b></summary>
+<br>
+<div align="center">
+  <img src="https://media.tenor.com/D_iZ_Qf11A8AAAAC/microship-microcontroller.gif" width="220" align="right" style="margin-left: 20px; border-radius: 10px;" />
+</div>
+<br>
+
+**Overview:**  
+Researched, diagrammed, structured, and patented an **IoT Connectivity Device** that robustly bridges local edge sensor-data continuously with global cloud ingestion architectures.
+
+**Technical Execution:**
+* 🏆 **Legal Standing:** Officially Granted an Innovation Patent *(Design Patent No: 470097-001 by Intellectual Property India)*.
+* 🔋 **Embedded Operations:** Reduced packet loss overhead using proprietary C-level micro-controller transmission paths, aggressively optimizing voltage power-draw constraints for remote edge computing arrays.
+
+<p align="left">
+  <img src="https://img.shields.io/badge/IoT_Innovation-F97316?style=for-the-badge&logo=arduino&logoColor=white" />
+  <img src="https://img.shields.io/badge/Embedded_C-00599C?style=for-the-badge&logo=c&logoColor=white" />
+  <img src="https://img.shields.io/badge/PCB_Design-121011?style=for-the-badge&logo=nxp&logoColor=white" />
+</p>
+<br clear="both"/>
+</details>
+
+<br>
+
+<details open>
+<summary><b><kbd>💞</kbd> LifeLink — Organ Donation Ecosystem</b></summary>
+<br>
+<div align="center">
+  <img src="https://media.tenor.com/_F7c5qP2BEMAAAAC/heartbeat-line.gif" width="220" align="left" style="margin-right: 20px; border-radius: 10px;" />
+</div>
+<br>
+
+**Overview:**  
+An interactive full-stack coordination directory aimed at tracking user commitments, points, and gamified donation milestones.
+
+**Technical Execution:**
+* 🗄️ **Environment Hardening:** Rescued production from persistent HTTP 500 errors by aggressively altering backend database schemas with targeted dynamic table updates across InfinityFree servers.
+* 👤 **Functional UI Integration:** Upgraded previously broken dashboard profiles with real working API linkages for fully tracking donations within the operational MySQL relational pipeline.
+
+<p align="right">
+  <img src="https://img.shields.io/badge/PHP_Server-777BB4?style=for-the-badge&logo=php&logoColor=white" />
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
+  <img src="https://img.shields.io/badge/Web_Host-000000?style=for-the-badge&logo=server&logoColor=white" />
+</p>
+<br clear="both"/>
+</details>
+
 
 <br>
 
