@@ -9,6 +9,8 @@
 <img src="https://media.giphy.com/media/qgQUggCGvnPt9WGqp/giphy.gif" width="400" />
 <img src="https://i.pinimg.com/originals/a4/09/e5/a409e530666016cbeeb067824131af53.gif" width="400" />
 
+<br><br>
+
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=F97316&center=true&vCenter=true&width=1000&lines=Building+Scalable+AI+Products;Architecting+Deployable+SaaS+Solutions;Forging+Data-Driven+Intelligence;Engineering+IoT+Connectivity+Devices;Innovating+the+Future" alt="Typing Animation" />
 
 </div>
@@ -26,10 +28,12 @@
 <br>
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Alien%20Monster.png" alt="Alien" width="45" /> 
-  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Rocket.png" alt="Rocket" width="45" /> 
-  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Flying%20Saucer.png" alt="UFO" width="45" /> 
+  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f47d/512.gif" alt="Alien" width="45" /> 
+  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f680/512.gif" alt="Rocket" width="45" /> 
+  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f6f8/512.gif" alt="UFO" width="45" /> 
 </div>
+
+<br>
 
 <div align="center">
 
@@ -50,7 +54,7 @@
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
-## ⚡ <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/High%20Voltage.png" alt="High Voltage" width="35" /> The Core Directives
+## ⚡ The Core Directives
 
 I am navigating the convergence of **Machine Learning**, **IoT Architecture**, and **Software Engineering** at Woxsen University. For me, AI isn't an isolated lab experiment—it's a system to be engineered, monitored, and scaled. 
 
@@ -64,18 +68,27 @@ I am navigating the convergence of **Machine Learning**, **IoT Architecture**, a
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
-## 🏅 <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Activities/Trophy.png" alt="Trophy" width="35" /> Accolades & Certifications
+## 🏅 Official Certifications & Accolades
 
-My journey is backed by **11+ comprehensive certifications** focusing on advanced development, rigorous machine learning math, and modern stack operations.
+My journey is backed by an intense curriculum of advanced development, rigorous machine learning math, networking, and modern stack operations. Here are my verified credentials:
 
-* <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Scroll.png" width="25"/> **Advanced Machine Learning Algorithms:** Emphasizing deep neural networks, structural hyper-parameter tuning, and advanced regularization techniques (L1/L2 penalties, Dropout).
-* <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Scroll.png" width="25"/> **Cloud Deployment & Architecture:** Focused on spinning up scalable cloud infrastructures using AWS EC2, S3 storage pipelines, Docker containerization, and establishing automated CI/CD workflows.
-* <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Scroll.png" width="25"/> **Full-Stack Software Engineering:** Mastering the JavaScript/React ecosystem combined with Python frameworks to deliver holistic, responsive web services with secure APIs. 
-* <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Scroll.png" width="25"/> **Cyber Systems & Network Foundations:** Understanding secure M2M transmission channels, encryption protocols, and payload structures—knowledge which directly fueled my hardware design patent.
+| Certification Level | Course & Focus | Issuing Institution |
+| :--- | :--- | :--- |
+| <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f3c6/512.gif" width="30"/> **Advanced Algorithms** | Java Programming: Solving Problems with Software | **Duke University** (via Coursera) |
+| <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f3c6/512.gif" width="30"/> **Data Engineering** | Data Structures Using Python | **Packt** (via Coursera) |
+| <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f3c6/512.gif" width="30"/> **Theoretical Compute**| Quantum Computing For Everyone | **Fractal Analytics** (via Coursera) |
+| <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f3c6/512.gif" width="30"/> **Software Architecture**| Object-Oriented Design | **University of Alberta** (via Coursera) |
+| <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f3c6/512.gif" width="30"/> **IoT & Embedded C** | The Arduino Platform & C Programming | **UC Irvine** (via Coursera) |
+| <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f3c6/512.gif" width="30"/> **Microcontrollers** | Interfacing with the Arduino | **UC Irvine** (via Coursera) |
+| <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f3c6/512.gif" width="30"/> **Network Defense** | Introduction to Cyber Attacks | **NYU Tandon School of Engineering** |
+| <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f3c6/512.gif" width="30"/> **Deep Hardware** | Nanotechnology and Nanosensors | **Technion - Israel Institute of Tech** |
+| <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f3c6/512.gif" width="30"/> **Frontend Expertise** | Frontend Developer (React) | **HackerRank** |
+| <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f3c6/512.gif" width="30"/> **Backend Logistics** | Go (Basic) | **HackerRank** |
+| <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f3c6/512.gif" width="30"/> **Professional Skills** | Write Professional Emails in English | **Georgia Institute of Technology** |
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
-## 🚀 <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Satellite.png" alt="Satellite" width="35" /> Deep Work & Flagship Deployments 
+## 🛰️ Deep Work & Flagship Deployments 
 
 What makes my work unique is the crossover between **Deep Tech AI** and **Consumer Web Platforms**. 
 
@@ -99,7 +112,7 @@ Researched, diagrammed, structured, and patented an **IoT Connectivity Device** 
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
-## 🛠️ <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Wrench.png" alt="Wrench" width="35" /> The Tech Arsenal
+## 🛠️ The Tech Arsenal
 
 <div align="center">
 
@@ -118,7 +131,7 @@ Researched, diagrammed, structured, and patented an **IoT Connectivity Device** 
 <br>
 
 <details>
-<summary><b>🔥 <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Fire.png" width="20"/> Expand to view specific loadouts</b></summary>
+<summary><b>🔥 Expand to view specific loadouts</b></summary>
 
 <br>
 
@@ -147,7 +160,7 @@ Researched, diagrammed, structured, and patented an **IoT Connectivity Device** 
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
-## 📊 <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Chart%20Increasing.png" width="35" /> System Telemetry & Logs
+## 📊 System Telemetry & Logs
 
 <div align="center">
 
@@ -169,11 +182,11 @@ Researched, diagrammed, structured, and patented an **IoT Connectivity Device** 
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
-## 📡 <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Laptop.png" width="35" /> Handshake & Comm-Links
+## 📡 Handshake & Comm-Links
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Waving%20Hand.png" alt="Wave" width="45" />
+<img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f44b_1f3fd/512.gif" alt="Wave" width="45" />
 
 <br><br>
 
