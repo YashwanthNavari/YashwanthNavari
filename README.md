@@ -57,9 +57,9 @@
 
 ---
 
-## ⚡ Executive Architecture & Core Directives
+## ⚡ Executive Architecture & Strategic Operational Pillars
 
-I operate at the convergence of **Deep Learning Systems**, **Cyber-Physical IoT Hardware**, and **High-Availability Cloud Architecture**. My engineering ethos centers on transforming theoretical models from isolated notebooks into deterministic, scalable, and observable enterprise products.
+I operate at the intersection of **Deep Learning Systems**, **Cyber-Physical IoT Hardware**, and **High-Availability Cloud Microservices**.
 
 ```
 ┌─────────────────────────┐      ┌─────────────────────────┐      ┌─────────────────────────┐
@@ -69,7 +69,7 @@ I operate at the convergence of **Deep Learning Systems**, **Cyber-Physical IoT 
 └─────────────────────────┘      └─────────────────────────┘      └─────────────────────────┘
 ```
 
-### 🛡️ Strategic Operational Pillars
+### 🛡️ Core Directives
 
 | Strategic Pillar | Core Focus | Engineering Implementation |
 | :--- | :--- | :--- |
@@ -80,7 +80,7 @@ I operate at the convergence of **Deep Learning Systems**, **Cyber-Physical IoT 
 
 ---
 
-## 📊 Live Command Center Telemetry & Analytics (Self-Hosted)
+## 📊 Live Command Center Telemetry & Analytics
 
 <div align="center">
 
@@ -100,16 +100,64 @@ I operate at the convergence of **Deep Learning Systems**, **Cyber-Physical IoT 
 
 ---
 
-## 🛰️ Flagship Deployments & Deep Technical Systems
+## 🖲️ Patented Cyber-Physical Hardware Architecture
 
-<div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=19&pause=1000&color=F97316&center=true&vCenter=true&width=1000&lines=Patented+IoT+Node;Clinical+Predictive+AI;Agri-Tech+Decision+Engine;Enterprise+Hospital+Telemetry;Client-Side+Serverless+Computer+Vision" alt="Deployments Typing" />
-</div>
+<p align="center">
+  <img src="./profile/hardware-patent-node.svg" width="100%" alt="Hardware Patent Node Schematic" />
+</p>
+
+---
+
+## 🧠 Neural Inference & Machine Learning Pipeline
+
+<p align="center">
+  <img src="./profile/ai-pipeline-flow.svg" width="100%" alt="AI Pipeline Flow" />
+</p>
+
+---
+
+## 🛰️ Verified Flagship Repositories & Systems
+
+<p align="center">
+  <a href="https://github.com/YashwanthNavari?tab=repositories">
+    <img src="./profile/live-repo-grid.svg" width="100%" alt="Verified Flagship Repositories" />
+  </a>
+</p>
 
 <br>
 
 <!-- ==================================================================== -->
-<!-- PROJECT 1: PATENTED IOT NODE -->
+<!-- PROJECT 1: SUPPORTSPHERE AI -->
+<!-- ==================================================================== -->
+<details open>
+<summary><b><kbd>🤖</kbd> SupportSphere-AI — Enterprise Multi-Agent Customer Support Platform</b></summary>
+<br>
+
+<div align="center">
+  <img src="https://media1.tenor.com/m/o6B8kH3XHOYAAAAd/code-matrix.gif" width="220" align="right" style="margin-left: 20px; border-radius: 12px;" alt="Matrix" />
+</div>
+
+**System Overview:**  
+An enterprise-grade AI-powered customer support platform featuring intelligent query resolution, real-time conversational AI, multi-agent workflows, advanced analytics, automation, knowledge retrieval, and a premium interactive user experience.
+
+**Key Technical Achievements:**
+* 🧠 **Multi-Agent Orchestration:** Structured modular agent delegation allowing parallel intent parsing, database query formulation, and response synthesis.
+* ⚡ **Knowledge Retrieval Architecture:** Integrated vector embeddings for contextual semantic search across enterprise documentation.
+* 🛡️ **Interactive UI:** Crafted an ultra-responsive client interface with real-time streaming tokens and agent state visualization.
+
+<p align="left">
+  <a href="https://github.com/YashwanthNavari/SupportSphere-AI"><img src="https://img.shields.io/badge/GitHub_Repo-SupportSphere--AI-F97316?style=for-the-badge&logo=github&logoColor=white" alt="Repo"/></a>
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"/>
+  <img src="https://img.shields.io/badge/Multi--Agent_AI-7C3AED?style=for-the-badge&logo=openai&logoColor=white" alt="AI"/>
+  <img src="https://img.shields.io/badge/Real--Time_WebSockets-010101?style=for-the-badge&logo=socketdotio&logoColor=white" alt="WebSockets"/>
+</p>
+<br clear="both"/>
+</details>
+
+<br>
+
+<!-- ==================================================================== -->
+<!-- PROJECT 2: PATENTED IOT NODE -->
 <!-- ==================================================================== -->
 <details open>
 <summary><b><kbd>🖲️</kbd> Patented M2M IoT Connectivity Device — Edge Telemetry Node</b></summary>
@@ -140,40 +188,10 @@ Architected, diagrammed, and patented an industrial **IoT Connectivity Device** 
 <br>
 
 <!-- ==================================================================== -->
-<!-- PROJECT 2: STROKEGUARD.AI -->
+<!-- PROJECT 3: AGRISATHI -->
 <!-- ==================================================================== -->
 <details open>
-<summary><b><kbd>🧠</kbd> StrokeGuard.ai — Clinical Predictive Modeling & Triage System</b></summary>
-<br>
-
-<div align="center">
-  <img src="https://media1.tenor.com/m/_kR1rM3i0iAAAAAd/brain-spinning.gif" width="220" align="right" style="margin-left: 20px; border-radius: 12px;" alt="Brain AI" />
-</div>
-
-**System Overview:**  
-An enterprise medical triage pipeline transforming noisy, severely imbalanced physiological vectors (glucose metrics, BMI, systolic markers, patient history) into calibrated clinical risk probabilities.
-
-**Key Technical Achievements:**
-* 🎯 **Severe Imbalance Resolution:** Engineered a multi-stage preprocessing pipeline incorporating **SMOTE** oversampling and Tomek links for high-fidelity boundary resolution.
-* 🛡️ **Zero-False-Negative Optimization:** Calibrated classification thresholds through cost-sensitive ROC-AUC optimization, minimizing deadly Type II classification errors.
-* ⚙️ **Modular Inference Architecture:** Encapsulated end-to-end preprocessing, feature engineering, and model inference into clean, reproducible Scikit-Learn pipelines.
-
-<p align="left">
-  <img src="https://img.shields.io/badge/Python_3.11-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python 3.11" />
-  <img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" alt="Scikit-Learn" />
-  <img src="https://img.shields.io/badge/Medical_Data_Science-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Data Science" />
-  <img src="https://img.shields.io/badge/Imbalanced_Learn-SMOTE-FF6F00?style=for-the-badge&logo=scipy&logoColor=white" alt="SMOTE" />
-</p>
-<br clear="both"/>
-</details>
-
-<br>
-
-<!-- ==================================================================== -->
-<!-- PROJECT 3: AGRISATHI V3 -->
-<!-- ==================================================================== -->
-<details open>
-<summary><b><kbd>🌾</kbd> AgriSathi — Multi-Vector Agricultural Decision Engine (V3 Evolution)</b></summary>
+<summary><b><kbd>🌾</kbd> AgriSathi — Smart Farmer Assistant (ML-Driven Agriculture Engine)</b></summary>
 <br>
 
 <div align="center">
@@ -181,18 +199,18 @@ An enterprise medical triage pipeline transforming noisy, severely imbalanced ph
 </div>
 
 **System Overview:**  
-A decision-support platform analyzing historical soil nitrogen-phosphorus-potassium (N-P-K) profiles, ambient humidity, rainfall data, and pH vectors to provide real-time crop optimization strategies.
+An agricultural decision engine that analyzes soil N-P-K profiles, ambient humidity, rainfall data, and pH vectors to provide real-time crop optimization, image-based disease detection, and yield prediction.
 
 **Key Technical Achievements:**
-* 🧠 **Predictive REST Engine:** Developed a high-performance Flask microservice delivering millisecond inference responses for multi-attribute crop yield prediction.
-* ⚛️ **Reactive Frontend V3:** Designed an interactive React visualization dashboard with state synchronization and persistent client-side data pipelines.
-* 🚀 **Deterministic State Engine:** Fixed complex client-side routing and state persistence, enabling seamless continuous simulation across unstable mobile network environments.
+* 🧠 **Multi-Model Inference:** Combines random forests for soil suitability with CNNs for leaf disease identification.
+* ⚛️ **Reactive Frontend:** Designed an interactive React visualization dashboard with state synchronization and persistent client-side data pipelines.
+* 🚀 **Deterministic Offline Mode:** Client-side caching enables uninterrupted simulations even across rural networks.
 
 <p align="right">
-  <img src="https://img.shields.io/badge/React.js-20232a?style=for-the-badge&logo=react&logoColor=61dafb" alt="React" />
-  <img src="https://img.shields.io/badge/Flask_API-000000?style=for-the-badge&logo=flask&logoColor=white" alt="Flask" />
-  <img src="https://img.shields.io/badge/JavaScript_ES6+-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
-  <img src="https://img.shields.io/badge/GitHub_Pages_Deploy-222222?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Pages" />
+  <a href="https://github.com/YashwanthNavari/agrisathi--smart-farmer-assistant"><img src="https://img.shields.io/badge/GitHub_Repo-AgriSathi-F97316?style=for-the-badge&logo=github&logoColor=white" alt="Repo"/></a>
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/Machine_Learning-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" alt="ML" />
+  <img src="https://img.shields.io/badge/Agri--Tech-16a34a?style=for-the-badge&logo=leaflet&logoColor=white" alt="Agri" />
 </p>
 <br clear="both"/>
 </details>
@@ -200,59 +218,28 @@ A decision-support platform analyzing historical soil nitrogen-phosphorus-potass
 <br>
 
 <!-- ==================================================================== -->
-<!-- PROJECT 4: MEDSTACK PLATFORM -->
+<!-- PROJECT 4: NUEROVISION ML -->
 <!-- ==================================================================== -->
 <details open>
-<summary><b><kbd>🏥</kbd> MedStack Platform — Enterprise Hospital Telemetry & Scheduling</b></summary>
+<summary><b><kbd>👁️</kbd> NeuroVision ML Platform — YOLO Object Detection & Computer Vision</b></summary>
 <br>
 
 <div align="center">
-  <img src="https://media.tenor.com/b_xHh-L_Eq4AAAAC/dna-data.gif" width="220" align="right" style="margin-left: 20px; border-radius: 12px;" alt="DNA Data" />
+  <img src="https://media.tenor.com/9vGv1m261X8AAAAC/face-recognition-scanning.gif" width="220" align="right" style="margin-left: 20px; border-radius: 12px;" alt="Vision" />
 </div>
 
 **System Overview:**  
-An enterprise health-tech management suite built to eliminate latency and concurrency bottlenecks across distributed clinic and hospital networks.
+Designed and trained custom object detection models using deep learning by annotating custom datasets, performing extensive data augmentation, fine-tuning YOLO architectures, and deploying with OpenCV.
 
 **Key Technical Achievements:**
-* ⚡ **Connection Pooling & Concurrency:** Engineered dead-lock free resource pools handling simultaneous physician scheduling, inpatient intake, and billing calculations.
-* 📡 **Live WebSocket Telemetry:** Built bi-directional event pipelines broadcasting bed allocation and emergency telemetry updates to multiple concurrent workstations.
-* 🗄️ **Relational Schema Design:** Structured normalized MySQL schemas with indexed foreign keys for sub-millisecond query execution on heavy patient history tables.
+* 🎯 **Precision & Recall Tuning:** Evaluated models using rigorous mAP metrics across varying illumination conditions.
+* ⚡ **High-Speed OpenCV Inference:** Optimized frame rate and boundary-box rendering for smooth real-time video stream analysis.
 
 <p align="left">
-  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js" />
-  <img src="https://img.shields.io/badge/WebSockets-010101?style=for-the-badge&logo=socketdotio&logoColor=white" alt="WebSockets" />
-  <img src="https://img.shields.io/badge/MySQL_Enterprise-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
-  <img src="https://img.shields.io/badge/Concurrency_Architecture-F97316?style=for-the-badge&logo=databricks&logoColor=white" alt="Concurrency" />
-</p>
-<br clear="both"/>
-</details>
-
-<br>
-
-<!-- ==================================================================== -->
-<!-- PROJECT 5: COMPUTER VISION SUITE -->
-<!-- ==================================================================== -->
-<details open>
-<summary><b><kbd>🎯</kbd> Client-Side Edge Computer Vision & Multi-Class Inference Engine</b></summary>
-<br>
-
-<div align="center">
-  <img src="https://media.tenor.com/9vGv1m261X8AAAAC/face-recognition-scanning.gif" width="220" align="left" style="margin-right: 20px; border-radius: 12px;" alt="Facial Scan" />
-</div>
-
-**System Overview:**  
-A zero-server-cost computer vision architecture running Caffe and PyTorch deep neural networks directly in the client browser sandbox via WebAssembly and Gradio Lite.
-
-**Key Technical Achievements:**
-* ☁️ **WebAssembly Serverless Compute:** Deployed client-side inference pipelines running multi-classification Age & Gender detection without relying on backend GPU compute servers.
-* 👁️ **Real-Time Video Stream Processing:** Optimized frame sampling, canvas rendering, and bounding box interpolation for smooth 60fps in-browser video analysis.
-* 📦 **Dependency Version Pinning:** Resolved complex Pyodide/Gradio Lite browser runtime memory constraints and dynamic wheel loading protocols.
-
-<p align="right">
+  <a href="https://github.com/YashwanthNavari/nuerovision-ml-platform"><img src="https://img.shields.io/badge/GitHub_Repo-NeuroVision-F97316?style=for-the-badge&logo=github&logoColor=white" alt="Repo"/></a>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/YOLO-00FFFF?style=for-the-badge&logo=yolo&logoColor=black" alt="YOLO" />
   <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white" alt="OpenCV" />
-  <img src="https://img.shields.io/badge/WebAssembly-654FF0?style=for-the-badge&logo=webassembly&logoColor=white" alt="WebAssembly" />
-  <img src="https://img.shields.io/badge/Gradio_Lite-FFA500?style=for-the-badge&logo=gradio&logoColor=white" alt="Gradio Lite" />
-  <img src="https://img.shields.io/badge/Hugging_Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" alt="Hugging Face" />
 </p>
 <br clear="both"/>
 </details>
@@ -260,27 +247,84 @@ A zero-server-cost computer vision architecture running Caffe and PyTorch deep n
 <br>
 
 <!-- ==================================================================== -->
-<!-- PROJECT 6: LIFELINK -->
+<!-- PROJECT 5: SMART CAMPUS NETWORK -->
 <!-- ==================================================================== -->
 <details open>
-<summary><b><kbd>💞</kbd> LifeLink — High-Availability Organ Donation Coordination System</b></summary>
+<summary><b><kbd>🛡️</kbd> Smart Campus Network — Automated Zero-Trust Access Control</b></summary>
 <br>
 
 <div align="center">
-  <img src="https://media.tenor.com/_F7c5qP2BEMAAAAC/heartbeat-line.gif" width="220" align="right" style="margin-left: 20px; border-radius: 12px;" alt="Heartbeat" />
+  <img src="https://media.tenor.com/b_xHh-L_Eq4AAAAC/dna-data.gif" width="220" align="left" style="margin-right: 20px; border-radius: 12px;" alt="Network" />
 </div>
 
 **System Overview:**  
-A gamified life-critical coordination system designed to track donor pledges, match compatible recipients, and provide transparent milestone verification.
+An enterprise network infrastructure simulation implementing automatic access control, Role-Based Access Control (RBAC), and network security defense mechanisms across complex campus environments.
 
 **Key Technical Achievements:**
-* 🗄️ **Schema Hardening & Recovery:** Restructured corrupted backend relational tables, eliminated HTTP 500 bottlenecks, and enforced database transactions on matching logs.
-* 👤 **Dynamic Profile Synchronization:** Integrated interactive dashboard telemetry providing live donor validation and encrypted credential access.
+* 🔒 **Zero-Trust Access Policies:** Enforced segment isolation and packet inspection for authenticated devices.
+* 📡 **Packet Tracer Simulation:** Mapped routing protocols, firewall rules, and VLAN configurations.
+
+<p align="right">
+  <a href="https://github.com/YashwanthNavari/smart-campus-network"><img src="https://img.shields.io/badge/GitHub_Repo-Smart_Campus_Network-F97316?style=for-the-badge&logo=github&logoColor=white" alt="Repo"/></a>
+  <img src="https://img.shields.io/badge/Network_Security-DC2626?style=for-the-badge&logo=cisco&logoColor=white" alt="Security" />
+  <img src="https://img.shields.io/badge/Zero_Trust-0F172A?style=for-the-badge&logo=auth0&logoColor=white" alt="Zero Trust" />
+</p>
+<br clear="both"/>
+</details>
+
+<br>
+
+<!-- ==================================================================== -->
+<!-- PROJECT 6: CRICBUZZ LIVE STATS -->
+<!-- ==================================================================== -->
+<details open>
+<summary><b><kbd>🏏</kbd> Cricbuzz LiveStats — Real-Time Sports Telemetry & PostgreSQL Dashboard</b></summary>
+<br>
+
+<div align="center">
+  <img src="https://media1.tenor.com/m/_kR1rM3i0iAAAAAd/brain-spinning.gif" width="220" align="right" style="margin-left: 20px; border-radius: 12px;" alt="Analytics" />
+</div>
+
+**System Overview:**  
+Real-time sports telemetry dashboard parsing live APIs, persisting historical match telemetry in PostgreSQL, and delivering dynamic analytics visualizations via Streamlit.
+
+**Key Technical Achievements:**
+* 🗄️ **Relational Indexing:** Structured optimized SQL queries for sub-second aggregations on ball-by-ball match data.
+* 📊 **Dynamic Visualizations:** Built interactive run-rate predictors and live match progression graphs.
 
 <p align="left">
-  <img src="https://img.shields.io/badge/PHP_Backend-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP" />
-  <img src="https://img.shields.io/badge/MySQL_Database-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
-  <img src="https://img.shields.io/badge/Transactional_Integrity-16a34a?style=for-the-badge&logo=securityscorecard&logoColor=white" alt="Security" />
+  <a href="https://github.com/YashwanthNavari/-Cricbuzz-LiveStats"><img src="https://img.shields.io/badge/GitHub_Repo-Cricbuzz_LiveStats-F97316?style=for-the-badge&logo=github&logoColor=white" alt="Repo"/></a>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="Postgres" />
+  <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" alt="Streamlit" />
+</p>
+<br clear="both"/>
+</details>
+
+<br>
+
+<!-- ==================================================================== -->
+<!-- PROJECT 7: DEVELOPERZIP -->
+<!-- ==================================================================== -->
+<details open>
+<summary><b><kbd>📦</kbd> DeveloperZip — Intelligent Project Packaging for Software Developers</b></summary>
+<br>
+
+<div align="center">
+  <img src="https://media.tenor.com/_F7c5qP2BEMAAAAC/heartbeat-line.gif" width="220" align="left" style="margin-right: 20px; border-radius: 12px;" alt="Tool" />
+</div>
+
+**System Overview:**  
+An intelligent desktop application designed to optimize and simplify the compression and packaging of software engineering codebases by smartly stripping bloat (e.g. `node_modules`, build caches) while preserving project integrity.
+
+**Key Technical Achievements:**
+* ⚡ **AST-Aware Packaging:** Smartly filters development artifacts and caches to produce 80%+ smaller bundle sizes.
+* 🖥️ **Cross-Platform Desktop UI:** Built using TypeScript with a fast, modern graphical user experience.
+
+<p align="right">
+  <a href="https://github.com/YashwanthNavari/DeveloperZip-Intelligent-Project-Packaging-for-Software-Developers"><img src="https://img.shields.io/badge/GitHub_Repo-DeveloperZip-F97316?style=for-the-badge&logo=github&logoColor=white" alt="Repo"/></a>
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/Developer_Tooling-0F172A?style=for-the-badge&logo=webpack&logoColor=white" alt="Tools" />
 </p>
 <br clear="both"/>
 </details>

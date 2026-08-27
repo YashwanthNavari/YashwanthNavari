@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 150" width="100%" height="150">
+  <defs>
+    <linearGradient id="flowBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A" />
+      <stop offset="60%" stop-color="#0B1120" />
+      <stop offset="100%" stop-color="#020617" />
+    </linearGradient>
+  </defs>
+
+  <style>
+    .mono { font-family: 'Fira Code', 'JetBrains Mono', monospace; }
+    .title { font-size: 13.5px; font-weight: 700; fill: #F97316; letter-spacing: 1px; }
+    .step-box { fill: #0B1120; stroke-width: 1.5; rx: 6px; }
+    .step-title { font-size: 11px; font-weight: 700; text-anchor: middle; }
+    .step-desc { font-size: 9px; fill: #94A3B8; text-anchor: middle; }
+    .arrow { stroke: #F97316; stroke-width: 1.8; fill: none; stroke-dasharray: 4 2; }
+  </style>
+
+  <rect x="2" y="2" width="876" height="146" rx="12" fill="url(#flowBg)" stroke="#334155" stroke-width="1.5" />
+  <line x1="16" y1="34" x2="864" y2="34" stroke="#1E293B" stroke-width="1" />
+
+  <!-- Header -->
+  <g transform="translate(20, 22)">
+    <text x="0" y="0" class="mono title">DETERMINISTIC MACHINE LEARNING &amp; INFERENCE PIPELINE ARCHITECTURE</text>
+  </g>
+
+  <!-- Flow Steps -->
+  <!-- Step 1: Ingestion -->
+  <g transform="translate(24, 48)">
+    <rect x="0" y="0" width="145" height="82" class="step-box" stroke="#38BDF8" />
+    <text x="72.5" y="24" class="mono step-title" fill="#38BDF8">01. INGESTION</text>
+    <text x="72.5" y="44" class="mono step-desc">Medical / Soil / Image</text>
+    <text x="72.5" y="60" class="mono step-desc">Noisy Multi-Vectors</text>
+  </g>
+
+  <!-- Arrow 1 -->
+  <path d="M 175 89 L 200 89" class="arrow" />
+  <polygon points="200,89 194,85 194,93" fill="#F97316" />
+
+  <!-- Step 2: SMOTE & Preprocessing -->
+  <g transform="translate(206, 48)">
+    <rect x="0" y="0" width="145" height="82" class="step-box" stroke="#F97316" />
+    <text x="72.5" y="24" class="mono step-title" fill="#F97316">02. DATA HARDENING</text>
+    <text x="72.5" y="44" class="mono step-desc">SMOTE Oversampling</text>
+    <text x="72.5" y="60" class="mono step-desc">Tomek Boundary Links</text>
+  </g>
+
+  <!-- Arrow 2 -->
+  <path d="M 357 89 L 382 89" class="arrow" />
+  <polygon points="382,89 376,85 376,93" fill="#F97316" />
+
+  <!-- Step 3: Neural / Ensemble Core -->
+  <g transform="translate(388, 48)">
+    <rect x="0" y="0" width="145" height="82" class="step-box" stroke="#A855F7" />
+    <text x="72.5" y="24" class="mono step-title" fill="#C084FC">03. NEURAL CORE</text>
+    <text x="72.5" y="44" class="mono step-desc">YOLO / CNNs / Forests</text>
+    <text x="72.5" y="60" class="mono step-desc">Cross-Validated Pruning</text>
+  </g>
+
+  <!-- Arrow 3 -->
+  <path d="M 539 89 L 564 89" class="arrow" />
+  <polygon points="564,89 558,85 558,93" fill="#F97316" />
+
+  <!-- Step 4: Calibrated Thresholding -->
+  <g transform="translate(570, 48)">
+    <rect x="0" y="0" width="140" height="82" class="step-box" stroke="#EAB308" />
+    <text x="70" y="24" class="mono step-title" fill="#FACC15">04. TRIAGE TUNING</text>
+    <text x="70" y="44" class="mono step-desc">Zero-False-Negative</text>
+    <text x="70" y="60" class="mono step-desc">Cost-Sensitive Matrix</text>
+  </g>
+
+  <!-- Arrow 4 -->
+  <path d="M 716 89 L 741 89" class="arrow" />
+  <polygon points="741,89 735,85 735,93" fill="#F97316" />
+
+  <!-- Step 5: Real-time Dispatch -->
+  <g transform="translate(747, 48)">
+    <rect x="0" y="0" width="110" height="82" class="step-box" stroke="#10B981" />
+    <text x="55" y="24" class="mono step-title" fill="#34D399">05. DISPATCH</text>
+    <text x="55" y="44" class="mono step-desc">FastAPI / WS</text>
+    <text x="55" y="60" class="mono step-desc">&lt; 12ms Latency</text>
+  </g>
+</svg>

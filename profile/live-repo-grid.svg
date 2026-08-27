@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 270" width="100%" height="270">
+  <defs>
+    <linearGradient id="gridBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A" />
+      <stop offset="50%" stop-color="#0B1120" />
+      <stop offset="100%" stop-color="#020617" />
+    </linearGradient>
+  </defs>
+
+  <style>
+    .mono { font-family: 'Fira Code', 'JetBrains Mono', monospace; }
+    .heading { font-size: 14px; font-weight: 700; fill: #F97316; letter-spacing: 1.2px; }
+    .card-bg { fill: #0B1120; stroke: #1E293B; stroke-width: 1.2; rx: 8px; }
+    .card-bg:hover { stroke: #F97316; }
+    .repo-name { font-size: 12px; font-weight: 700; fill: #38BDF8; }
+    .repo-desc { font-size: 9.5px; fill: #94A3B8; }
+    .pill { font-size: 8.5px; font-weight: 700; fill: #F1F5F9; }
+    .pill-bg { rx: 3px; }
+  </style>
+
+  <!-- Base Enclosure -->
+  <rect x="2" y="2" width="876" height="266" rx="12" fill="url(#gridBg)" stroke="#334155" stroke-width="1.5" />
+  <line x1="16" y1="36" x2="864" y2="36" stroke="#1E293B" stroke-width="1" />
+
+  <!-- Header -->
+  <g transform="translate(20, 24)">
+    <text x="0" y="0" class="mono heading">VERIFIED FLAGSHIP REPOSITORIES // DEPLOYED SYSTEMS</text>
+  </g>
+
+  <!-- 3x2 Grid -->
+  <!-- ROW 1 -->
+  <!-- Card 1: SupportSphere-AI -->
+  <g transform="translate(20, 48)">
+    <rect x="0" y="0" width="268" height="98" class="card-bg" stroke="#F97316" />
+    <text x="14" y="24" class="mono repo-name">SupportSphere-AI</text>
+    <text x="14" y="44" class="mono repo-desc">Enterprise multi-agent customer</text>
+    <text x="14" y="58" class="mono repo-desc">support with real-time AI resolution.</text>
+    <!-- Tag -->
+    <rect x="14" y="70" width="68" height="18" fill="#1E293B" class="pill-bg" />
+    <circle cx="22" cy="79" r="3" fill="#3178C6" />
+    <text x="29" y="82" class="mono pill">TypeScript</text>
+    <text x="254" y="83" class="mono" style="font-size: 9px; fill: #F97316;" text-anchor="end">★ AI Multi-Agent</text>
+  </g>
+
+  <!-- Card 2: agrisathi--smart-farmer-assistant -->
+  <g transform="translate(306, 48)">
+    <rect x="0" y="0" width="268" height="98" class="card-bg" />
+    <text x="14" y="24" class="mono repo-name">agrisathi--smart-farmer</text>
+    <text x="14" y="44" class="mono repo-desc">ML-driven decision engine for soil</text>
+    <text x="14" y="58" class="mono repo-desc">N-P-K crop &amp; disease prediction.</text>
+    <!-- Tag -->
+    <rect x="14" y="70" width="76" height="18" fill="#1E293B" class="pill-bg" />
+    <circle cx="22" cy="79" r="3" fill="#3178C6" />
+    <text x="29" y="82" class="mono pill">TypeScript/ML</text>
+    <text x="254" y="83" class="mono" style="font-size: 9px; fill: #10B981;" text-anchor="end">★ 1 Star • Agri-Tech</text>
+  </g>
+
+  <!-- Card 3: nuerovision-ml-platform -->
+  <g transform="translate(592, 48)">
+    <rect x="0" y="0" width="268" height="98" class="card-bg" />
+    <text x="14" y="24" class="mono repo-name">nuerovision-ml-platform</text>
+    <text x="14" y="44" class="mono repo-desc">Custom YOLO object detection engine</text>
+    <text x="14" y="58" class="mono repo-desc">with OpenCV real-time inference.</text>
+    <!-- Tag -->
+    <rect x="14" y="70" width="70" height="18" fill="#1E293B" class="pill-bg" />
+    <circle cx="22" cy="79" r="3" fill="#3572A5" />
+    <text x="29" y="82" class="mono pill">Python/YOLO</text>
+    <text x="254" y="83" class="mono" style="font-size: 9px; fill: #38BDF8;" text-anchor="end">★ 1 Star • CV</text>
+  </g>
+
+  <!-- ROW 2 -->
+  <!-- Card 4: smart-campus-network -->
+  <g transform="translate(20, 156)">
+    <rect x="0" y="0" width="268" height="98" class="card-bg" />
+    <text x="14" y="24" class="mono repo-name">smart-campus-network</text>
+    <text x="14" y="44" class="mono repo-desc">Zero-Trust smart campus network</text>
+    <text x="14" y="58" class="mono repo-desc">with automatic access control rules.</text>
+    <!-- Tag -->
+    <rect x="14" y="70" width="60" height="18" fill="#1E293B" class="pill-bg" />
+    <circle cx="22" cy="79" r="3" fill="#3572A5" />
+    <text x="29" y="82" class="mono pill">Python</text>
+    <text x="254" y="83" class="mono" style="font-size: 9px; fill: #EAB308;" text-anchor="end">★ 1 Star • Security</text>
+  </g>
+
+  <!-- Card 5: -Cricbuzz-LiveStats -->
+  <g transform="translate(306, 156)">
+    <rect x="0" y="0" width="268" height="98" class="card-bg" />
+    <text x="14" y="24" class="mono repo-name">-Cricbuzz-LiveStats</text>
+    <text x="14" y="44" class="mono repo-desc">Real-time cricket telemetry analytics</text>
+    <text x="14" y="58" class="mono repo-desc">with PostgreSQL, Streamlit &amp; APIs.</text>
+    <!-- Tag -->
+    <rect x="14" y="70" width="76" height="18" fill="#1E293B" class="pill-bg" />
+    <circle cx="22" cy="79" r="3" fill="#3572A5" />
+    <text x="29" y="82" class="mono pill">PostgreSQL/ML</text>
+    <text x="254" y="83" class="mono" style="font-size: 9px; fill: #A855F7;" text-anchor="end">★ Streamlit Analytics</text>
+  </g>
+
+  <!-- Card 6: DeveloperZip -->
+  <g transform="translate(592, 156)">
+    <rect x="0" y="0" width="268" height="98" class="card-bg" />
+    <text x="14" y="24" class="mono repo-name">DeveloperZip-Packager</text>
+    <text x="14" y="44" class="mono repo-desc">Intelligent project compression &amp;</text>
+    <text x="14" y="58" class="mono repo-desc">packaging tool for developers.</text>
+    <!-- Tag -->
+    <rect x="14" y="70" width="68" height="18" fill="#1E293B" class="pill-bg" />
+    <circle cx="22" cy="79" r="3" fill="#3178C6" />
+    <text x="29" y="82" class="mono pill">TypeScript</text>
+    <text x="254" y="83" class="mono" style="font-size: 9px; fill: #F97316;" text-anchor="end">★ Tooling &amp; Desktop</text>
+  </g>
+</svg>
