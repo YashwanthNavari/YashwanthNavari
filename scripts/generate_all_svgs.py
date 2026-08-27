@@ -276,6 +276,209 @@ def make_pcb_pinout():
   <line x1="540" y1="114" x2="600" y2="114" stroke="#38BDF8" stroke-width="1.5" stroke-dasharray="3 3" />
 </svg>'''
 
+def make_microservices_architecture():
+    return '''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 200" width="100%" height="200">
+  <defs>
+    <linearGradient id="msBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A" />
+      <stop offset="50%" stop-color="#0B1120" />
+      <stop offset="100%" stop-color="#020617" />
+    </linearGradient>
+  </defs>
+
+  <style>
+    .mono { font-family: 'Fira Code', 'JetBrains Mono', monospace; }
+    .ms-title { font-size: 11px; font-weight: 700; fill: #F8FAFC; }
+    .ms-sub { font-size: 8.5px; fill: #94A3B8; }
+    .ms-tag { font-size: 8px; font-weight: 700; fill: #38BDF8; }
+    .ms-arr { stroke: #38BDF8; stroke-width: 1.5; stroke-dasharray: 3 3; }
+  </style>
+
+  <rect x="2" y="2" width="876" height="196" rx="10" fill="url(#msBg)" stroke="#334155" stroke-width="1.2" />
+
+  <g transform="translate(20, 24)">
+    <text x="0" y="0" class="mono" style="font-size: 12px; font-weight: 800; fill: #38BDF8; letter-spacing: 1px;">DISTRIBUTED MICROSERVICES AND HIGH-AVAILABILITY CLOUD TOPOLOGY</text>
+  </g>
+
+  <!-- Node 1: Client Gateway -->
+  <g transform="translate(20, 48)">
+    <rect x="0" y="0" width="180" height="130" rx="6" fill="#0B1120" stroke="#F97316" stroke-width="1" />
+    <text x="14" y="24" class="mono ms-title">01. REVERSE PROXY</text>
+    <text x="14" y="48" class="mono ms-sub">• NGINX / Envoy Gateway</text>
+    <text x="14" y="66" class="mono ms-sub">• Rate Limiting (Token Bucket)</text>
+    <text x="14" y="84" class="mono ms-sub">• SSL/TLS Termination</text>
+    <text x="14" y="112" class="mono ms-tag">HTTPS / WSS / gRPC</text>
+  </g>
+
+  <line x1="202" y1="113" x2="238" y2="113" class="ms-arr" />
+
+  <!-- Node 2: App Services -->
+  <g transform="translate(240, 48)">
+    <rect x="0" y="0" width="190" height="130" rx="6" fill="#0B1120" stroke="#38BDF8" stroke-width="1" />
+    <text x="14" y="24" class="mono ms-title">02. ASYNC CORE</text>
+    <text x="14" y="48" class="mono ms-sub">• FastAPI REST Service</text>
+    <text x="14" y="66" class="mono ms-sub">• JWT / RBAC Middleware</text>
+    <text x="14" y="84" class="mono ms-sub">• Non-Blocking Coroutines</text>
+    <text x="14" y="112" class="mono ms-tag">PyTest 100% Tested</text>
+  </g>
+
+  <line x1="432" y1="113" x2="468" y2="113" class="ms-arr" />
+
+  <!-- Node 3: AI Inference Workers -->
+  <g transform="translate(470, 48)">
+    <rect x="0" y="0" width="190" height="130" rx="6" fill="#0B1120" stroke="#A855F7" stroke-width="1" />
+    <text x="14" y="24" class="mono ms-title">03. INFERENCE WORKERS</text>
+    <text x="14" y="48" class="mono ms-sub">• PyTorch &amp; YOLO Pipeline</text>
+    <text x="14" y="66" class="mono ms-sub">• SMOTE Imbalance Classifier</text>
+    <text x="14" y="84" class="mono ms-sub">• OpenCV GPU Streaming</text>
+    <text x="14" y="112" class="mono ms-tag">18.2ms per Frame</text>
+  </g>
+
+  <line x1="662" y1="113" x2="698" y2="113" class="ms-arr" />
+
+  <!-- Node 4: Sharded Storage -->
+  <g transform="translate(700, 48)">
+    <rect x="0" y="0" width="160" height="130" rx="6" fill="#0B1120" stroke="#10B981" stroke-width="1" />
+    <text x="14" y="24" class="mono ms-title">04. STORAGE</text>
+    <text x="14" y="48" class="mono ms-sub">• PostgreSQL ACID</text>
+    <text x="14" y="66" class="mono ms-sub">• Redis Pub/Sub Cache</text>
+    <text x="14" y="84" class="mono ms-sub">• AWS S3 Object Store</text>
+    <text x="14" y="112" class="mono ms-tag">Sub-5ms Query</text>
+  </g>
+</svg>'''
+
+def make_cnn_architecture():
+    return '''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 180" width="100%" height="180">
+  <defs>
+    <linearGradient id="cnnBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A" />
+      <stop offset="50%" stop-color="#0B1120" />
+      <stop offset="100%" stop-color="#020617" />
+    </linearGradient>
+  </defs>
+
+  <style>
+    .mono { font-family: 'Fira Code', 'JetBrains Mono', monospace; }
+    .c-title { font-size: 11px; font-weight: 700; fill: #F8FAFC; }
+    .c-sub { font-size: 8.5px; fill: #94A3B8; }
+    .c-tag { font-size: 8px; font-weight: 700; fill: #C084FC; }
+    .c-arr { stroke: #C084FC; stroke-width: 1.5; stroke-dasharray: 3 3; }
+  </style>
+
+  <rect x="2" y="2" width="876" height="176" rx="10" fill="url(#cnnBg)" stroke="#334155" stroke-width="1.2" />
+
+  <g transform="translate(20, 24)">
+    <text x="0" y="0" class="mono" style="font-size: 12px; font-weight: 800; fill: #C084FC; letter-spacing: 1px;">DEEP CONVOLUTIONAL NEURAL NETWORK (CNN) VISION PIPELINE</text>
+  </g>
+
+  <!-- Stage 1 -->
+  <g transform="translate(20, 44)">
+    <rect x="0" y="0" width="180" height="114" rx="6" fill="#0B1120" stroke="#334155" stroke-width="1" />
+    <text x="14" y="22" class="mono c-title">01. INPUT TENSOR</text>
+    <text x="14" y="44" class="mono c-sub">• 224 x 224 x 3 RGB Frame</text>
+    <text x="14" y="62" class="mono c-sub">• Data Augmentation Norm</text>
+    <text x="14" y="80" class="mono c-sub">• Grayscale / CLAHE Equal</text>
+    <text x="14" y="98" class="mono c-tag">Pre-processed</text>
+  </g>
+
+  <line x1="202" y1="101" x2="238" y2="101" class="c-arr" />
+
+  <!-- Stage 2 -->
+  <g transform="translate(240, 44)">
+    <rect x="0" y="0" width="190" height="114" rx="6" fill="#0B1120" stroke="#334155" stroke-width="1" />
+    <text x="14" y="22" class="mono c-title">02. FEATURE EXTRACTOR</text>
+    <text x="14" y="44" class="mono c-sub">• Conv2D (3x3, 64-256 Filters)</text>
+    <text x="14" y="62" class="mono c-sub">• BatchNorm + ReLU Activations</text>
+    <text x="14" y="80" class="mono c-sub">• Residual Skip Connections</text>
+    <text x="14" y="98" class="mono c-tag">Hierarchical Edges</text>
+  </g>
+
+  <line x1="432" y1="101" x2="468" y2="101" class="c-arr" />
+
+  <!-- Stage 3 -->
+  <g transform="translate(470, 44)">
+    <rect x="0" y="0" width="190" height="114" rx="6" fill="#0B1120" stroke="#334155" stroke-width="1" />
+    <text x="14" y="22" class="mono c-title">03. BOTTLENECK &amp; POOL</text>
+    <text x="14" y="44" class="mono c-sub">• Max Pooling 2x2 Spatial</text>
+    <text x="14" y="62" class="mono c-sub">• Global Average Pooling (GAP)</text>
+    <text x="14" y="80" class="mono c-sub">• Dropout 0.4 Regularization</text>
+    <text x="14" y="98" class="mono c-tag">Zero Overfitting</text>
+  </g>
+
+  <line x1="662" y1="101" x2="698" y2="101" class="c-arr" />
+
+  <!-- Stage 4 -->
+  <g transform="translate(700, 44)">
+    <rect x="0" y="0" width="160" height="114" rx="6" fill="#0B1120" stroke="#C084FC" stroke-width="1.2" />
+    <text x="14" y="22" class="mono c-title">04. CLASSIFIER</text>
+    <text x="14" y="44" class="mono c-sub">• Dense Softmax (7 Class)</text>
+    <text x="14" y="62" class="mono c-sub">• Cross-Entropy Loss</text>
+    <text x="14" y="80" class="mono c-sub">• Bounding Box Triage</text>
+    <text x="14" y="98" class="mono c-tag">Live Overlay</text>
+  </g>
+</svg>'''
+
+def make_zero_trust_security():
+    return '''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 180" width="100%" height="180">
+  <defs>
+    <linearGradient id="secModelBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A" />
+      <stop offset="50%" stop-color="#0B1120" />
+      <stop offset="100%" stop-color="#020617" />
+    </linearGradient>
+  </defs>
+
+  <style>
+    .mono { font-family: 'Fira Code', 'JetBrains Mono', monospace; }
+    .s-title { font-size: 11.5px; font-weight: 700; fill: #F8FAFC; }
+    .s-sub { font-size: 8.5px; fill: #94A3B8; }
+    .s-tag { font-size: 8px; font-weight: 700; fill: #EF4444; }
+  </style>
+
+  <rect x="2" y="2" width="876" height="176" rx="10" fill="url(#secModelBg)" stroke="#334155" stroke-width="1.2" />
+
+  <g transform="translate(20, 24)">
+    <text x="0" y="0" class="mono" style="font-size: 12px; font-weight: 800; fill: #EF4444; letter-spacing: 1px;">ZERO-TRUST CYBERSECURITY AND DEFENSE MATRIX</text>
+  </g>
+
+  <!-- 4 Pillars -->
+  <g transform="translate(20, 44)">
+    <rect x="0" y="0" width="200" height="114" rx="6" fill="#0B1120" stroke="#EF4444" stroke-width="1" />
+    <text x="14" y="22" class="mono s-title">01. AUTHENTICATION</text>
+    <text x="14" y="44" class="mono s-sub">• Cryptographic mTLS Handshake</text>
+    <text x="14" y="62" class="mono s-sub">• JWT Secret Hash Rotation</text>
+    <text x="14" y="80" class="mono s-sub">• Public Key Verification</text>
+    <text x="14" y="100" class="mono s-tag">Zero Replay Attacks</text>
+  </g>
+
+  <g transform="translate(232, 44)">
+    <rect x="0" y="0" width="200" height="114" rx="6" fill="#0B1120" stroke="#F59E0B" stroke-width="1" />
+    <text x="14" y="22" class="mono s-title">02. AUTHORIZATION (RBAC)</text>
+    <text x="14" y="44" class="mono s-sub">• Role-Based Endpoint Isolation</text>
+    <text x="14" y="62" class="mono s-sub">• Principle of Least Privilege</text>
+    <text x="14" y="80" class="mono s-sub">• Scoped Token Claims</text>
+    <text x="14" y="100" class="mono s-tag" style="fill: #F59E0B;">Strict Granularity</text>
+  </g>
+
+  <g transform="translate(444, 44)">
+    <rect x="0" y="0" width="200" height="114" rx="6" fill="#0B1120" stroke="#38BDF8" stroke-width="1" />
+    <text x="14" y="22" class="mono s-title">03. INPUT DEFENSE</text>
+    <text x="14" y="44" class="mono s-sub">• SQL Injection Escaping</text>
+    <text x="14" y="62" class="mono s-sub">• XSS Content Sanitization</text>
+    <text x="14" y="80" class="mono s-sub">• Rate-Limited Brute Force Guard</text>
+    <text x="14" y="100" class="mono s-tag" style="fill: #38BDF8;">OWASP Compliant</text>
+  </g>
+
+  <g transform="translate(656, 44)">
+    <rect x="0" y="0" width="204" height="114" rx="6" fill="#0B1120" stroke="#10B981" stroke-width="1" />
+    <text x="14" y="22" class="mono s-title">04. ENCRYPTION</text>
+    <text x="14" y="44" class="mono s-sub">• AES-256 GCM at Rest</text>
+    <text x="14" y="62" class="mono s-sub">• TLS 1.3 in Transit</text>
+    <text x="14" y="80" class="mono s-sub">• Hardware HSM Keystore</text>
+    <text x="14" y="100" class="mono s-tag" style="fill: #10B981;">End-to-End Encrypted</text>
+  </g>
+</svg>'''
+
 def main():
     os.makedirs("profile", exist_ok=True)
 
@@ -297,6 +500,9 @@ def main():
         ("section-hardware-pinout.svg", "PATENTED HARDWARE PINOUT AND BUS SCHEMATICS", "LOW-LEVEL EMBEDDED BUSES AND POWER MANAGEMENT", "HARDWARE", "#10B981", "#F59E0B"),
         ("section-model-benchmarks.svg", "EMPIRICAL SYSTEM BENCHMARKS AND LATENCY", "MEASURED COMPUTATIONAL RUNTIME PERFORMANCE", "BENCHMARKS", "#F97316", "#38BDF8"),
         ("section-terminal-session.svg", "INTERACTIVE RUNTIME TERMINAL SESSION", "SIMULATED LINUX SHELL AND SERVICE INITIALIZATION", "CLI-NODE", "#10B981", "#38BDF8"),
+        ("section-microservices.svg", "DISTRIBUTED CLOUD MICROSERVICES", "HIGH-AVAILABILITY ASYNC INGESTION AND GATEWAY", "MICROSERVICES", "#38BDF8", "#10B981"),
+        ("section-cnn-architecture.svg", "DEEP LEARNING CONVOLUTIONAL VISION PIPELINE", "CNN HIERARCHICAL FEATURE EXTRACTION AND TRIAGE", "CNN-VISION", "#C084FC", "#38BDF8"),
+        ("section-zero-trust-security.svg", "ZERO-TRUST CYBERSECURITY AND DEFENSE", "ENTERPRISE RBAC, MTLS AND HARDENED CRYPTO GATES", "SECURITY", "#EF4444", "#F59E0B"),
     ]
 
     for fname, title, sub, tag, c1, c2 in headers:
@@ -329,6 +535,15 @@ def main():
 
     with open(os.path.join("profile", "pcb-pinout-diagram.svg"), "w", encoding="utf-8") as f:
         f.write(make_pcb_pinout())
+
+    with open(os.path.join("profile", "microservices-architecture.svg"), "w", encoding="utf-8") as f:
+        f.write(make_microservices_architecture())
+
+    with open(os.path.join("profile", "cnn-neural-architecture.svg"), "w", encoding="utf-8") as f:
+        f.write(make_cnn_architecture())
+
+    with open(os.path.join("profile", "zero-trust-security-model.svg"), "w", encoding="utf-8") as f:
+        f.write(make_zero_trust_security())
 
     print("All SVGs updated and generated.")
 
