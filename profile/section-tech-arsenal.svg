@@ -40,7 +40,7 @@
 
   <!-- Titles -->
   <text x="36" y="27" class="mono sec-title">THE MASTER TECHNICAL ARSENAL</text>
-  <text x="36" y="45" class="mono sec-sub">LAYER-BY-LAYER COMPUTATIONAL STACK &amp; RUNTIMES</text>
+  <text x="36" y="45" class="mono sec-sub">LAYER-BY-LAYER COMPUTATIONAL STACK AND RUNTIMES</text>
 
   <!-- Right Cyber Tag -->
   <g transform="translate(740, 18)">

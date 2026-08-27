@@ -32,7 +32,7 @@
   <!-- Description -->
   <g transform="translate(18, 56)">
     <text x="0" y="0" class="mono p-desc">Real-time sports match telemetry stream</text>
-    <text x="0" y="16" class="mono p-desc">persisted in PostgreSQL &amp; visual Streamlit.</text>
+    <text x="0" y="16" class="mono p-desc">persisted in PostgreSQL and visual Streamlit.</text>
   </g>
 
   <!-- Footer Tags and Metrics -->

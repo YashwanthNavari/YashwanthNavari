@@ -32,7 +32,7 @@
   <!-- Description -->
   <g transform="translate(18, 56)">
     <text x="0" y="0" class="mono p-desc">Enterprise conversational agent workflows</text>
-    <text x="0" y="16" class="mono p-desc">with contextual retrieval &amp; real-time dispatch.</text>
+    <text x="0" y="16" class="mono p-desc">with contextual retrieval and real-time dispatch.</text>
   </g>
 
   <!-- Footer Tags and Metrics -->

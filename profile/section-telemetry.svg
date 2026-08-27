@@ -40,7 +40,7 @@
 
   <!-- Titles -->
   <text x="36" y="27" class="mono sec-title">LIVE COMMAND TELEMETRY</text>
-  <text x="36" y="45" class="mono sec-sub">REAL-TIME COMPUTE, HEALTH &amp; TELEMETRY GAUGES</text>
+  <text x="36" y="45" class="mono sec-sub">REAL-TIME COMPUTE, HEALTH AND TELEMETRY GAUGES</text>
 
   <!-- Right Cyber Tag -->
   <g transform="translate(740, 18)">

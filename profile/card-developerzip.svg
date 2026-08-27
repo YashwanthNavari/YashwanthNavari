@@ -32,7 +32,7 @@
   <!-- Description -->
   <g transform="translate(18, 56)">
     <text x="0" y="0" class="mono p-desc">Intelligent AST-aware project compression</text>
-    <text x="0" y="16" class="mono p-desc">stripping node_modules &amp; cache bloat by 80%.</text>
+    <text x="0" y="16" class="mono p-desc">stripping node_modules and cache bloat by 80%.</text>
   </g>
 
   <!-- Footer Tags and Metrics -->

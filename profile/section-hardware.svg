@@ -39,8 +39,8 @@
   </g>
 
   <!-- Titles -->
-  <text x="36" y="27" class="mono sec-title">PATENTED HARDWARE &amp; M2M IOT</text>
-  <text x="36" y="45" class="mono sec-sub">GRANTED INVENTION SCHEMATICS &amp; FIRMWARE ROUTING</text>
+  <text x="36" y="27" class="mono sec-title">PATENTED HARDWARE AND M2M IOT</text>
+  <text x="36" y="45" class="mono sec-sub">GRANTED INVENTION SCHEMATICS AND FIRMWARE ROUTING</text>
 
   <!-- Right Cyber Tag -->
   <g transform="translate(740, 18)">

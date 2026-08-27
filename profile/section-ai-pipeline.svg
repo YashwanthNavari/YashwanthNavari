@@ -40,7 +40,7 @@
 
   <!-- Titles -->
   <text x="36" y="27" class="mono sec-title">DETERMINISTIC MACHINE LEARNING</text>
-  <text x="36" y="45" class="mono sec-sub">END-TO-END INFERENCE &amp; ZERO-FALSE-NEGATIVE TRIAGE</text>
+  <text x="36" y="45" class="mono sec-sub">END-TO-END INFERENCE AND ZERO-FALSE-NEGATIVE TRIAGE</text>
 
   <!-- Right Cyber Tag -->
   <g transform="translate(740, 18)">

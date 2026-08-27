@@ -32,7 +32,7 @@
   <!-- Description -->
   <g transform="translate(18, 56)">
     <text x="0" y="0" class="mono p-desc">Zero-Trust automated access control simulation</text>
-    <text x="0" y="16" class="mono p-desc">with RBAC segment isolation &amp; firewall rules.</text>
+    <text x="0" y="16" class="mono p-desc">with RBAC segment isolation and firewall rules.</text>
   </g>
 
   <!-- Footer Tags and Metrics -->

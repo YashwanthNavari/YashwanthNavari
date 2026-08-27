@@ -40,7 +40,7 @@
 
   <!-- Titles -->
   <text x="36" y="27" class="mono sec-title">VERIFIED FLAGSHIP SYSTEMS</text>
-  <text x="36" y="45" class="mono sec-sub">DEPLOYED PRODUCTION PLATFORMS &amp; REPOSITORIES</text>
+  <text x="36" y="45" class="mono sec-sub">DEPLOYED PRODUCTION PLATFORMS AND REPOSITORIES</text>
 
   <!-- Right Cyber Tag -->
   <g transform="translate(740, 18)">
