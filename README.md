@@ -126,7 +126,33 @@ I operate at the intersection of **Deep Learning Systems**, **Cyber-Physical IoT
 ---
 
 <!-- ==================================================================== -->
-<!-- SECTION 3: END-TO-END IOT TO CLOUD TOPOLOGY -->
+<!-- SECTION 3: INTERACTIVE TERMINAL SESSION -->
+<!-- ==================================================================== -->
+<p align="center">
+  <img src="https://raw.githubusercontent.com/YashwanthNavari/YashwanthNavari/main/profile/section-terminal-session.svg?v=3" width="100%" alt="Terminal Session" />
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/YashwanthNavari/YashwanthNavari/main/profile/interactive-terminal.svg?v=3" width="100%" alt="Interactive Terminal Session" />
+</p>
+
+---
+
+<!-- ==================================================================== -->
+<!-- SECTION 4: EMPIRICAL SYSTEM BENCHMARKS & LATENCY -->
+<!-- ==================================================================== -->
+<p align="center">
+  <img src="https://raw.githubusercontent.com/YashwanthNavari/YashwanthNavari/main/profile/section-model-benchmarks.svg?v=3" width="100%" alt="Model Benchmarks" />
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/YashwanthNavari/YashwanthNavari/main/profile/model-benchmarks.svg?v=3" width="100%" alt="Empirical Latency and Benchmarks" />
+</p>
+
+---
+
+<!-- ==================================================================== -->
+<!-- SECTION 5: END-TO-END IOT TO CLOUD TOPOLOGY -->
 <!-- ==================================================================== -->
 <p align="center">
   <img src="https://raw.githubusercontent.com/YashwanthNavari/YashwanthNavari/main/profile/section-iot-architecture.svg?v=3" width="100%" alt="IoT to Cloud Architecture" />
@@ -139,7 +165,7 @@ I operate at the intersection of **Deep Learning Systems**, **Cyber-Physical IoT
 ---
 
 <!-- ==================================================================== -->
-<!-- SECTION 4: PATENTED HARDWARE -->
+<!-- SECTION 6: PATENTED HARDWARE & PINOUT SCHEMATICS -->
 <!-- ==================================================================== -->
 <p align="center">
   <img src="https://raw.githubusercontent.com/YashwanthNavari/YashwanthNavari/main/profile/section-hardware.svg?v=3" width="100%" alt="Patented Hardware" />
@@ -153,10 +179,14 @@ I operate at the intersection of **Deep Learning Systems**, **Cyber-Physical IoT
   <img src="https://raw.githubusercontent.com/YashwanthNavari/YashwanthNavari/main/profile/hardware-patent-node.svg?v=3" width="100%" alt="Hardware Patent Node Schematic" />
 </p>
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/YashwanthNavari/YashwanthNavari/main/profile/pcb-pinout-diagram.svg?v=3" width="100%" alt="PCB Pinout Diagram" />
+</p>
+
 ---
 
 <!-- ==================================================================== -->
-<!-- SECTION 5: AI & ML PIPELINE -->
+<!-- SECTION 7: AI & ML PIPELINE -->
 <!-- ==================================================================== -->
 <p align="center">
   <img src="https://raw.githubusercontent.com/YashwanthNavari/YashwanthNavari/main/profile/section-ai-pipeline.svg?v=3" width="100%" alt="AI Pipeline" />
@@ -169,7 +199,7 @@ I operate at the intersection of **Deep Learning Systems**, **Cyber-Physical IoT
 ---
 
 <!-- ==================================================================== -->
-<!-- SECTION 6: ALGORITHMIC COMPLEXITY & DATA STRUCTURES -->
+<!-- SECTION 8: ALGORITHMIC COMPLEXITY & DATA STRUCTURES -->
 <!-- ==================================================================== -->
 <p align="center">
   <img src="https://raw.githubusercontent.com/YashwanthNavari/YashwanthNavari/main/profile/section-algorithmic-mastery.svg?v=3" width="100%" alt="Algorithmic Mastery" />
@@ -182,7 +212,7 @@ I operate at the intersection of **Deep Learning Systems**, **Cyber-Physical IoT
 ---
 
 <!-- ==================================================================== -->
-<!-- SECTION 7: FLAGSHIP SYSTEMS & REPOSITORIES -->
+<!-- SECTION 9: FLAGSHIP SYSTEMS & REPOSITORIES -->
 <!-- ==================================================================== -->
 <p align="center">
   <img src="https://raw.githubusercontent.com/YashwanthNavari/YashwanthNavari/main/profile/section-flagship-projects.svg?v=3" width="100%" alt="Flagship Projects" />
@@ -422,7 +452,7 @@ An intelligent desktop application designed to optimize and simplify the compres
 ---
 
 <!-- ==================================================================== -->
-<!-- SECTION 8: APPLIED RESEARCH & ML BENCHMARKS -->
+<!-- SECTION 10: APPLIED RESEARCH & ML BENCHMARKS -->
 <!-- ==================================================================== -->
 <p align="center">
   <img src="https://raw.githubusercontent.com/YashwanthNavari/YashwanthNavari/main/profile/section-research.svg?v=3" width="100%" alt="Applied Research and ML Benchmarks" />
@@ -449,7 +479,7 @@ An intelligent desktop application designed to optimize and simplify the compres
 ---
 
 <!-- ==================================================================== -->
-<!-- SECTION 9: AUTOMATED CI/CD & DEPLOYMENT LIFECYCLE -->
+<!-- SECTION 11: AUTOMATED CI/CD & DEPLOYMENT LIFECYCLE -->
 <!-- ==================================================================== -->
 <p align="center">
   <img src="https://raw.githubusercontent.com/YashwanthNavari/YashwanthNavari/main/profile/section-cicd-lifecycle.svg?v=3" width="100%" alt="CI/CD Lifecycle" />
@@ -462,7 +492,7 @@ An intelligent desktop application designed to optimize and simplify the compres
 ---
 
 <!-- ==================================================================== -->
-<!-- SECTION 10: MASTER TECH ARSENAL -->
+<!-- SECTION 12: MASTER TECH ARSENAL -->
 <!-- ==================================================================== -->
 <p align="center">
   <img src="https://raw.githubusercontent.com/YashwanthNavari/YashwanthNavari/main/profile/section-tech-arsenal.svg?v=3" width="100%" alt="Master Tech Arsenal" />
@@ -499,7 +529,7 @@ An intelligent desktop application designed to optimize and simplify the compres
 ---
 
 <!-- ==================================================================== -->
-<!-- SECTION 11: ENGINEERING PHILOSOPHY & PRINCIPLES -->
+<!-- SECTION 13: ENGINEERING PHILOSOPHY & PRINCIPLES -->
 <!-- ==================================================================== -->
 <p align="center">
   <img src="https://raw.githubusercontent.com/YashwanthNavari/YashwanthNavari/main/profile/section-philosophy.svg?v=3" width="100%" alt="Engineering Philosophy and Principles" />
@@ -519,7 +549,7 @@ An intelligent desktop application designed to optimize and simplify the compres
 ---
 
 <!-- ==================================================================== -->
-<!-- SECTION 12: VERIFIED ACADEMIC CREDENTIALS -->
+<!-- SECTION 14: VERIFIED ACADEMIC CREDENTIALS -->
 <!-- ==================================================================== -->
 <p align="center">
   <img src="https://raw.githubusercontent.com/YashwanthNavari/YashwanthNavari/main/profile/section-credentials.svg?v=3" width="100%" alt="Academic Credentials" />
@@ -544,7 +574,7 @@ My engineering foundation is reinforced by rigorous coursework, practical certif
 ---
 
 <!-- ==================================================================== -->
-<!-- SECTION 13: COMMAND NETWORK HANDSHAKE -->
+<!-- SECTION 15: COMMAND NETWORK HANDSHAKE -->
 <!-- ==================================================================== -->
 <p align="center">
   <img src="https://raw.githubusercontent.com/YashwanthNavari/YashwanthNavari/main/profile/section-comm-links.svg?v=3" width="100%" alt="Command Network Handshake" />
@@ -564,7 +594,7 @@ My engineering foundation is reinforced by rigorous coursework, practical certif
 <br><br>
 
 <!-- ==================================================================== -->
-<!-- 14. MASTER FOOTER COMMAND BANNER (CUSTOM BESPOKE VECTOR SVG) -->
+<!-- 16. MASTER FOOTER COMMAND BANNER (CUSTOM BESPOKE VECTOR SVG) -->
 <!-- ==================================================================== -->
 <p align="center">
   <img src="https://raw.githubusercontent.com/YashwanthNavari/YashwanthNavari/main/profile/footer-command-banner.svg?v=3" width="100%" alt="Footer Command Banner" />

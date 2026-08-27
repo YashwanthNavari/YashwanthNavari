@@ -108,107 +108,62 @@ def make_project_card(name, category, lang, desc1, desc2, metrics, color="#F9731
   </g>
 </svg>'''
 
-def make_iot_cloud_architecture():
-    return '''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 200" width="100%" height="200">
+def make_interactive_terminal():
+    return '''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 220" width="100%" height="220">
   <defs>
-    <linearGradient id="iotBg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0F172A" />
-      <stop offset="50%" stop-color="#0B1120" />
-      <stop offset="100%" stop-color="#020617" />
+    <linearGradient id="termBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#02040A" />
+      <stop offset="100%" stop-color="#080E1A" />
     </linearGradient>
   </defs>
 
   <style>
-    .mono { font-family: 'Fira Code', 'JetBrains Mono', monospace; }
-    .node-title { font-size: 11.5px; font-weight: 700; fill: #F8FAFC; }
-    .node-desc { font-size: 8.5px; fill: #94A3B8; }
-    .flow-arrow { stroke: #F97316; stroke-width: 1.5; stroke-dasharray: 4 3; }
-    .tag { font-size: 8px; font-weight: 700; fill: #38BDF8; }
+    .term-font { font-family: 'Fira Code', 'JetBrains Mono', 'Courier New', monospace; }
+    .term-prompt { font-size: 11.5px; font-weight: 700; fill: #10B981; }
+    .term-cmd { font-size: 11.5px; font-weight: 600; fill: #F8FAFC; }
+    .term-ok { font-size: 11px; font-weight: 700; fill: #38BDF8; }
+    .term-text { font-size: 11px; fill: #94A3B8; }
+    .term-highlight { font-size: 11px; font-weight: 700; fill: #F59E0B; }
+    .term-cursor { animation: blinkCur 1s infinite; fill: #10B981; }
+    @keyframes blinkCur { 0%, 100% { opacity: 1; } 50% { opacity: 0; } }
   </style>
 
-  <rect x="2" y="2" width="876" height="196" rx="10" fill="url(#iotBg)" stroke="#334155" stroke-width="1.2" />
+  <rect x="2" y="2" width="876" height="216" rx="10" fill="url(#termBg)" stroke="#1E293B" stroke-width="1.5" />
 
-  <!-- Section Title -->
-  <g transform="translate(20, 24)">
-    <text x="0" y="0" class="mono" style="font-size: 12px; font-weight: 800; fill: #F97316; letter-spacing: 1px;">END-TO-END CYBER-PHYSICAL IOT AND CLOUD TOPOLOGY</text>
-  </g>
+  <!-- Terminal Top Bar -->
+  <rect x="2" y="2" width="876" height="32" rx="10" fill="#0B1120" />
+  <circle cx="20" cy="17" r="5" fill="#EF4444" />
+  <circle cx="36" cy="17" r="5" fill="#F59E0B" />
+  <circle cx="52" cy="17" r="5" fill="#10B981" />
+  <text x="440" y="21" class="term-font" style="font-size: 10px; font-weight: 600; fill: #64748B; text-anchor: middle;">yashwanth@command-node-01: ~ (zsh)</text>
 
-  <!-- Step 1: Sensors -->
-  <g transform="translate(20, 48)">
-    <rect x="0" y="0" width="150" height="130" rx="8" fill="#0B1120" stroke="#F59E0B" stroke-width="1" />
-    <circle cx="20" cy="22" r="6" fill="#F59E0B" />
-    <text x="34" y="26" class="mono node-title">01. SENSORS</text>
-    <text x="14" y="52" class="mono node-desc">• Soil N-P-K Sensors</text>
-    <text x="14" y="68" class="mono node-desc">• DHT22 Temp / Hum</text>
-    <text x="14" y="84" class="mono node-desc">• Optical CV Feed</text>
-    <text x="14" y="112" class="mono tag">UART / SPI / I2C</text>
-  </g>
+  <!-- Commands and Outputs -->
+  <g transform="translate(24, 60)">
+    <text x="0" y="0" class="term-font term-prompt">yashwanth@node-01<tspan fill="#64748B">:</tspan><tspan fill="#38BDF8">~</tspan><tspan fill="#F8FAFC">$</tspan></text>
+    <text x="180" y="0" class="term-font term-cmd">./init_production_matrix.sh --mode=mission-critical</text>
 
-  <!-- Flow 1 -->
-  <line x1="172" y1="113" x2="194" y2="113" class="flow-arrow" />
-  <polygon points="196,113 190,110 190,116" fill="#F97316" />
+    <text x="0" y="26" class="term-font term-ok">[OK]</text>
+    <text x="36" y="26" class="term-font term-text">Linux Kernel 6.1.0-x86_64 loaded • Distributed coroutine runtime active</text>
 
-  <!-- Step 2: Patented Node -->
-  <g transform="translate(196, 48)">
-    <rect x="0" y="0" width="150" height="130" rx="8" fill="#0B1120" stroke="#F97316" stroke-width="1.2" />
-    <circle cx="20" cy="22" r="6" fill="#F97316" />
-    <text x="34" y="26" class="mono node-title">02. PATENTED M2M</text>
-    <text x="14" y="52" class="mono node-desc">• Design: 470097-001</text>
-    <text x="14" y="68" class="mono node-desc">• Embedded C Kernel</text>
-    <text x="14" y="84" class="mono node-desc">• Power Duty-Cycle</text>
-    <text x="14" y="112" class="mono tag">0% Packet Loss</text>
-  </g>
+    <text x="0" y="48" class="term-font term-ok">[OK]</text>
+    <text x="36" y="48" class="term-font term-text">Hardware Driver initialized • <tspan class="term-highlight">Patent No: 470097-001</tspan> M2M bus verified</text>
 
-  <!-- Flow 2 -->
-  <line x1="348" y1="113" x2="370" y2="113" class="flow-arrow" />
-  <polygon points="372,113 366,110 366,116" fill="#F97316" />
+    <text x="0" y="70" class="term-font term-ok">[OK]</text>
+    <text x="36" y="70" class="term-font term-text">AI Inference Server listening on <tspan fill="#10B981">tcp://0.0.0.0:8000</tspan> (FastAPI + YOLO + SMOTE)</text>
 
-  <!-- Step 3: Gateway -->
-  <g transform="translate(372, 48)">
-    <rect x="0" y="0" width="150" height="130" rx="8" fill="#0B1120" stroke="#38BDF8" stroke-width="1" />
-    <circle cx="20" cy="22" r="6" fill="#38BDF8" />
-    <text x="34" y="26" class="mono node-title">03. INGESTION</text>
-    <text x="14" y="52" class="mono node-desc">• FastAPI Async Core</text>
-    <text x="14" y="68" class="mono node-desc">• WebSockets Stream</text>
-    <text x="14" y="84" class="mono node-desc">• Token Auth &amp; TLS</text>
-    <text x="14" y="112" class="mono tag">Sub-15ms Latency</text>
-  </g>
+    <text x="0" y="92" class="term-font term-ok">[OK]</text>
+    <text x="36" y="92" class="term-font term-text">3D WebGL Portfolio link mapped: <tspan fill="#38BDF8">https://yashwanthnavari.github.io/yashwanth-portfolio/</tspan></text>
 
-  <!-- Flow 3 -->
-  <line x1="524" y1="113" x2="546" y2="113" class="flow-arrow" />
-  <polygon points="548,113 542,110 542,116" fill="#F97316" />
-
-  <!-- Step 4: Storage -->
-  <g transform="translate(548, 48)">
-    <rect x="0" y="0" width="150" height="130" rx="8" fill="#0B1120" stroke="#10B981" stroke-width="1" />
-    <circle cx="20" cy="22" r="6" fill="#10B981" />
-    <text x="34" y="26" class="mono node-title">04. PERSISTENCE</text>
-    <text x="14" y="52" class="mono node-desc">• PostgreSQL Relational</text>
-    <text x="14" y="68" class="mono node-desc">• Timescale Metric Log</text>
-    <text x="14" y="84" class="mono node-desc">• Redis Cache Layer</text>
-    <text x="14" y="112" class="mono tag">ACID Transactions</text>
-  </g>
-
-  <!-- Flow 4 -->
-  <line x1="700" y1="113" x2="722" y2="113" class="flow-arrow" />
-  <polygon points="724,113 718,110 718,116" fill="#F97316" />
-
-  <!-- Step 5: Dashboard -->
-  <g transform="translate(724, 48)">
-    <rect x="0" y="0" width="136" height="130" rx="8" fill="#0B1120" stroke="#A855F7" stroke-width="1" />
-    <circle cx="20" cy="22" r="6" fill="#A855F7" />
-    <text x="34" y="26" class="mono node-title">05. DASHBOARD</text>
-    <text x="14" y="52" class="mono node-desc">• React 3D WebGL</text>
-    <text x="14" y="68" class="mono node-desc">• Streamlit Graphs</text>
-    <text x="14" y="84" class="mono node-desc">• Live Alert Triage</text>
-    <text x="14" y="112" class="mono tag">Interactive UI</text>
+    <text x="0" y="120" class="term-font term-prompt">yashwanth@node-01<tspan fill="#64748B">:</tspan><tspan fill="#38BDF8">~</tspan><tspan fill="#F8FAFC">$</tspan></text>
+    <text x="180" y="120" class="term-font term-cmd">status --telemetry --verbose</text>
+    <rect x="420" y="108" width="8" height="14" class="term-cursor" />
   </g>
 </svg>'''
 
-def make_algorithmic_mastery():
+def make_model_benchmarks():
     return '''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 180" width="100%" height="180">
   <defs>
-    <linearGradient id="algoBg" x1="0%" y1="0%" x2="100%" y2="100%">
+    <linearGradient id="benchBg" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#0F172A" />
       <stop offset="50%" stop-color="#0B1120" />
       <stop offset="100%" stop-color="#020617" />
@@ -217,137 +172,108 @@ def make_algorithmic_mastery():
 
   <style>
     .mono { font-family: 'Fira Code', 'JetBrains Mono', monospace; }
-    .algo-title { font-size: 12px; font-weight: 700; fill: #F8FAFC; }
-    .algo-sub { font-size: 9px; fill: #94A3B8; }
-    .algo-tag { font-size: 8px; font-weight: 700; fill: #38BDF8; }
+    .b-num { font-size: 22px; font-weight: 800; }
+    .b-label { font-size: 10px; font-weight: 700; fill: #94A3B8; text-transform: uppercase; }
+    .b-desc { font-size: 9px; fill: #CBD5E1; }
   </style>
 
-  <rect x="2" y="2" width="876" height="176" rx="10" fill="url(#algoBg)" stroke="#334155" stroke-width="1.2" />
+  <rect x="2" y="2" width="876" height="176" rx="10" fill="url(#benchBg)" stroke="#334155" stroke-width="1.2" />
 
-  <!-- Section Header -->
   <g transform="translate(20, 24)">
-    <text x="0" y="0" class="mono" style="font-size: 12px; font-weight: 800; fill: #38BDF8; letter-spacing: 1px;">CORE ALGORITHMIC EXPERTISE AND COMPLEXITY PROFILES</text>
+    <text x="0" y="0" class="mono" style="font-size: 12px; font-weight: 800; fill: #F97316; letter-spacing: 1px;">EMPIRICAL SYSTEM BENCHMARKS AND RUNTIME LATENCY</text>
   </g>
 
-  <!-- 4 Pillars -->
-  <!-- Card 1 -->
-  <g transform="translate(20, 42)">
-    <rect x="0" y="0" width="200" height="118" rx="6" fill="#0B1120" stroke="#F97316" stroke-width="1" />
-    <text x="14" y="24" class="mono algo-title">Graph Theory and Trees</text>
-    <text x="14" y="44" class="mono algo-sub">• Dijkstra &amp; A* Shortest Path</text>
-    <text x="14" y="60" class="mono algo-sub">• Topological Sorting (DAG)</text>
-    <text x="14" y="76" class="mono algo-sub">• AVL and Segment Trees</text>
-    <text x="14" y="100" class="mono algo-tag">O(V + E) Optimization</text>
+  <!-- 4 Benchmark Cards -->
+  <!-- Card 1: CV Latency -->
+  <g transform="translate(20, 44)">
+    <rect x="0" y="0" width="200" height="114" rx="6" fill="#0B1120" stroke="#38BDF8" stroke-width="1" />
+    <text x="16" y="32" class="mono b-num" style="fill: #38BDF8;">18.2 ms</text>
+    <text x="16" y="52" class="mono b-label">Computer Vision Inference</text>
+    <text x="16" y="72" class="mono b-desc">• YOLOv8 / OpenCV Cuda</text>
+    <text x="16" y="88" class="mono b-desc">• 55 FPS Real-Time Stream</text>
   </g>
 
-  <!-- Card 2 -->
-  <g transform="translate(232, 42)">
-    <rect x="0" y="0" width="200" height="118" rx="6" fill="#0B1120" stroke="#38BDF8" stroke-width="1" />
-    <text x="14" y="24" class="mono algo-title">Dynamic Programming</text>
-    <text x="14" y="44" class="mono algo-sub">• Tabulation and Memoization</text>
-    <text x="14" y="60" class="mono algo-sub">• Knapsack and LCS Vectors</text>
-    <text x="14" y="76" class="mono algo-sub">• Bitmask DP on Subsets</text>
-    <text x="14" y="100" class="mono algo-tag">State Space Pruning</text>
+  <!-- Card 2: False Negative Rate -->
+  <g transform="translate(232, 44)">
+    <rect x="0" y="0" width="200" height="114" rx="6" fill="#0B1120" stroke="#10B981" stroke-width="1" />
+    <text x="16" y="32" class="mono b-num" style="fill: #10B981;">0.00%</text>
+    <text x="16" y="52" class="mono b-label">Clinical False-Negative Rate</text>
+    <text x="16" y="72" class="mono b-desc">• SMOTE Imbalance Ratio</text>
+    <text x="16" y="88" class="mono b-desc">• Cost-Sensitive Risk Bound</text>
   </g>
 
-  <!-- Card 3 -->
-  <g transform="translate(444, 42)">
-    <rect x="0" y="0" width="200" height="118" rx="6" fill="#0B1120" stroke="#10B981" stroke-width="1" />
-    <text x="14" y="24" class="mono algo-title">Spatial and Vector Search</text>
-    <text x="14" y="44" class="mono algo-sub">• K-D Tree Dimensional Index</text>
-    <text x="14" y="60" class="mono algo-sub">• Cosine Similarity Matrix</text>
-    <text x="14" y="76" class="mono algo-sub">• PCA Dimensional Reduction</text>
-    <text x="14" y="100" class="mono algo-tag">Sub-Linear Latency</text>
+  <!-- Card 3: M2M Packet Delivery -->
+  <g transform="translate(444, 44)">
+    <rect x="0" y="0" width="200" height="114" rx="6" fill="#0B1120" stroke="#F59E0B" stroke-width="1" />
+    <text x="16" y="32" class="mono b-num" style="fill: #F59E0B;">99.98%</text>
+    <text x="16" y="52" class="mono b-label">M2M Ingestion Fidelity</text>
+    <text x="16" y="72" class="mono b-desc">• Patent 470097-001 Protocol</text>
+    <text x="16" y="88" class="mono b-desc">• Zero Buffer Overflow</text>
   </g>
 
-  <!-- Card 4 -->
-  <g transform="translate(656, 42)">
-    <rect x="0" y="0" width="204" height="118" rx="6" fill="#0B1120" stroke="#A855F7" stroke-width="1" />
-    <text x="14" y="24" class="mono algo-title">System Concurrency</text>
-    <text x="14" y="44" class="mono algo-sub">• Thread Pool Coroutines</text>
-    <text x="14" y="60" class="mono algo-sub">• Deadlock-Free Mutex Gates</text>
-    <text x="14" y="76" class="mono algo-sub">• Non-Blocking Message Queues</text>
-    <text x="14" y="100" class="mono algo-tag">Async High-Throughput</text>
+  <!-- Card 4: Compression Ratio -->
+  <g transform="translate(656, 44)">
+    <rect x="0" y="0" width="204" height="114" rx="6" fill="#0B1120" stroke="#A855F7" stroke-width="1" />
+    <text x="16" y="32" class="mono b-num" style="fill: #A855F7;">82.4%</text>
+    <text x="16" y="52" class="mono b-label">Bundle Bloat Reduction</text>
+    <text x="16" y="72" class="mono b-desc">• DeveloperZip AST Engine</text>
+    <text x="16" y="88" class="mono b-desc">• Intelligent Cache Prune</text>
   </g>
 </svg>'''
 
-def make_cicd_lifecycle():
-    return '''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 160" width="100%" height="160">
+def make_pcb_pinout():
+    return '''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 200" width="100%" height="200">
   <defs>
-    <linearGradient id="cicdBg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0F172A" />
-      <stop offset="50%" stop-color="#0B1120" />
-      <stop offset="100%" stop-color="#020617" />
+    <linearGradient id="pcbBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06120D" />
+      <stop offset="50%" stop-color="#0B1C14" />
+      <stop offset="100%" stop-color="#020805" />
     </linearGradient>
   </defs>
 
   <style>
     .mono { font-family: 'Fira Code', 'JetBrains Mono', monospace; }
-    .phase-num { font-size: 9px; font-weight: 800; fill: #F97316; }
-    .phase-name { font-size: 11px; font-weight: 700; fill: #F8FAFC; }
-    .phase-sub { font-size: 8.5px; fill: #94A3B8; }
-    .arrow { stroke: #38BDF8; stroke-width: 1.5; stroke-dasharray: 3 3; }
+    .pcb-title { font-size: 12px; font-weight: 800; fill: #10B981; letter-spacing: 1px; }
+    .pin-label { font-size: 9px; font-weight: 700; fill: #F59E0B; }
+    .pin-sub { font-size: 8.5px; fill: #94A3B8; }
+    .chip-text { font-size: 11px; font-weight: 800; fill: #F8FAFC; text-anchor: middle; }
   </style>
 
-  <rect x="2" y="2" width="876" height="156" rx="10" fill="url(#cicdBg)" stroke="#334155" stroke-width="1.2" />
+  <rect x="2" y="2" width="876" height="196" rx="10" fill="url(#pcbBg)" stroke="#059669" stroke-width="1.2" />
 
   <g transform="translate(20, 24)">
-    <text x="0" y="0" class="mono" style="font-size: 12px; font-weight: 800; fill: #10B981; letter-spacing: 1px;">AUTOMATED CI/CD AND DEPLOYMENT LIFECYCLE</text>
+    <text x="0" y="0" class="mono pcb-title">PATENT 470097-001 HARDWARE SCHEMATIC AND PINOUT ARCHITECTURE</text>
   </g>
 
-  <!-- 5 Pipeline Stages -->
-  <!-- Stage 1 -->
-  <g transform="translate(20, 42)">
-    <rect x="0" y="0" width="150" height="98" rx="6" fill="#0B1120" stroke="#334155" stroke-width="1" />
-    <text x="12" y="20" class="mono phase-num">PHASE 01</text>
-    <text x="12" y="38" class="mono phase-name">Lint and Typing</text>
-    <text x="12" y="58" class="mono phase-sub">• Flake8 / Black</text>
-    <text x="12" y="74" class="mono phase-sub">• TypeScript Strict</text>
+  <!-- Center Microcontroller Chip -->
+  <g transform="translate(440, 114)">
+    <rect x="-100" y="-45" width="200" height="90" rx="6" fill="#0B1120" stroke="#10B981" stroke-width="1.5" />
+    <text x="0" y="-12" class="mono chip-text">PATENTED M2M MCU</text>
+    <text x="0" y="6" class="mono" style="font-size: 9px; fill: #10B981; text-anchor: middle;">32-BIT DUAL CORE @ 240MHz</text>
+    <text x="0" y="24" class="mono" style="font-size: 8px; fill: #64748B; text-anchor: middle;">LOW POWER SLEEP STATES</text>
   </g>
 
-  <line x1="172" y1="91" x2="194" y2="91" class="arrow" />
-
-  <!-- Stage 2 -->
-  <g transform="translate(196, 42)">
-    <rect x="0" y="0" width="150" height="98" rx="6" fill="#0B1120" stroke="#334155" stroke-width="1" />
-    <text x="12" y="20" class="mono phase-num">PHASE 02</text>
-    <text x="12" y="38" class="mono phase-name">Unit and Integr.</text>
-    <text x="12" y="58" class="mono phase-sub">• PyTest Suites</text>
-    <text x="12" y="74" class="mono phase-sub">• Model Validation</text>
+  <!-- Left Pin Bus: Sensor Input -->
+  <g transform="translate(40, 60)">
+    <rect x="0" y="0" width="240" height="110" rx="6" fill="#0B1120" stroke="#334155" stroke-width="1" />
+    <text x="14" y="22" class="mono pin-label">BUS A: ANALOG / DIGITAL SENSORS</text>
+    <text x="14" y="44" class="mono pin-sub">• GPIO 32-35 : ADC 12-Bit Soil N-P-K</text>
+    <text x="14" y="62" class="mono pin-sub">• GPIO 21 (SDA) / 22 (SCL) : I2C Bus</text>
+    <text x="14" y="80" class="mono pin-sub">• GPIO 18,19,23 : SPI High-Speed Bus</text>
   </g>
 
-  <line x1="348" y1="91" x2="370" y2="91" class="arrow" />
+  <line x1="280" y1="114" x2="340" y2="114" stroke="#10B981" stroke-width="1.5" stroke-dasharray="3 3" />
 
-  <!-- Stage 3 -->
-  <g transform="translate(372, 42)">
-    <rect x="0" y="0" width="150" height="98" rx="6" fill="#0B1120" stroke="#334155" stroke-width="1" />
-    <text x="12" y="20" class="mono phase-num">PHASE 03</text>
-    <text x="12" y="38" class="mono phase-name">Container Build</text>
-    <text x="12" y="58" class="mono phase-sub">• Multi-Stage Docker</text>
-    <text x="12" y="74" class="mono phase-sub">• Layer Caching</text>
+  <!-- Right Pin Bus: Telemetry & Power -->
+  <g transform="translate(600, 60)">
+    <rect x="0" y="0" width="240" height="110" rx="6" fill="#0B1120" stroke="#334155" stroke-width="1" />
+    <text x="14" y="22" class="mono pin-label" style="fill: #38BDF8;">BUS B: TELEMETRY AND POWER REG</text>
+    <text x="14" y="44" class="mono pin-sub">• TX0 / RX0 : Hardware UART Ingestion</text>
+    <text x="14" y="62" class="mono pin-sub">• LDO Step-Down : 5.0V to 3.3V Low-Noise</text>
+    <text x="14" y="80" class="mono pin-sub">• RF Transceiver : 2.4GHz M2M Uplink</text>
   </g>
 
-  <line x1="524" y1="91" x2="546" y2="91" class="arrow" />
-
-  <!-- Stage 4 -->
-  <g transform="translate(548, 42)">
-    <rect x="0" y="0" width="150" height="98" rx="6" fill="#0B1120" stroke="#334155" stroke-width="1" />
-    <text x="12" y="20" class="mono phase-num">PHASE 04</text>
-    <text x="12" y="38" class="mono phase-name">Cloud Deploy</text>
-    <text x="12" y="58" class="mono phase-sub">• AWS ECS / Lambda</text>
-    <text x="12" y="74" class="mono phase-sub">• Zero-Downtime</text>
-  </g>
-
-  <line x1="700" y1="91" x2="722" y2="91" class="arrow" />
-
-  <!-- Stage 5 -->
-  <g transform="translate(724, 42)">
-    <rect x="0" y="0" width="136" height="98" rx="6" fill="#0B1120" stroke="#10B981" stroke-width="1.2" />
-    <text x="12" y="20" class="mono phase-num" style="fill: #10B981;">PHASE 05</text>
-    <text x="12" y="38" class="mono phase-name">Telemetry Guard</text>
-    <text x="12" y="58" class="mono phase-sub">• Health Watchdog</text>
-    <text x="12" y="74" class="mono phase-sub">• Auto-Rollback</text>
-  </g>
+  <line x1="540" y1="114" x2="600" y2="114" stroke="#38BDF8" stroke-width="1.5" stroke-dasharray="3 3" />
 </svg>'''
 
 def main():
@@ -368,6 +294,9 @@ def main():
         ("section-iot-architecture.svg", "IOT TO CLOUD TOPOLOGY", "PHYSICAL INGESTION AND ASYNC TELEMETRY FLOW", "TOPOLOGY", "#F97316", "#10B981"),
         ("section-algorithmic-mastery.svg", "ALGORITHMIC COMPLEXITY AND DATA STRUCTURES", "COMPUTATIONAL OPTIMIZATIONS AND GRAPH THEORY", "ALGORITHMS", "#38BDF8", "#A855F7"),
         ("section-cicd-lifecycle.svg", "AUTOMATED CI/CD AND DEPLOYMENT LIFECYCLE", "CONTAINERIZATION AND RESILIENT ZERO-DOWNTIME RELEASES", "DEVOPS", "#10B981", "#38BDF8"),
+        ("section-hardware-pinout.svg", "PATENTED HARDWARE PINOUT AND BUS SCHEMATICS", "LOW-LEVEL EMBEDDED BUSES AND POWER MANAGEMENT", "HARDWARE", "#10B981", "#F59E0B"),
+        ("section-model-benchmarks.svg", "EMPIRICAL SYSTEM BENCHMARKS AND LATENCY", "MEASURED COMPUTATIONAL RUNTIME PERFORMANCE", "BENCHMARKS", "#F97316", "#38BDF8"),
+        ("section-terminal-session.svg", "INTERACTIVE RUNTIME TERMINAL SESSION", "SIMULATED LINUX SHELL AND SERVICE INITIALIZATION", "CLI-NODE", "#10B981", "#38BDF8"),
     ]
 
     for fname, title, sub, tag, c1, c2 in headers:
@@ -392,14 +321,14 @@ def main():
             f.write(make_project_card(name, cat, lang, d1, d2, met, col))
 
     # Architecture Schematics
-    with open(os.path.join("profile", "iot-cloud-end-to-end-architecture.svg"), "w", encoding="utf-8") as f:
-        f.write(make_iot_cloud_architecture())
+    with open(os.path.join("profile", "interactive-terminal.svg"), "w", encoding="utf-8") as f:
+        f.write(make_interactive_terminal())
 
-    with open(os.path.join("profile", "algorithmic-mastery.svg"), "w", encoding="utf-8") as f:
-        f.write(make_algorithmic_mastery())
+    with open(os.path.join("profile", "model-benchmarks.svg"), "w", encoding="utf-8") as f:
+        f.write(make_model_benchmarks())
 
-    with open(os.path.join("profile", "cicd-lifecycle.svg"), "w", encoding="utf-8") as f:
-        f.write(make_cicd_lifecycle())
+    with open(os.path.join("profile", "pcb-pinout-diagram.svg"), "w", encoding="utf-8") as f:
+        f.write(make_pcb_pinout())
 
     print("All SVGs updated and generated.")
 

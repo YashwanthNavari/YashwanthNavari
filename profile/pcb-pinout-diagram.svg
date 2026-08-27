@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 200" width="100%" height="200">
+  <defs>
+    <linearGradient id="pcbBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06120D" />
+      <stop offset="50%" stop-color="#0B1C14" />
+      <stop offset="100%" stop-color="#020805" />
+    </linearGradient>
+  </defs>
+
+  <style>
+    .mono { font-family: 'Fira Code', 'JetBrains Mono', monospace; }
+    .pcb-title { font-size: 12px; font-weight: 800; fill: #10B981; letter-spacing: 1px; }
+    .pin-label { font-size: 9px; font-weight: 700; fill: #F59E0B; }
+    .pin-sub { font-size: 8.5px; fill: #94A3B8; }
+    .chip-text { font-size: 11px; font-weight: 800; fill: #F8FAFC; text-anchor: middle; }
+  </style>
+
+  <rect x="2" y="2" width="876" height="196" rx="10" fill="url(#pcbBg)" stroke="#059669" stroke-width="1.2" />
+
+  <g transform="translate(20, 24)">
+    <text x="0" y="0" class="mono pcb-title">PATENT 470097-001 HARDWARE SCHEMATIC AND PINOUT ARCHITECTURE</text>
+  </g>
+
+  <!-- Center Microcontroller Chip -->
+  <g transform="translate(440, 114)">
+    <rect x="-100" y="-45" width="200" height="90" rx="6" fill="#0B1120" stroke="#10B981" stroke-width="1.5" />
+    <text x="0" y="-12" class="mono chip-text">PATENTED M2M MCU</text>
+    <text x="0" y="6" class="mono" style="font-size: 9px; fill: #10B981; text-anchor: middle;">32-BIT DUAL CORE @ 240MHz</text>
+    <text x="0" y="24" class="mono" style="font-size: 8px; fill: #64748B; text-anchor: middle;">LOW POWER SLEEP STATES</text>
+  </g>
+
+  <!-- Left Pin Bus: Sensor Input -->
+  <g transform="translate(40, 60)">
+    <rect x="0" y="0" width="240" height="110" rx="6" fill="#0B1120" stroke="#334155" stroke-width="1" />
+    <text x="14" y="22" class="mono pin-label">BUS A: ANALOG / DIGITAL SENSORS</text>
+    <text x="14" y="44" class="mono pin-sub">• GPIO 32-35 : ADC 12-Bit Soil N-P-K</text>
+    <text x="14" y="62" class="mono pin-sub">• GPIO 21 (SDA) / 22 (SCL) : I2C Bus</text>
+    <text x="14" y="80" class="mono pin-sub">• GPIO 18,19,23 : SPI High-Speed Bus</text>
+  </g>
+
+  <line x1="280" y1="114" x2="340" y2="114" stroke="#10B981" stroke-width="1.5" stroke-dasharray="3 3" />
+
+  <!-- Right Pin Bus: Telemetry & Power -->
+  <g transform="translate(600, 60)">
+    <rect x="0" y="0" width="240" height="110" rx="6" fill="#0B1120" stroke="#334155" stroke-width="1" />
+    <text x="14" y="22" class="mono pin-label" style="fill: #38BDF8;">BUS B: TELEMETRY AND POWER REG</text>
+    <text x="14" y="44" class="mono pin-sub">• TX0 / RX0 : Hardware UART Ingestion</text>
+    <text x="14" y="62" class="mono pin-sub">• LDO Step-Down : 5.0V to 3.3V Low-Noise</text>
+    <text x="14" y="80" class="mono pin-sub">• RF Transceiver : 2.4GHz M2M Uplink</text>
+  </g>
+
+  <line x1="540" y1="114" x2="600" y2="114" stroke="#38BDF8" stroke-width="1.5" stroke-dasharray="3 3" />
+</svg>
