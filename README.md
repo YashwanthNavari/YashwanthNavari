@@ -113,7 +113,20 @@ I operate at the intersection of **Deep Learning Systems**, **Cyber-Physical IoT
 ---
 
 <!-- ==================================================================== -->
-<!-- SECTION 3: PATENTED HARDWARE -->
+<!-- SECTION 3: END-TO-END IOT TO CLOUD TOPOLOGY -->
+<!-- ==================================================================== -->
+<p align="center">
+  <img src="https://raw.githubusercontent.com/YashwanthNavari/YashwanthNavari/main/profile/section-iot-architecture.svg?v=3" width="100%" alt="IoT to Cloud Architecture" />
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/YashwanthNavari/YashwanthNavari/main/profile/iot-cloud-end-to-end-architecture.svg?v=3" width="100%" alt="IoT Cloud Topology" />
+</p>
+
+---
+
+<!-- ==================================================================== -->
+<!-- SECTION 4: PATENTED HARDWARE -->
 <!-- ==================================================================== -->
 <p align="center">
   <img src="https://raw.githubusercontent.com/YashwanthNavari/YashwanthNavari/main/profile/section-hardware.svg?v=3" width="100%" alt="Patented Hardware" />
@@ -130,7 +143,7 @@ I operate at the intersection of **Deep Learning Systems**, **Cyber-Physical IoT
 ---
 
 <!-- ==================================================================== -->
-<!-- SECTION 4: AI & ML PIPELINE -->
+<!-- SECTION 5: AI & ML PIPELINE -->
 <!-- ==================================================================== -->
 <p align="center">
   <img src="https://raw.githubusercontent.com/YashwanthNavari/YashwanthNavari/main/profile/section-ai-pipeline.svg?v=3" width="100%" alt="AI Pipeline" />
@@ -143,7 +156,20 @@ I operate at the intersection of **Deep Learning Systems**, **Cyber-Physical IoT
 ---
 
 <!-- ==================================================================== -->
-<!-- SECTION 5: FLAGSHIP SYSTEMS & REPOSITORIES -->
+<!-- SECTION 6: ALGORITHMIC COMPLEXITY & DATA STRUCTURES -->
+<!-- ==================================================================== -->
+<p align="center">
+  <img src="https://raw.githubusercontent.com/YashwanthNavari/YashwanthNavari/main/profile/section-algorithmic-mastery.svg?v=3" width="100%" alt="Algorithmic Mastery" />
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/YashwanthNavari/YashwanthNavari/main/profile/algorithmic-mastery.svg?v=3" width="100%" alt="Algorithmic Complexity Profiles" />
+</p>
+
+---
+
+<!-- ==================================================================== -->
+<!-- SECTION 7: FLAGSHIP SYSTEMS & REPOSITORIES -->
 <!-- ==================================================================== -->
 <p align="center">
   <img src="https://raw.githubusercontent.com/YashwanthNavari/YashwanthNavari/main/profile/section-flagship-projects.svg?v=3" width="100%" alt="Flagship Projects" />
@@ -383,7 +409,7 @@ An intelligent desktop application designed to optimize and simplify the compres
 ---
 
 <!-- ==================================================================== -->
-<!-- SECTION 6: APPLIED RESEARCH & ML BENCHMARKS -->
+<!-- SECTION 8: APPLIED RESEARCH & ML BENCHMARKS -->
 <!-- ==================================================================== -->
 <p align="center">
   <img src="https://raw.githubusercontent.com/YashwanthNavari/YashwanthNavari/main/profile/section-research.svg?v=3" width="100%" alt="Applied Research and ML Benchmarks" />
@@ -410,7 +436,20 @@ An intelligent desktop application designed to optimize and simplify the compres
 ---
 
 <!-- ==================================================================== -->
-<!-- SECTION 7: MASTER TECH ARSENAL -->
+<!-- SECTION 9: AUTOMATED CI/CD & DEPLOYMENT LIFECYCLE -->
+<!-- ==================================================================== -->
+<p align="center">
+  <img src="https://raw.githubusercontent.com/YashwanthNavari/YashwanthNavari/main/profile/section-cicd-lifecycle.svg?v=3" width="100%" alt="CI/CD Lifecycle" />
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/YashwanthNavari/YashwanthNavari/main/profile/cicd-lifecycle.svg?v=3" width="100%" alt="CI/CD Automation Flow" />
+</p>
+
+---
+
+<!-- ==================================================================== -->
+<!-- SECTION 10: MASTER TECH ARSENAL -->
 <!-- ==================================================================== -->
 <p align="center">
   <img src="https://raw.githubusercontent.com/YashwanthNavari/YashwanthNavari/main/profile/section-tech-arsenal.svg?v=3" width="100%" alt="Master Tech Arsenal" />
@@ -447,7 +486,7 @@ An intelligent desktop application designed to optimize and simplify the compres
 ---
 
 <!-- ==================================================================== -->
-<!-- SECTION 8: ENGINEERING PHILOSOPHY & PRINCIPLES -->
+<!-- SECTION 11: ENGINEERING PHILOSOPHY & PRINCIPLES -->
 <!-- ==================================================================== -->
 <p align="center">
   <img src="https://raw.githubusercontent.com/YashwanthNavari/YashwanthNavari/main/profile/section-philosophy.svg?v=3" width="100%" alt="Engineering Philosophy and Principles" />
@@ -467,7 +506,7 @@ An intelligent desktop application designed to optimize and simplify the compres
 ---
 
 <!-- ==================================================================== -->
-<!-- SECTION 9: VERIFIED ACADEMIC CREDENTIALS -->
+<!-- SECTION 12: VERIFIED ACADEMIC CREDENTIALS -->
 <!-- ==================================================================== -->
 <p align="center">
   <img src="https://raw.githubusercontent.com/YashwanthNavari/YashwanthNavari/main/profile/section-credentials.svg?v=3" width="100%" alt="Academic Credentials" />
@@ -492,7 +531,7 @@ My engineering foundation is reinforced by rigorous coursework, practical certif
 ---
 
 <!-- ==================================================================== -->
-<!-- SECTION 10: COMMAND NETWORK HANDSHAKE -->
+<!-- SECTION 13: COMMAND NETWORK HANDSHAKE -->
 <!-- ==================================================================== -->
 <p align="center">
   <img src="https://raw.githubusercontent.com/YashwanthNavari/YashwanthNavari/main/profile/section-comm-links.svg?v=3" width="100%" alt="Command Network Handshake" />
@@ -512,7 +551,7 @@ My engineering foundation is reinforced by rigorous coursework, practical certif
 <br><br>
 
 <!-- ==================================================================== -->
-<!-- 11. MASTER FOOTER COMMAND BANNER (CUSTOM BESPOKE VECTOR SVG) -->
+<!-- 14. MASTER FOOTER COMMAND BANNER (CUSTOM BESPOKE VECTOR SVG) -->
 <!-- ==================================================================== -->
 <p align="center">
   <img src="https://raw.githubusercontent.com/YashwanthNavari/YashwanthNavari/main/profile/footer-command-banner.svg?v=3" width="100%" alt="Footer Command Banner" />
