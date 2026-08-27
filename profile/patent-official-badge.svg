@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 96" width="100%" height="96">
+  <defs>
+    <linearGradient id="sealBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A" />
+      <stop offset="50%" stop-color="#1A120B" />
+      <stop offset="100%" stop-color="#020617" />
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F59E0B" />
+      <stop offset="50%" stop-color="#FCD34D" />
+      <stop offset="100%" stop-color="#F97316" />
+    </linearGradient>
+  </defs>
+
+  <style>
+    .mono { font-family: 'Fira Code', 'JetBrains Mono', monospace; }
+    .seal-title { font-size: 14px; font-weight: 800; fill: #FCD34D; letter-spacing: 1px; }
+    .seal-desc { font-size: 10.5px; fill: #E2E8F0; }
+    .seal-no { font-size: 13px; font-weight: 800; fill: #F97316; letter-spacing: 1.2px; }
+    .seal-sub { font-size: 9px; fill: #94A3B8; text-transform: uppercase; }
+  </style>
+
+  <!-- Container Box -->
+  <rect x="2" y="2" width="876" height="92" rx="10" fill="url(#sealBg)" stroke="url(#goldGrad)" stroke-width="1.5" />
+
+  <!-- Left Gold Emblem -->
+  <g transform="translate(42, 48)">
+    <circle cx="0" cy="0" r="28" fill="#451A03" stroke="#F59E0B" stroke-width="2" />
+    <circle cx="0" cy="0" r="23" fill="none" stroke="#FCD34D" stroke-dasharray="3 2" />
+    <text x="0" y="5" class="mono" style="font-size: 18px; fill: #FCD34D; text-anchor: middle;">★</text>
+  </g>
+
+  <!-- Middle Information -->
+  <g transform="translate(92, 34)">
+    <text x="0" y="0" class="mono seal-title">OFFICIAL INTELLECTUAL PROPERTY PATENT SEAL</text>
+    <text x="0" y="20" class="mono seal-desc">IoT Connectivity Device Hardware Architecture &amp; M2M Signal Signaling Protocols</text>
+    <text x="0" y="38" class="mono seal-sub">ISSUED BY THE PATENT OFFICE, GOVERNMENT OF INDIA • EXCLUSIVE DESIGN GRANT</text>
+  </g>
+
+  <!-- Right Number Block -->
+  <g transform="translate(680, 28)">
+    <rect x="0" y="0" width="170" height="42" rx="6" fill="#0B1120" stroke="#F97316" stroke-width="1.2" />
+    <text x="85" y="18" class="mono" style="font-size: 8.5px; fill: #94A3B8; text-anchor: middle;">PATENT REGISTRATION</text>
+    <text x="85" y="33" class="mono seal-no" text-anchor="middle">NO. 470097-001</text>
+  </g>
+</svg>

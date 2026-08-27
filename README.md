@@ -6,7 +6,7 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:F97316,25:ea580c,60:0f172a,100:020617&height=300&section=header&text=NAVARI%20YASHWANTH%20REDDY&fontSize=48&fontColor=ffffff&animation=twinkling&fontAlignY=36&desc=Engineering%20Command%20Center%20%7C%20Patented%20IoT%20Innovator%20%7C%20AI%2FML%20Architect&descAlignY=58&descSize=18&descColor=cbd5e1" width="100%" alt="Navari Yashwanth Reddy Header Banner" />
 
 <!-- ==================================================================== -->
-<!-- REAL-TIME COMMAND CENTER STATUS BAR (SELF-HOSTED) -->
+<!-- 01. REAL-TIME COMMAND CENTER STATUS BAR (SELF-HOSTED) -->
 <!-- ==================================================================== -->
 <p align="center">
   <img src="./profile/command-status-bar.svg" width="100%" alt="Command Center Real-Time Status" />
@@ -57,7 +57,12 @@
 
 ---
 
-## ⚡ Executive Architecture & Strategic Operational Pillars
+<!-- ==================================================================== -->
+<!-- SECTION 1: THE CORE DIRECTIVES -->
+<!-- ==================================================================== -->
+<p align="center">
+  <img src="./profile/section-core-directives.svg" width="100%" alt="The Core Directives" />
+</p>
 
 I operate at the intersection of **Deep Learning Systems**, **Cyber-Physical IoT Hardware**, and **High-Availability Cloud Microservices**.
 
@@ -69,7 +74,7 @@ I operate at the intersection of **Deep Learning Systems**, **Cyber-Physical IoT
 └─────────────────────────┘      └─────────────────────────┘      └─────────────────────────┘
 ```
 
-### 🛡️ Core Directives
+### 🛡️ Operational Pillars
 
 | Strategic Pillar | Core Focus | Engineering Implementation |
 | :--- | :--- | :--- |
@@ -80,7 +85,12 @@ I operate at the intersection of **Deep Learning Systems**, **Cyber-Physical IoT
 
 ---
 
-## 📊 Live Command Center Telemetry & Analytics
+<!-- ==================================================================== -->
+<!-- SECTION 2: LIVE COMMAND TELEMETRY -->
+<!-- ==================================================================== -->
+<p align="center">
+  <img src="./profile/section-telemetry.svg" width="100%" alt="Live Command Telemetry" />
+</p>
 
 <div align="center">
 
@@ -100,7 +110,16 @@ I operate at the intersection of **Deep Learning Systems**, **Cyber-Physical IoT
 
 ---
 
-## 🖲️ Patented Cyber-Physical Hardware Architecture
+<!-- ==================================================================== -->
+<!-- SECTION 3: PATENTED HARDWARE -->
+<!-- ==================================================================== -->
+<p align="center">
+  <img src="./profile/section-hardware.svg" width="100%" alt="Patented Hardware" />
+</p>
+
+<p align="center">
+  <img src="./profile/patent-official-badge.svg" width="100%" alt="Official Patent Seal" />
+</p>
 
 <p align="center">
   <img src="./profile/hardware-patent-node.svg" width="100%" alt="Hardware Patent Node Schematic" />
@@ -108,7 +127,12 @@ I operate at the intersection of **Deep Learning Systems**, **Cyber-Physical IoT
 
 ---
 
-## 🧠 Neural Inference & Machine Learning Pipeline
+<!-- ==================================================================== -->
+<!-- SECTION 4: AI & ML PIPELINE -->
+<!-- ==================================================================== -->
+<p align="center">
+  <img src="./profile/section-ai-pipeline.svg" width="100%" alt="AI Pipeline" />
+</p>
 
 <p align="center">
   <img src="./profile/ai-pipeline-flow.svg" width="100%" alt="AI Pipeline Flow" />
@@ -116,13 +140,38 @@ I operate at the intersection of **Deep Learning Systems**, **Cyber-Physical IoT
 
 ---
 
-## 🛰️ Verified Flagship Repositories & Systems
+<!-- ==================================================================== -->
+<!-- SECTION 5: FLAGSHIP SYSTEMS & REPOSITORIES -->
+<!-- ==================================================================== -->
+<p align="center">
+  <img src="./profile/section-flagship-projects.svg" width="100%" alt="Flagship Projects" />
+</p>
 
 <p align="center">
   <a href="https://github.com/YashwanthNavari?tab=repositories">
-    <img src="./profile/live-repo-grid.svg" width="100%" alt="Verified Flagship Repositories" />
+    <img src="./profile/live-repo-grid.svg" width="100%" alt="Verified Flagship Repositories Grid" />
   </a>
 </p>
+
+<!-- Dedicated Project Card Grid -->
+<div align="center">
+
+<p align="center">
+  <a href="https://github.com/YashwanthNavari/SupportSphere-AI"><img src="./profile/card-supportsphere.svg" width="49%" alt="SupportSphere Card" /></a>
+  <a href="https://github.com/YashwanthNavari/agrisathi--smart-farmer-assistant"><img src="./profile/card-agrisathi.svg" width="49%" alt="AgriSathi Card" /></a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/YashwanthNavari/nuerovision-ml-platform"><img src="./profile/card-neurovision.svg" width="49%" alt="NeuroVision Card" /></a>
+  <a href="https://github.com/YashwanthNavari/smart-campus-network"><img src="./profile/card-smartcampus.svg" width="49%" alt="Smart Campus Card" /></a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/YashwanthNavari/-Cricbuzz-LiveStats"><img src="./profile/card-cricbuzz.svg" width="49%" alt="Cricbuzz Card" /></a>
+  <a href="https://github.com/YashwanthNavari/DeveloperZip-Intelligent-Project-Packaging-for-Software-Developers"><img src="./profile/card-developerzip.svg" width="49%" alt="DeveloperZip Card" /></a>
+</p>
+
+</div>
 
 <br>
 
@@ -331,7 +380,12 @@ An intelligent desktop application designed to optimize and simplify the compres
 
 ---
 
-## 🛠️ The Master Technical Arsenal
+<!-- ==================================================================== -->
+<!-- SECTION 6: MASTER TECH ARSENAL -->
+<!-- ==================================================================== -->
+<p align="center">
+  <img src="./profile/section-tech-arsenal.svg" width="100%" alt="Master Tech Arsenal" />
+</p>
 
 <div align="center">
 
@@ -363,7 +417,12 @@ An intelligent desktop application designed to optimize and simplify the compres
 
 ---
 
-## 🏅 Official Credentials & Academic Accolades
+<!-- ==================================================================== -->
+<!-- SECTION 7: VERIFIED ACADEMIC CREDENTIALS -->
+<!-- ==================================================================== -->
+<p align="center">
+  <img src="./profile/section-credentials.svg" width="100%" alt="Academic Credentials" />
+</p>
 
 My engineering foundation is reinforced by rigorous coursework, practical certifications, and verified credentials across algorithms, systems design, quantum computing, and networking:
 
@@ -383,7 +442,12 @@ My engineering foundation is reinforced by rigorous coursework, practical certif
 
 ---
 
-## 📡 Handshake & Comm-Links
+<!-- ==================================================================== -->
+<!-- SECTION 8: COMMAND NETWORK HANDSHAKE -->
+<!-- ==================================================================== -->
+<p align="center">
+  <img src="./profile/section-comm-links.svg" width="100%" alt="Command Network Handshake" />
+</p>
 
 <div align="center">
 

@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 150" width="100%" height="150">
+  <defs>
+    <linearGradient id="pcardBg_Smart Campus Network" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A" />
+      <stop offset="60%" stop-color="#0B1120" />
+      <stop offset="100%" stop-color="#020617" />
+    </linearGradient>
+    <filter id="pcardShadow_Smart Campus Network" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#000000" flood-opacity="0.5" />
+    </filter>
+  </defs>
+
+  <style>
+    .mono { font-family: 'Fira Code', 'JetBrains Mono', monospace; }
+    .p-title { font-size: 13.5px; font-weight: 700; fill: #EAB308; }
+    .p-cat { font-size: 9px; font-weight: 700; fill: #94A3B8; text-transform: uppercase; letter-spacing: 0.8px; }
+    .p-desc { font-size: 10px; fill: #CBD5E1; }
+    .p-metric { font-size: 9px; font-weight: 600; fill: #38BDF8; }
+    .pill-box { rx: 3px; fill: #1E293B; }
+    .pill-txt { font-size: 8.5px; font-weight: 700; fill: #F8FAFC; text-anchor: middle; }
+  </style>
+
+  <rect x="2" y="2" width="416" height="146" rx="10" fill="url(#pcardBg_Smart Campus Network)" stroke="#334155" stroke-width="1.2" filter="url(#pcardShadow_Smart Campus Network)" />
+  <line x1="16" y1="36" x2="404" y2="36" stroke="#1E293B" stroke-width="1" />
+
+  <!-- Top Line: Title & Category -->
+  <g transform="translate(18, 24)">
+    <text x="0" y="0" class="mono p-title">Smart Campus Network</text>
+    <text x="384" y="0" class="mono p-cat" text-anchor="end">Security / Network</text>
+  </g>
+
+  <!-- Description -->
+  <g transform="translate(18, 56)">
+    <text x="0" y="0" class="mono p-desc">Zero-Trust automated access control simulation</text>
+    <text x="0" y="16" class="mono p-desc">with RBAC segment isolation & firewall rules.</text>
+  </g>
+
+  <!-- Footer Tags & Metrics -->
+  <g transform="translate(18, 102)">
+    <rect x="0" y="0" width="80" height="20" class="pill-box" stroke="#EAB308" stroke-width="0.8" />
+    <text x="40" y="13.5" class="mono pill-txt">Python / Security</text>
+
+    <text x="384" y="14" class="mono p-metric" text-anchor="end">⚡ 1 Star • Zero-Trust</text>
+  </g>
+</svg>
