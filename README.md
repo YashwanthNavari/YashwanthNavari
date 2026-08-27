@@ -1,9 +1,11 @@
 <div align="center">
 
 <!-- ==================================================================== -->
-<!-- COMMAND CENTER HERO BANNER -->
+<!-- 00. MASTER COMMAND CENTER HERO HEADER (CUSTOM BESPOKE VECTOR SVG) -->
 <!-- ==================================================================== -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:F97316,25:ea580c,60:0f172a,100:020617&height=300&section=header&text=NAVARI%20YASHWANTH%20REDDY&fontSize=48&fontColor=ffffff&animation=twinkling&fontAlignY=36&desc=Engineering%20Command%20Center%20%7C%20Patented%20IoT%20Innovator%20%7C%20AI%2FML%20Architect&descAlignY=58&descSize=18&descColor=cbd5e1" width="100%" alt="Navari Yashwanth Reddy Header Banner" />
+<p align="center">
+  <img src="https://raw.githubusercontent.com/YashwanthNavari/YashwanthNavari/main/profile/hero-command-header.svg?v=3" width="100%" alt="Navari Yashwanth Reddy Command Center Header" />
+</p>
 
 <!-- ==================================================================== -->
 <!-- 01. REAL-TIME COMMAND CENTER STATUS BAR (SELF-HOSTED) -->
@@ -463,8 +465,10 @@ My engineering foundation is reinforced by rigorous coursework, practical certif
 <br><br>
 
 <!-- ==================================================================== -->
-<!-- FOOTER CAPSULE -->
+<!-- 09. MASTER FOOTER COMMAND BANNER (CUSTOM BESPOKE VECTOR SVG) -->
 <!-- ==================================================================== -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:c2410c,45:0f172a,100:020617&height=180&section=footer&text=Architecting+the+Future,+One+Node+at+a+Time.&fontSize=20&fontColor=F97316&fontAlignY=45&animation=twinkling&desc=Systems%20Architecture%20%E2%80%A2%20Patented%20Hardware%20%E2%80%A2%20Deterministic%20AI&descAlignY=65&descSize=13&descColor=cbd5e1" width="100%" alt="Footer Banner" />
+<p align="center">
+  <img src="https://raw.githubusercontent.com/YashwanthNavari/YashwanthNavari/main/profile/footer-command-banner.svg?v=3" width="100%" alt="Footer Command Banner" />
+</p>
 
 </div>
