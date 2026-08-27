@@ -8,6 +8,28 @@
 </p>
 
 <!-- ==================================================================== -->
+<!-- 00B. PROMINENT INTERACTIVE 3D PORTFOLIO LAUNCH CALL-TO-ACTION -->
+<!-- ==================================================================== -->
+<p align="center">
+  <a href="https://yashwanthnavari.github.io/yashwanth-portfolio/" target="_blank">
+    <img src="https://raw.githubusercontent.com/YashwanthNavari/YashwanthNavari/main/profile/btn-portfolio-launch.svg?v=3" width="68%" alt="Launch Interactive 3D WebGL Portfolio" />
+  </a>
+</p>
+
+<!-- Companion Action Buttons -->
+<p align="center">
+  <a href="https://ipindia.gov.in/" target="_blank">
+    <img src="https://raw.githubusercontent.com/YashwanthNavari/YashwanthNavari/main/profile/btn-patent-verification.svg?v=3" width="38%" alt="Patent Verification" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://www.linkedin.com/in/navari-yashwanth-reddy-4a7065357/" target="_blank">
+    <img src="https://raw.githubusercontent.com/YashwanthNavari/YashwanthNavari/main/profile/btn-linkedin-connect.svg?v=3" width="38%" alt="Connect on LinkedIn" />
+  </a>
+</p>
+
+<br>
+
+<!-- ==================================================================== -->
 <!-- 01. REAL-TIME COMMAND CENTER STATUS BAR (SELF-HOSTED) -->
 <!-- ==================================================================== -->
 <p align="center">
@@ -25,15 +47,6 @@
 <br>
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&pause=1200&color=F97316&center=true&vCenter=true&width=1000&lines=Architecting+Production-Grade+AI%2FML+Pipelines;Patented+IoT+%26+M2M+Hardware+Engineering+(Design+No:+470097-001);Engineering+Scalable+Cloud+Microservices+%26+Distributed+Systems;Deploying+Client-Side+Computer+Vision+%26+Edge+Intelligence;Bridging+Physical+Nodes+with+Enterprise+Cloud+Platforms" alt="Dynamic Role Typing Animation" />
-
-<br><br>
-
-<!-- ==================================================================== -->
-<!-- PRIMARY CALL TO ACTION -->
-<!-- ==================================================================== -->
-<a href="https://yashwanthnavari.github.io/yashwanth-portfolio/" target="_blank">
-  <img src="https://img.shields.io/badge/⚡_ENTER_INTERACTIVE_3D_PORTFOLIO_SYSTEM-0D1117?style=for-the-badge&logo=webgl&logoColor=F97316&labelColor=020617" alt="3D Portfolio Link" />
-</a>
 
 <br><br>
 

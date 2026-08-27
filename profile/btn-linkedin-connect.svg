@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 54" width="100%" height="54">
+  <defs>
+    <linearGradient id="inBtnBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A" />
+      <stop offset="60%" stop-color="#0A162B" />
+      <stop offset="100%" stop-color="#090E1A" />
+    </linearGradient>
+    <filter id="inGlow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#0A66C2" flood-opacity="0.4" />
+    </filter>
+  </defs>
+
+  <style>
+    .mono { font-family: 'Space Grotesk', 'Fira Code', monospace; }
+    .sans { font-family: 'Plus Jakarta Sans', -apple-system, sans-serif; }
+  </style>
+
+  <rect x="2" y="2" width="376" height="50" rx="25" fill="url(#inBtnBg)" stroke="#0A66C2" stroke-width="1.2" filter="url(#inGlow)" />
+
+  <g transform="translate(24, 27)">
+    <circle cx="0" cy="0" r="14" fill="#0A66C2" fill-opacity="0.2" stroke="#0A66C2" stroke-width="1" />
+    <text x="0" y="4" class="sans" style="font-size: 11px; font-weight: 900; fill: #38BDF8; text-anchor: middle;">in</text>
+  </g>
+
+  <g transform="translate(52, 25)">
+    <text x="0" y="0" class="sans" style="font-size: 11.5px; font-weight: 800; fill: #F8FAFC; letter-spacing: 0.5px;">CONNECT ON LINKEDIN</text>
+    <text x="0" y="14" class="mono" style="font-size: 9px; font-weight: 600; fill: #38BDF8;">NAVARI YASHWANTH REDDY</text>
+  </g>
+</svg>

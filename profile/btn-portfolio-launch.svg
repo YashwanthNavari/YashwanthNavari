@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 72" width="100%" height="72">
+  <defs>
+    <!-- Fonts -->
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@700;800;900&amp;family=Space+Grotesk:wght@600;700&amp;display=swap');
+
+      .btn-font {
+        font-family: 'Plus Jakarta Sans', 'Space Grotesk', -apple-system, sans-serif;
+      }
+      .mono-font {
+        font-family: 'Space Grotesk', 'Fira Code', monospace;
+      }
+
+      @keyframes buttonGlow {
+        0%, 100% {
+          filter: drop-shadow(0 0 8px rgba(249, 115, 22, 0.45));
+        }
+        50% {
+          filter: drop-shadow(0 0 18px rgba(249, 115, 22, 0.85)) drop-shadow(0 0 28px rgba(56, 189, 248, 0.5));
+        }
+      }
+      @keyframes arrowSlide {
+        0%, 100% { transform: translateX(0px); }
+        50% { transform: translateX(6px); }
+      }
+      @keyframes shimmerBorder {
+        0% { stop-color: #F97316; }
+        50% { stop-color: #38BDF8; }
+        100% { stop-color: #F97316; }
+      }
+
+      .btn-container {
+        animation: buttonGlow 3s infinite ease-in-out;
+      }
+      .slide-arrow {
+        animation: arrowSlide 1.8s infinite ease-in-out;
+      }
+    </style>
+
+    <!-- Button Gradient Fill -->
+    <linearGradient id="btnBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A" />
+      <stop offset="50%" stop-color="#18132A" />
+      <stop offset="100%" stop-color="#0A0718" />
+    </linearGradient>
+
+    <!-- Glowing Animated Gradient Border -->
+    <linearGradient id="glowBorder" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F97316" />
+      <stop offset="50%" stop-color="#38BDF8" />
+      <stop offset="100%" stop-color="#F97316" />
+    </linearGradient>
+
+    <!-- Text Gradient -->
+    <linearGradient id="btnTextGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="60%" stop-color="#F8FAFC" />
+      <stop offset="100%" stop-color="#FED7AA" />
+    </linearGradient>
+  </defs>
+
+  <!-- Button Body with Outer Glow -->
+  <g class="btn-container">
+    <rect x="4" y="4" width="672" height="64" rx="32" fill="url(#btnBg)" stroke="url(#glowBorder)" stroke-width="2" />
+  </g>
+
+  <!-- Left Icon Circle: Three.js / WebGL Sparkle -->
+  <g transform="translate(36, 36)">
+    <circle cx="0" cy="0" r="18" fill="#F97316" fill-opacity="0.18" stroke="#F97316" stroke-width="1.5" />
+    <!-- Sparkle / Lightning Icon -->
+    <path d="M -2 -9 L 4 -2 L 0 0 L 3 9 L -4 1 L 0 -1 Z" fill="#F97316" />
+  </g>
+
+  <!-- Main Button Text -->
+  <g transform="translate(74, 34)">
+    <text x="0" y="0" class="btn-font" style="font-size: 15px; font-weight: 800; fill: url(#btnTextGrad); letter-spacing: 1.2px;">
+      EXPLORE INTERACTIVE 3D WEBGL PORTFOLIO
+    </text>
+    <text x="0" y="16" class="mono-font" style="font-size: 10px; font-weight: 600; fill: #94A3B8; letter-spacing: 0.8px;">
+      yashwanthnavari.github.io/yashwanth-portfolio • LIVE 3D EXPERIENCE
+    </text>
+  </g>
+
+  <!-- Right Action Arrow Icon -->
+  <g transform="translate(620, 36)" class="slide-arrow">
+    <circle cx="0" cy="0" r="16" fill="#38BDF8" fill-opacity="0.15" stroke="#38BDF8" stroke-width="1.2" />
+    <path d="M -4 -6 L 3 0 L -4 6" fill="none" stroke="#38BDF8" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" />
+  </g>
+</svg>
