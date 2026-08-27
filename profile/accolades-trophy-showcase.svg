@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 160" width="100%" height="160">
+  <defs>
+    <linearGradient id="tropBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#140C1A" />
+      <stop offset="50%" stop-color="#0B1120" />
+      <stop offset="100%" stop-color="#020617" />
+    </linearGradient>
+  </defs>
+
+  <style>
+    .mono { font-family: 'Fira Code', 'JetBrains Mono', monospace; }
+    .t-head { font-size: 11px; font-weight: 800; fill: #F59E0B; }
+    .t-body { font-size: 9px; fill: #F8FAFC; }
+    .t-sub { font-size: 8px; fill: #94A3B8; }
+  </style>
+
+  <rect x="2" y="2" width="876" height="156" rx="10" fill="url(#tropBg)" stroke="#F59E0B" stroke-width="1.2" />
+
+  <g transform="translate(20, 24)">
+    <text x="0" y="0" class="mono" style="font-size: 12px; font-weight: 800; fill: #F59E0B; letter-spacing: 1px;">ACADEMIC HONORS AND ENGINEERING DISTINCTIONS</text>
+  </g>
+
+  <!-- 4 Award Columns -->
+  <!-- Award 1 -->
+  <g transform="translate(20, 42)">
+    <rect x="0" y="0" width="200" height="98" rx="6" fill="#0B1120" stroke="#334155" stroke-width="1" />
+    <text x="14" y="22" class="mono t-head">🏆 GRANTED PATENT</text>
+    <text x="14" y="42" class="mono t-body">Design No: 470097-001</text>
+    <text x="14" y="60" class="mono t-sub">• Govt. of India Intellectual Property</text>
+    <text x="14" y="76" class="mono t-sub">• IoT Connectivity Architecture</text>
+  </g>
+
+  <!-- Award 2 -->
+  <g transform="translate(232, 42)">
+    <rect x="0" y="0" width="200" height="98" rx="6" fill="#0B1120" stroke="#334155" stroke-width="1" />
+    <text x="14" y="22" class="mono t-head" style="fill: #38BDF8;">🎓 WOXSEN SCHOLAR</text>
+    <text x="14" y="42" class="mono t-body">Data Science Scholar</text>
+    <text x="14" y="60" class="mono t-sub">• Woxsen University, Hyderabad</text>
+    <text x="14" y="76" class="mono t-sub">• AI Systems and Analytics</text>
+  </g>
+
+  <!-- Award 3 -->
+  <g transform="translate(444, 42)">
+    <rect x="0" y="0" width="200" height="98" rx="6" fill="#0B1120" stroke="#334155" stroke-width="1" />
+    <text x="14" y="22" class="mono t-head" style="fill: #10B981;">🥇 HACKERRANK VERIFIED</text>
+    <text x="14" y="42" class="mono t-body">5-Star Python and React</text>
+    <text x="14" y="60" class="mono t-sub">• Problem Solving Proficiency</text>
+    <text x="14" y="76" class="mono t-sub">• Frontend and Go Proficiency</text>
+  </g>
+
+  <!-- Award 4 -->
+  <g transform="translate(656, 42)">
+    <rect x="0" y="0" width="204" height="98" rx="6" fill="#0B1120" stroke="#334155" stroke-width="1" />
+    <text x="14" y="22" class="mono t-head" style="fill: #C084FC;">📜 GLOBAL SPECIALIZATIONS</text>
+    <text x="14" y="42" class="mono t-body">Duke, NYU and UC Irvine</text>
+    <text x="14" y="60" class="mono t-sub">• Quantum, Cyber Defense, C</text>
+    <text x="14" y="76" class="mono t-sub">• Alberta OOP Architecture</text>
+  </g>
+</svg>

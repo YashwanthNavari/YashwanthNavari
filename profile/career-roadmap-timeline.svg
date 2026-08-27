@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 190" width="100%" height="190">
+  <defs>
+    <linearGradient id="roadBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A" />
+      <stop offset="50%" stop-color="#0B1120" />
+      <stop offset="100%" stop-color="#020617" />
+    </linearGradient>
+  </defs>
+
+  <style>
+    .mono { font-family: 'Fira Code', 'JetBrains Mono', monospace; }
+    .r-year { font-size: 12px; font-weight: 800; fill: #F97316; }
+    .r-title { font-size: 10.5px; font-weight: 700; fill: #F8FAFC; }
+    .r-sub { font-size: 8.5px; fill: #94A3B8; }
+  </style>
+
+  <rect x="2" y="2" width="876" height="186" rx="10" fill="url(#roadBg)" stroke="#334155" stroke-width="1.2" />
+
+  <g transform="translate(20, 24)">
+    <text x="0" y="0" class="mono" style="font-size: 12px; font-weight: 800; fill: #F59E0B; letter-spacing: 1px;">CAREER AND ENGINEERING INNOVATION MILESTONES</text>
+  </g>
+
+  <!-- Horizontal Timeline Bar -->
+  <line x1="40" y1="58" x2="840" y2="58" stroke="#334155" stroke-width="2" />
+
+  <!-- 5 Milestones -->
+  <!-- 2022 -->
+  <g transform="translate(60, 58)">
+    <circle cx="0" cy="0" r="6" fill="#38BDF8" />
+    <circle cx="0" cy="0" r="2.5" fill="#FFFFFF" />
+    <text x="0" y="22" class="mono r-year" text-anchor="middle">2022</text>
+    <text x="0" y="38" class="mono r-title" text-anchor="middle">Algorithms Core</text>
+    <text x="0" y="52" class="mono r-sub" text-anchor="middle">Data Structures</text>
+    <text x="0" y="66" class="mono r-sub" text-anchor="middle">Java and Python</text>
+  </g>
+
+  <!-- 2023 -->
+  <g transform="translate(240, 58)">
+    <circle cx="0" cy="0" r="6" fill="#10B981" />
+    <circle cx="0" cy="0" r="2.5" fill="#FFFFFF" />
+    <text x="0" y="22" class="mono r-year" text-anchor="middle" style="fill: #10B981;">2023</text>
+    <text x="0" y="38" class="mono r-title" text-anchor="middle">Embedded Systems</text>
+    <text x="0" y="52" class="mono r-sub" text-anchor="middle">Microcontroller IO</text>
+    <text x="0" y="66" class="mono r-sub" text-anchor="middle">Sensor Bus Routing</text>
+  </g>
+
+  <!-- 2024 -->
+  <g transform="translate(430, 58)">
+    <circle cx="0" cy="8" r="8" fill="#F59E0B" />
+    <circle cx="0" cy="8" r="3.5" fill="#FFFFFF" />
+    <text x="0" y="30" class="mono r-year" text-anchor="middle" style="fill: #F59E0B;">2024</text>
+    <text x="0" y="46" class="mono r-title" text-anchor="middle" style="fill: #F59E0B;">Patent Granted</text>
+    <text x="0" y="60" class="mono r-sub" text-anchor="middle">Design: 470097-001</text>
+    <text x="0" y="74" class="mono r-sub" text-anchor="middle">Govt. of India</text>
+  </g>
+
+  <!-- 2025 -->
+  <g transform="translate(620, 58)">
+    <circle cx="0" cy="0" r="6" fill="#C084FC" />
+    <circle cx="0" cy="0" r="2.5" fill="#FFFFFF" />
+    <text x="0" y="22" class="mono r-year" text-anchor="middle" style="fill: #C084FC;">2025</text>
+    <text x="0" y="38" class="mono r-title" text-anchor="middle">Production AI/ML</text>
+    <text x="0" y="52" class="mono r-sub" text-anchor="middle">Multi-Agent AI</text>
+    <text x="0" y="66" class="mono r-sub" text-anchor="middle">Computer Vision</text>
+  </g>
+
+  <!-- 2026 -->
+  <g transform="translate(800, 58)">
+    <circle cx="0" cy="0" r="6" fill="#F97316" />
+    <circle cx="0" cy="0" r="2.5" fill="#FFFFFF" />
+    <text x="0" y="22" class="mono r-year" text-anchor="middle" style="fill: #F97316;">2026</text>
+    <text x="0" y="38" class="mono r-title" text-anchor="middle">Distributed Cloud</text>
+    <text x="0" y="52" class="mono r-sub" text-anchor="middle">3D WebGL Portfolios</text>
+    <text x="0" y="66" class="mono r-sub" text-anchor="middle">Enterprise Scale</text>
+  </g>
+</svg>

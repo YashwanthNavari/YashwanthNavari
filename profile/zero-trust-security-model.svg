@@ -40,7 +40,7 @@
   </g>
 
   <g transform="translate(444, 44)">
-    <rect x="0" y="0" width="200" height="114" rx="6" fill="#0B1120" stroke="#38BDF8" stroke-width="1" />
+    <rect x="0" y="0" width="200" height="114" rx="6" fill="#0B1120" stroke="#334155" stroke-width="1" />
     <text x="14" y="22" class="mono s-title">03. INPUT DEFENSE</text>
     <text x="14" y="44" class="mono s-sub">• SQL Injection Escaping</text>
     <text x="14" y="62" class="mono s-sub">• XSS Content Sanitization</text>

@@ -1,6 +1,6 @@
 """
-Script to generate all advanced Engineering Command Center SVGs.
-Uses 100% pure standard ASCII characters (and / + / // / •) to guarantee flawless rendering.
+Master SVG Suite Generator for Navari Yashwanth Reddy's Engineering Command Center.
+Generates all bespoke, self-hosted, 100% XML-compliant vector graphics with 0 external API dependencies.
 """
 import os
 import xml.etree.ElementTree as ET
@@ -227,7 +227,7 @@ def make_pcb_pinout():
     <linearGradient id="pcbBg" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#06120D" />
       <stop offset="50%" stop-color="#0B1C14" />
-      <stop offset="100%" stop-color="#020805" />
+      <stop offset="100%" stop-color="#020617" />
     </linearGradient>
   </defs>
 
@@ -461,7 +461,7 @@ def make_zero_trust_security():
   </g>
 
   <g transform="translate(444, 44)">
-    <rect x="0" y="0" width="200" height="114" rx="6" fill="#0B1120" stroke="#38BDF8" stroke-width="1" />
+    <rect x="0" y="0" width="200" height="114" rx="6" fill="#0B1120" stroke="#334155" stroke-width="1" />
     <text x="14" y="22" class="mono s-title">03. INPUT DEFENSE</text>
     <text x="14" y="44" class="mono s-sub">• SQL Injection Escaping</text>
     <text x="14" y="62" class="mono s-sub">• XSS Content Sanitization</text>
@@ -476,6 +476,194 @@ def make_zero_trust_security():
     <text x="14" y="62" class="mono s-sub">• TLS 1.3 in Transit</text>
     <text x="14" y="80" class="mono s-sub">• Hardware HSM Keystore</text>
     <text x="14" y="100" class="mono s-tag" style="fill: #10B981;">End-to-End Encrypted</text>
+  </g>
+</svg>'''
+
+def make_career_roadmap():
+    return '''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 190" width="100%" height="190">
+  <defs>
+    <linearGradient id="roadBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A" />
+      <stop offset="50%" stop-color="#0B1120" />
+      <stop offset="100%" stop-color="#020617" />
+    </linearGradient>
+  </defs>
+
+  <style>
+    .mono { font-family: 'Fira Code', 'JetBrains Mono', monospace; }
+    .r-year { font-size: 12px; font-weight: 800; fill: #F97316; }
+    .r-title { font-size: 10.5px; font-weight: 700; fill: #F8FAFC; }
+    .r-sub { font-size: 8.5px; fill: #94A3B8; }
+  </style>
+
+  <rect x="2" y="2" width="876" height="186" rx="10" fill="url(#roadBg)" stroke="#334155" stroke-width="1.2" />
+
+  <g transform="translate(20, 24)">
+    <text x="0" y="0" class="mono" style="font-size: 12px; font-weight: 800; fill: #F59E0B; letter-spacing: 1px;">CAREER AND ENGINEERING INNOVATION MILESTONES</text>
+  </g>
+
+  <!-- Horizontal Timeline Bar -->
+  <line x1="40" y1="58" x2="840" y2="58" stroke="#334155" stroke-width="2" />
+
+  <!-- 5 Milestones -->
+  <!-- 2022 -->
+  <g transform="translate(60, 58)">
+    <circle cx="0" cy="0" r="6" fill="#38BDF8" />
+    <circle cx="0" cy="0" r="2.5" fill="#FFFFFF" />
+    <text x="0" y="22" class="mono r-year" text-anchor="middle">2022</text>
+    <text x="0" y="38" class="mono r-title" text-anchor="middle">Algorithms Core</text>
+    <text x="0" y="52" class="mono r-sub" text-anchor="middle">Data Structures</text>
+    <text x="0" y="66" class="mono r-sub" text-anchor="middle">Java and Python</text>
+  </g>
+
+  <!-- 2023 -->
+  <g transform="translate(240, 58)">
+    <circle cx="0" cy="0" r="6" fill="#10B981" />
+    <circle cx="0" cy="0" r="2.5" fill="#FFFFFF" />
+    <text x="0" y="22" class="mono r-year" text-anchor="middle" style="fill: #10B981;">2023</text>
+    <text x="0" y="38" class="mono r-title" text-anchor="middle">Embedded Systems</text>
+    <text x="0" y="52" class="mono r-sub" text-anchor="middle">Microcontroller IO</text>
+    <text x="0" y="66" class="mono r-sub" text-anchor="middle">Sensor Bus Routing</text>
+  </g>
+
+  <!-- 2024 -->
+  <g transform="translate(430, 58)">
+    <circle cx="0" cy="8" r="8" fill="#F59E0B" />
+    <circle cx="0" cy="8" r="3.5" fill="#FFFFFF" />
+    <text x="0" y="30" class="mono r-year" text-anchor="middle" style="fill: #F59E0B;">2024</text>
+    <text x="0" y="46" class="mono r-title" text-anchor="middle" style="fill: #F59E0B;">Patent Granted</text>
+    <text x="0" y="60" class="mono r-sub" text-anchor="middle">Design: 470097-001</text>
+    <text x="0" y="74" class="mono r-sub" text-anchor="middle">Govt. of India</text>
+  </g>
+
+  <!-- 2025 -->
+  <g transform="translate(620, 58)">
+    <circle cx="0" cy="0" r="6" fill="#C084FC" />
+    <circle cx="0" cy="0" r="2.5" fill="#FFFFFF" />
+    <text x="0" y="22" class="mono r-year" text-anchor="middle" style="fill: #C084FC;">2025</text>
+    <text x="0" y="38" class="mono r-title" text-anchor="middle">Production AI/ML</text>
+    <text x="0" y="52" class="mono r-sub" text-anchor="middle">Multi-Agent AI</text>
+    <text x="0" y="66" class="mono r-sub" text-anchor="middle">Computer Vision</text>
+  </g>
+
+  <!-- 2026 -->
+  <g transform="translate(800, 58)">
+    <circle cx="0" cy="0" r="6" fill="#F97316" />
+    <circle cx="0" cy="0" r="2.5" fill="#FFFFFF" />
+    <text x="0" y="22" class="mono r-year" text-anchor="middle" style="fill: #F97316;">2026</text>
+    <text x="0" y="38" class="mono r-title" text-anchor="middle">Distributed Cloud</text>
+    <text x="0" y="52" class="mono r-sub" text-anchor="middle">3D WebGL Portfolios</text>
+    <text x="0" y="66" class="mono r-sub" text-anchor="middle">Enterprise Scale</text>
+  </g>
+</svg>'''
+
+def make_trophy_showcase():
+    return '''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 160" width="100%" height="160">
+  <defs>
+    <linearGradient id="tropBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#140C1A" />
+      <stop offset="50%" stop-color="#0B1120" />
+      <stop offset="100%" stop-color="#020617" />
+    </linearGradient>
+  </defs>
+
+  <style>
+    .mono { font-family: 'Fira Code', 'JetBrains Mono', monospace; }
+    .t-head { font-size: 11px; font-weight: 800; fill: #F59E0B; }
+    .t-body { font-size: 9px; fill: #F8FAFC; }
+    .t-sub { font-size: 8px; fill: #94A3B8; }
+  </style>
+
+  <rect x="2" y="2" width="876" height="156" rx="10" fill="url(#tropBg)" stroke="#F59E0B" stroke-width="1.2" />
+
+  <g transform="translate(20, 24)">
+    <text x="0" y="0" class="mono" style="font-size: 12px; font-weight: 800; fill: #F59E0B; letter-spacing: 1px;">ACADEMIC HONORS AND ENGINEERING DISTINCTIONS</text>
+  </g>
+
+  <!-- 4 Award Columns -->
+  <!-- Award 1 -->
+  <g transform="translate(20, 42)">
+    <rect x="0" y="0" width="200" height="98" rx="6" fill="#0B1120" stroke="#334155" stroke-width="1" />
+    <text x="14" y="22" class="mono t-head">🏆 GRANTED PATENT</text>
+    <text x="14" y="42" class="mono t-body">Design No: 470097-001</text>
+    <text x="14" y="60" class="mono t-sub">• Govt. of India Intellectual Property</text>
+    <text x="14" y="76" class="mono t-sub">• IoT Connectivity Architecture</text>
+  </g>
+
+  <!-- Award 2 -->
+  <g transform="translate(232, 42)">
+    <rect x="0" y="0" width="200" height="98" rx="6" fill="#0B1120" stroke="#334155" stroke-width="1" />
+    <text x="14" y="22" class="mono t-head" style="fill: #38BDF8;">🎓 WOXSEN SCHOLAR</text>
+    <text x="14" y="42" class="mono t-body">Data Science Scholar</text>
+    <text x="14" y="60" class="mono t-sub">• Woxsen University, Hyderabad</text>
+    <text x="14" y="76" class="mono t-sub">• AI Systems and Analytics</text>
+  </g>
+
+  <!-- Award 3 -->
+  <g transform="translate(444, 42)">
+    <rect x="0" y="0" width="200" height="98" rx="6" fill="#0B1120" stroke="#334155" stroke-width="1" />
+    <text x="14" y="22" class="mono t-head" style="fill: #10B981;">🥇 HACKERRANK VERIFIED</text>
+    <text x="14" y="42" class="mono t-body">5-Star Python and React</text>
+    <text x="14" y="60" class="mono t-sub">• Problem Solving Proficiency</text>
+    <text x="14" y="76" class="mono t-sub">• Frontend and Go Proficiency</text>
+  </g>
+
+  <!-- Award 4 -->
+  <g transform="translate(656, 42)">
+    <rect x="0" y="0" width="204" height="98" rx="6" fill="#0B1120" stroke="#334155" stroke-width="1" />
+    <text x="14" y="22" class="mono t-head" style="fill: #C084FC;">📜 GLOBAL SPECIALIZATIONS</text>
+    <text x="14" y="42" class="mono t-body">Duke, NYU and UC Irvine</text>
+    <text x="14" y="60" class="mono t-sub">• Quantum, Cyber Defense, C</text>
+    <text x="14" y="76" class="mono t-sub">• Alberta OOP Architecture</text>
+  </g>
+</svg>'''
+
+def make_collaboration_protocol():
+    return '''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 150" width="100%" height="150">
+  <defs>
+    <linearGradient id="collabBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A" />
+      <stop offset="50%" stop-color="#0B1120" />
+      <stop offset="100%" stop-color="#020617" />
+    </linearGradient>
+  </defs>
+
+  <style>
+    .mono { font-family: 'Fira Code', 'JetBrains Mono', monospace; }
+    .c-head { font-size: 11.5px; font-weight: 700; fill: #F8FAFC; }
+    .c-desc { font-size: 8.5px; fill: #94A3B8; }
+    .c-act { font-size: 8px; font-weight: 700; fill: #10B981; }
+  </style>
+
+  <rect x="2" y="2" width="876" height="146" rx="10" fill="url(#collabBg)" stroke="#334155" stroke-width="1.2" />
+
+  <g transform="translate(20, 24)">
+    <text x="0" y="0" class="mono" style="font-size: 12px; font-weight: 800; fill: #10B981; letter-spacing: 1px;">COLLABORATION PROTOCOL AND ENGINEERING DIRECTIVES</text>
+  </g>
+
+  <!-- 3 Action Blocks -->
+  <g transform="translate(20, 42)">
+    <rect x="0" y="0" width="268" height="88" rx="6" fill="#0B1120" stroke="#334155" stroke-width="1" />
+    <text x="14" y="22" class="mono c-head">🔬 Research and AI Inquiries</text>
+    <text x="14" y="42" class="mono c-desc">• Multi-Agent LLM Orchestration</text>
+    <text x="14" y="58" class="mono c-desc">• Computer Vision and Model Optimization</text>
+    <text x="14" y="76" class="mono c-act">Open for High-Impact Projects</text>
+  </g>
+
+  <g transform="translate(304, 42)">
+    <rect x="0" y="0" width="268" height="88" rx="6" fill="#0B1120" stroke="#334155" stroke-width="1" />
+    <text x="14" y="22" class="mono c-head">🖲️ Hardware and IoT Architecture</text>
+    <text x="14" y="42" class="mono c-desc">• Patented M2M Device Integration</text>
+    <text x="14" y="58" class="mono c-desc">• Embedded C and Edge Telemetry</text>
+    <text x="14" y="76" class="mono c-act">Patent Design 470097-001</text>
+  </g>
+
+  <g transform="translate(588, 42)">
+    <rect x="0" y="0" width="272" height="88" rx="6" fill="#0B1120" stroke="#334155" stroke-width="1" />
+    <text x="14" y="22" class="mono c-head">💼 Technical Handshake</text>
+    <text x="14" y="42" class="mono c-desc">• Full-Stack Distributed Microservices</text>
+    <text x="14" y="58" class="mono c-desc">• Interactive 3D WebGL Applications</text>
+    <text x="14" y="76" class="mono c-act">LinkedIn and GitHub Direct</text>
   </g>
 </svg>'''
 
@@ -503,6 +691,9 @@ def main():
         ("section-microservices.svg", "DISTRIBUTED CLOUD MICROSERVICES", "HIGH-AVAILABILITY ASYNC INGESTION AND GATEWAY", "MICROSERVICES", "#38BDF8", "#10B981"),
         ("section-cnn-architecture.svg", "DEEP LEARNING CONVOLUTIONAL VISION PIPELINE", "CNN HIERARCHICAL FEATURE EXTRACTION AND TRIAGE", "CNN-VISION", "#C084FC", "#38BDF8"),
         ("section-zero-trust-security.svg", "ZERO-TRUST CYBERSECURITY AND DEFENSE", "ENTERPRISE RBAC, MTLS AND HARDENED CRYPTO GATES", "SECURITY", "#EF4444", "#F59E0B"),
+        ("section-roadmap-timeline.svg", "CAREER AND INNOVATION ROADMAP", "MILESTONES FROM ALGORITHMS TO GRANTED PATENTS", "ROADMAP", "#F59E0B", "#F97316"),
+        ("section-trophies-accolades.svg", "ACADEMIC HONORS AND DISTINCTIONS", "GOVERNMENT PATENTS AND TOP CERTIFICATIONS", "HONORS", "#F59E0B", "#10B981"),
+        ("section-collaboration-protocol.svg", "COLLABORATION PROTOCOL AND GUIDELINES", "TECHNICAL HANDSHAKE AND RESEARCH INQUIRIES", "PROTOCOL", "#10B981", "#38BDF8"),
     ]
 
     for fname, title, sub, tag, c1, c2 in headers:
@@ -544,6 +735,15 @@ def main():
 
     with open(os.path.join("profile", "zero-trust-security-model.svg"), "w", encoding="utf-8") as f:
         f.write(make_zero_trust_security())
+
+    with open(os.path.join("profile", "career-roadmap-timeline.svg"), "w", encoding="utf-8") as f:
+        f.write(make_career_roadmap())
+
+    with open(os.path.join("profile", "accolades-trophy-showcase.svg"), "w", encoding="utf-8") as f:
+        f.write(make_trophy_showcase())
+
+    with open(os.path.join("profile", "collaboration-protocol.svg"), "w", encoding="utf-8") as f:
+        f.write(make_collaboration_protocol())
 
     print("All SVGs updated and generated.")
 
