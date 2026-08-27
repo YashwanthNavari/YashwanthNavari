@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 260" width="100%" height="260">
+  <defs>
+    <linearGradient id="radarBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A" />
+      <stop offset="60%" stop-color="#0B1120" />
+      <stop offset="100%" stop-color="#020617" />
+    </linearGradient>
+    <linearGradient id="polyGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F97316" stop-opacity="0.65" />
+      <stop offset="50%" stop-color="#38BDF8" stop-opacity="0.45" />
+      <stop offset="100%" stop-color="#10B981" stop-opacity="0.6" />
+    </linearGradient>
+    <filter id="radarShadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000000" flood-opacity="0.5" />
+    </filter>
+  </defs>
+
+  <style>
+    .mono { font-family: 'Fira Code', 'JetBrains Mono', 'Segoe UI', monospace; }
+    .title { font-size: 15px; font-weight: 700; fill: #F97316; letter-spacing: 0.8px; }
+    .axis-label { font-size: 10px; font-weight: 600; fill: #CBD5E1; text-anchor: middle; }
+    .grid-poly { fill: none; stroke: #334155; stroke-width: 1; stroke-dasharray: 2 2; }
+    .axis-line { stroke: #1E293B; stroke-width: 1.2; }
+    .data-poly { fill: url(#polyGrad); stroke: #F97316; stroke-width: 2; }
+    .data-node { fill: #38BDF8; stroke: #FFFFFF; stroke-width: 1.5; }
+    .border-glow { stroke: #334155; stroke-width: 1.2; }
+  </style>
+
+  <!-- Background -->
+  <rect x="2" y="2" width="416" height="256" rx="12" fill="url(#radarBg)" class="border-glow" filter="url(#radarShadow)" />
+  <line x1="16" y1="38" x2="404" y2="38" stroke="#1E293B" stroke-width="1" />
+
+  <!-- Header Title -->
+  <g transform="translate(18, 26)">
+    <svg fill="#F97316" width="18" height="18" viewBox="0 0 24 24">
+      <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/>
+    </svg>
+    <text x="26" y="14" class="mono title">ENGINEERING DOMAIN RADAR</text>
+  </g>
+
+  <!-- Center of Radar (cx=210, cy=145) Radius=75 -->
+  <!-- 6 Axes:
+       0 deg (Top): 210, 70
+       60 deg (Top-Right): 275, 107.5
+       120 deg (Bottom-Right): 275, 182.5
+       180 deg (Bottom): 210, 220
+       240 deg (Bottom-Left): 145, 182.5
+       300 deg (Top-Left): 145, 107.5
+  -->
+  <g transform="translate(210, 148)">
+    <!-- Grid Level 1 (25%) -->
+    <polygon points="0,-18.75 16.2,-9.38 16.2,9.38 0,18.75 -16.2,9.38 -16.2,-9.38" class="grid-poly" />
+    <!-- Grid Level 2 (50%) -->
+    <polygon points="0,-37.5 32.5,-18.75 32.5,18.75 0,37.5 -32.5,18.75 -32.5,-18.75" class="grid-poly" />
+    <!-- Grid Level 3 (75%) -->
+    <polygon points="0,-56.25 48.7,-28.1 48.7,28.1 0,56.25 -48.7,28.1 -48.7,-28.1" class="grid-poly" />
+    <!-- Grid Level 4 (100%) -->
+    <polygon points="0,-75 64.95,-37.5 64.95,37.5 0,75 -64.95,37.5 -64.95,-37.5" class="grid-poly" stroke="#475569" stroke-dasharray="none" />
+
+    <!-- Axes -->
+    <line x1="0" y1="0" x2="0" y2="-75" class="axis-line" />
+    <line x1="0" y1="0" x2="64.95" y2="-37.5" class="axis-line" />
+    <line x1="0" y1="0" x2="64.95" y2="37.5" class="axis-line" />
+    <line x1="0" y1="0" x2="0" y2="75" class="axis-line" />
+    <line x1="0" y1="0" x2="-64.95" y2="37.5" class="axis-line" />
+    <line x1="0" y1="0" x2="-64.95" y2="-37.5" class="axis-line" />
+
+    <!-- Data Polygon:
+         Top: AI / ML (95% -> -71.25)
+         Top-Right: IoT & Patented M2M (98% -> 63.65, -36.75)
+         Bottom-Right: Full-Stack SaaS (90% -> 58.45, 33.75)
+         Bottom: Distributed Systems (88% -> 0, 66)
+         Bottom-Left: Database Architecture (92% -> -59.75, 34.5)
+         Top-Left: Cyber-Physical Security (86% -> -55.85, -32.25)
+    -->
+    <polygon points="0,-71.25 63.65,-36.75 58.45,33.75 0,66 -59.75,34.5 -55.85,-32.25" class="data-poly" />
+
+    <!-- Nodes -->
+    <circle cx="0" cy="-71.25" r="3.5" class="data-node" />
+    <circle cx="63.65" cy="-36.75" r="3.5" class="data-node" />
+    <circle cx="58.45" cy="33.75" r="3.5" class="data-node" />
+    <circle cx="0" cy="66" r="3.5" class="data-node" />
+    <circle cx="-59.75" cy="34.5" r="3.5" class="data-node" />
+    <circle cx="-55.85" cy="-32.25" r="3.5" class="data-node" />
+
+    <!-- Labels -->
+    <text x="0" y="-84" class="mono axis-label">AI / DEEP LEARNING (95%)</text>
+    <text x="75" y="-42" class="mono axis-label" style="text-anchor:start;">PATENTED IoT &amp; M2M (98%)</text>
+    <text x="75" y="44" class="mono axis-label" style="text-anchor:start;">FULL-STACK SAAS (90%)</text>
+    <text x="0" y="92" class="mono axis-label">DISTRIBUTED SYSTEMS (88%)</text>
+    <text x="-75" y="44" class="mono axis-label" style="text-anchor:end;">DATABASE ENG (92%)</text>
+    <text x="-75" y="-42" class="mono axis-label" style="text-anchor:end;">SECURITY &amp; ZT (86%)</text>
+  </g>
+</svg>

@@ -1,0 +1,33 @@
+name: Command Center Telemetry Sync
+
+on:
+  schedule:
+    - cron: "0 0 * * *" # Runs daily at midnight UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync-telemetry:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Generate Telemetry SVGs
+        run: |
+          python scripts/generate_telemetry.py
+
+      - name: Commit & Push Changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile/*.svg
+          git commit -m "chore(telemetry): update self-hosted command center telemetry cards" || echo "No changes to commit"
+          git push

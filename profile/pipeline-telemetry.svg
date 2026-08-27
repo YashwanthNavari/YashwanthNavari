@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 260" width="100%" height="260">
+  <defs>
+    <linearGradient id="pipeBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A" />
+      <stop offset="60%" stop-color="#0B1120" />
+      <stop offset="100%" stop-color="#020617" />
+    </linearGradient>
+    <filter id="pipeShadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000000" flood-opacity="0.5" />
+    </filter>
+  </defs>
+
+  <style>
+    .mono { font-family: 'Fira Code', 'JetBrains Mono', 'Segoe UI', monospace; }
+    .title { font-size: 15px; font-weight: 700; fill: #F97316; letter-spacing: 0.8px; }
+    .telemetry-key { font-size: 12px; fill: #94A3B8; }
+    .telemetry-val { font-size: 12px; font-weight: 700; fill: #F8FAFC; }
+    .badge-green { fill: #064E3B; stroke: #10B981; stroke-width: 1; rx: 4px; }
+    .badge-blue { fill: #0C4A6E; stroke: #38BDF8; stroke-width: 1; rx: 4px; }
+    .badge-orange { fill: #7C2D12; stroke: #F97316; stroke-width: 1; rx: 4px; }
+    .status-text-green { font-size: 10px; font-weight: 700; fill: #34D399; text-anchor: middle; }
+    .status-text-blue { font-size: 10px; font-weight: 700; fill: #38BDF8; text-anchor: middle; }
+    .status-text-orange { font-size: 10px; font-weight: 700; fill: #FB923C; text-anchor: middle; }
+    .border-glow { stroke: #334155; stroke-width: 1.2; }
+    .metric-bar-bg { fill: #1E293B; rx: 3px; }
+    .metric-bar-fill { rx: 3px; }
+  </style>
+
+  <!-- Background -->
+  <rect x="2" y="2" width="416" height="256" rx="12" fill="url(#pipeBg)" class="border-glow" filter="url(#pipeShadow)" />
+  <line x1="16" y1="38" x2="404" y2="38" stroke="#1E293B" stroke-width="1" />
+
+  <!-- Header Title -->
+  <g transform="translate(18, 26)">
+    <svg fill="#F97316" width="18" height="18" viewBox="0 0 24 24">
+      <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-2 10h-4v4h-2v-4H7v-2h4V7h2v4h4v2z"/>
+    </svg>
+    <text x="26" y="14" class="mono title">PIPELINE &amp; RUNTIME TELEMETRY</text>
+  </g>
+
+  <!-- Metrics Grid -->
+  <g transform="translate(20, 52)">
+    <!-- 1. M2M Telemetry Packet Fidelity -->
+    <g transform="translate(0, 10)">
+      <text x="0" y="10" class="mono telemetry-key">M2M Telemetry Packet Delivery</text>
+      <text x="380" y="10" class="mono telemetry-val" text-anchor="end">99.98%</text>
+      <rect x="0" y="16" width="380" height="5" class="metric-bar-bg" />
+      <rect x="0" y="16" width="379.9" height="5" class="metric-bar-fill" fill="#10B981" />
+    </g>
+
+    <!-- 2. AI Inference Engine Availability -->
+    <g transform="translate(0, 48)">
+      <text x="0" y="10" class="mono telemetry-key">Model Inference Service Uptime</text>
+      <text x="380" y="10" class="mono telemetry-val" text-anchor="end">100.0%</text>
+      <rect x="0" y="16" width="380" height="5" class="metric-bar-bg" />
+      <rect x="0" y="16" width="380" height="5" class="metric-bar-fill" fill="#38BDF8" />
+    </g>
+
+    <!-- 3. Zero-Deadlock Concurrency -->
+    <g transform="translate(0, 86)">
+      <text x="0" y="10" class="mono telemetry-key">Backend Thread Pool Efficiency</text>
+      <text x="380" y="10" class="mono telemetry-val" text-anchor="end">0ms Latency Lock</text>
+      <rect x="0" y="16" width="380" height="5" class="metric-bar-bg" />
+      <rect x="0" y="16" width="365" height="5" class="metric-bar-fill" fill="#F97316" />
+    </g>
+
+    <!-- Operational Status Badges -->
+    <g transform="translate(0, 128)">
+      <!-- CI/CD Health -->
+      <g transform="translate(0, 0)">
+        <rect x="0" y="0" width="118" height="26" class="badge-green" />
+        <text x="59" y="16" class="mono status-text-green">● CI/CD PASSING</text>
+      </g>
+      <!-- WebSockets -->
+      <g transform="translate(130, 0)">
+        <rect x="0" y="0" width="120" height="26" class="badge-blue" />
+        <text x="60" y="16" class="mono status-text-blue">● WS STREAMING</text>
+      </g>
+      <!-- Patent Node -->
+      <g transform="translate(262, 0)">
+        <rect x="0" y="0" width="118" height="26" class="badge-orange" />
+        <text x="59" y="16" class="mono status-text-orange">★ PATENT ACTIVE</text>
+      </g>
+    </g>
+  </g>
+</svg>
