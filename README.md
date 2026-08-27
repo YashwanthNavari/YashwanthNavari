@@ -1,10 +1,10 @@
 <div align="center">
 
 <!-- ==================================================================== -->
-<!-- 00. MASTER COMMAND CENTER HERO HEADER (CUSTOM BESPOKE VECTOR SVG) -->
+<!-- 00. MASTER EXECUTIVE HEADER (BESPOKE CLEAN LUXURY VECTOR SVG) -->
 <!-- ==================================================================== -->
 <p align="center">
-  <img src="https://raw.githubusercontent.com/YashwanthNavari/YashwanthNavari/main/profile/hero-command-header.svg?v=4" width="100%" alt="Navari Yashwanth Reddy Command Center Header" />
+  <img src="https://raw.githubusercontent.com/YashwanthNavari/YashwanthNavari/main/profile/hero-command-header.svg?v=5" width="100%" alt="Navari Yashwanth Reddy Header" />
 </p>
 
 <!-- ==================================================================== -->
