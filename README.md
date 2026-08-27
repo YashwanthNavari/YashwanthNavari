@@ -383,7 +383,34 @@ An intelligent desktop application designed to optimize and simplify the compres
 ---
 
 <!-- ==================================================================== -->
-<!-- SECTION 6: MASTER TECH ARSENAL -->
+<!-- SECTION 6: APPLIED RESEARCH & ML BENCHMARKS -->
+<!-- ==================================================================== -->
+<p align="center">
+  <img src="https://raw.githubusercontent.com/YashwanthNavari/YashwanthNavari/main/profile/section-research.svg?v=3" width="100%" alt="Applied Research and ML Benchmarks" />
+</p>
+
+<div align="center">
+
+<p align="center">
+  <a href="https://github.com/YashwanthNavari/Netflix-Movies-and-TV-Shows-Clustering-using-Unsupervised-Machine-Learning"><img src="https://raw.githubusercontent.com/YashwanthNavari/YashwanthNavari/main/profile/card-netflix-clustering.svg?v=3" width="32%" alt="Netflix Clustering Card" /></a>
+  <a href="https://github.com/YashwanthNavari/-Heart-Disease-Risk-Prediction-System"><img src="https://raw.githubusercontent.com/YashwanthNavari/YashwanthNavari/main/profile/card-heart-disease.svg?v=3" width="32%" alt="Heart Risk Card" /></a>
+  <a href="https://github.com/YashwanthNavari/DeepFER-Live"><img src="https://raw.githubusercontent.com/YashwanthNavari/YashwanthNavari/main/profile/card-deepfer.svg?v=3" width="32%" alt="DeepFER Card" /></a>
+</p>
+
+</div>
+
+<br>
+
+| Empirical Research Domain | Methodological Architecture | Technical Results & Artifacts |
+| :--- | :--- | :--- |
+| **🎬 Unsupervised NLP Catalog Clustering** | TF-IDF vectorization, PCA dimensionality reduction, and K-Means / Silhouette optimization across multi-genre streaming catalogs. | Formulated high-cohesion topic clusters achieving minimal intra-cluster distance without supervised labels. |
+| **🫀 Supervised Clinical Risk Stratification** | Stratified cross-validation, feature correlation analysis, and cost-sensitive threshold tuning for cardiovascular risk prediction. | Optimized recall to eliminate false negatives in high-risk patient subgroups. |
+| **🎭 Real-Time Facial Emotion CNN (DeepFER)** | Convolutional neural networks trained on FER-2013 dataset integrated with OpenCV webcam streaming pipelines. | Sub-25ms per-frame classification with live bounding-box emotion overlays. |
+
+---
+
+<!-- ==================================================================== -->
+<!-- SECTION 7: MASTER TECH ARSENAL -->
 <!-- ==================================================================== -->
 <p align="center">
   <img src="https://raw.githubusercontent.com/YashwanthNavari/YashwanthNavari/main/profile/section-tech-arsenal.svg?v=3" width="100%" alt="Master Tech Arsenal" />
@@ -420,7 +447,27 @@ An intelligent desktop application designed to optimize and simplify the compres
 ---
 
 <!-- ==================================================================== -->
-<!-- SECTION 7: VERIFIED ACADEMIC CREDENTIALS -->
+<!-- SECTION 8: ENGINEERING PHILOSOPHY & PRINCIPLES -->
+<!-- ==================================================================== -->
+<p align="center">
+  <img src="https://raw.githubusercontent.com/YashwanthNavari/YashwanthNavari/main/profile/section-philosophy.svg?v=3" width="100%" alt="Engineering Philosophy and Principles" />
+</p>
+
+```
+┌────────────────────────────────────────────────────────────────────────────────────────┐
+│                          FIRST-PRINCIPLES SYSTEMS AXIOMS                               │
+├────────────────────────────────────────────────────────────────────────────────────────┤
+│ 1. ZERO DATA LEAKAGE: Transform parameters fit exclusively inside cross-validation.    │
+│ 2. DETERMINISTIC HARDWARE: Memory-safe C firmware with hardware interrupt prioritization│
+│ 3. ZERO-TRUST DEFENSE: Microservices enforce strict RBAC and cryptographic signatures.  │
+│ 4. RESILIENT ASYNC FLOWS: Non-blocking coroutines with bounded pools and circuit break.│
+└────────────────────────────────────────────────────────────────────────────────────────┘
+```
+
+---
+
+<!-- ==================================================================== -->
+<!-- SECTION 9: VERIFIED ACADEMIC CREDENTIALS -->
 <!-- ==================================================================== -->
 <p align="center">
   <img src="https://raw.githubusercontent.com/YashwanthNavari/YashwanthNavari/main/profile/section-credentials.svg?v=3" width="100%" alt="Academic Credentials" />
@@ -445,7 +492,7 @@ My engineering foundation is reinforced by rigorous coursework, practical certif
 ---
 
 <!-- ==================================================================== -->
-<!-- SECTION 8: COMMAND NETWORK HANDSHAKE -->
+<!-- SECTION 10: COMMAND NETWORK HANDSHAKE -->
 <!-- ==================================================================== -->
 <p align="center">
   <img src="https://raw.githubusercontent.com/YashwanthNavari/YashwanthNavari/main/profile/section-comm-links.svg?v=3" width="100%" alt="Command Network Handshake" />
@@ -465,7 +512,7 @@ My engineering foundation is reinforced by rigorous coursework, practical certif
 <br><br>
 
 <!-- ==================================================================== -->
-<!-- 09. MASTER FOOTER COMMAND BANNER (CUSTOM BESPOKE VECTOR SVG) -->
+<!-- 11. MASTER FOOTER COMMAND BANNER (CUSTOM BESPOKE VECTOR SVG) -->
 <!-- ==================================================================== -->
 <p align="center">
   <img src="https://raw.githubusercontent.com/YashwanthNavari/YashwanthNavari/main/profile/footer-command-banner.svg?v=3" width="100%" alt="Footer Command Banner" />
