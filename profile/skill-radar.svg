@@ -38,26 +38,13 @@
     <text x="26" y="14" class="mono title">ENGINEERING DOMAIN RADAR</text>
   </g>
 
-  <!-- Center of Radar (cx=210, cy=145) Radius=75 -->
-  <!-- 6 Axes:
-       0 deg (Top): 210, 70
-       60 deg (Top-Right): 275, 107.5
-       120 deg (Bottom-Right): 275, 182.5
-       180 deg (Bottom): 210, 220
-       240 deg (Bottom-Left): 145, 182.5
-       300 deg (Top-Left): 145, 107.5
-  -->
+  <!-- Radar Diagram -->
   <g transform="translate(210, 148)">
-    <!-- Grid Level 1 (25%) -->
     <polygon points="0,-18.75 16.2,-9.38 16.2,9.38 0,18.75 -16.2,9.38 -16.2,-9.38" class="grid-poly" />
-    <!-- Grid Level 2 (50%) -->
     <polygon points="0,-37.5 32.5,-18.75 32.5,18.75 0,37.5 -32.5,18.75 -32.5,-18.75" class="grid-poly" />
-    <!-- Grid Level 3 (75%) -->
     <polygon points="0,-56.25 48.7,-28.1 48.7,28.1 0,56.25 -48.7,28.1 -48.7,-28.1" class="grid-poly" />
-    <!-- Grid Level 4 (100%) -->
     <polygon points="0,-75 64.95,-37.5 64.95,37.5 0,75 -64.95,37.5 -64.95,-37.5" class="grid-poly" stroke="#475569" stroke-dasharray="none" />
 
-    <!-- Axes -->
     <line x1="0" y1="0" x2="0" y2="-75" class="axis-line" />
     <line x1="0" y1="0" x2="64.95" y2="-37.5" class="axis-line" />
     <line x1="0" y1="0" x2="64.95" y2="37.5" class="axis-line" />
@@ -65,17 +52,8 @@
     <line x1="0" y1="0" x2="-64.95" y2="37.5" class="axis-line" />
     <line x1="0" y1="0" x2="-64.95" y2="-37.5" class="axis-line" />
 
-    <!-- Data Polygon:
-         Top: AI / ML (95% -> -71.25)
-         Top-Right: IoT & Patented M2M (98% -> 63.65, -36.75)
-         Bottom-Right: Full-Stack SaaS (90% -> 58.45, 33.75)
-         Bottom: Distributed Systems (88% -> 0, 66)
-         Bottom-Left: Database Architecture (92% -> -59.75, 34.5)
-         Top-Left: Cyber-Physical Security (86% -> -55.85, -32.25)
-    -->
     <polygon points="0,-71.25 63.65,-36.75 58.45,33.75 0,66 -59.75,34.5 -55.85,-32.25" class="data-poly" />
 
-    <!-- Nodes -->
     <circle cx="0" cy="-71.25" r="3.5" class="data-node" />
     <circle cx="63.65" cy="-36.75" r="3.5" class="data-node" />
     <circle cx="58.45" cy="33.75" r="3.5" class="data-node" />
@@ -83,7 +61,6 @@
     <circle cx="-59.75" cy="34.5" r="3.5" class="data-node" />
     <circle cx="-55.85" cy="-32.25" r="3.5" class="data-node" />
 
-    <!-- Labels -->
     <text x="0" y="-84" class="mono axis-label">AI / DEEP LEARNING (95%)</text>
     <text x="75" y="-42" class="mono axis-label" style="text-anchor:start;">PATENTED IoT &amp; M2M (98%)</text>
     <text x="75" y="44" class="mono axis-label" style="text-anchor:start;">FULL-STACK SAAS (90%)</text>

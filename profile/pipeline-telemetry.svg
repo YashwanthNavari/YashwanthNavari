@@ -66,17 +66,14 @@
 
     <!-- Operational Status Badges -->
     <g transform="translate(0, 128)">
-      <!-- CI/CD Health -->
       <g transform="translate(0, 0)">
         <rect x="0" y="0" width="118" height="26" class="badge-green" />
         <text x="59" y="16" class="mono status-text-green">● CI/CD PASSING</text>
       </g>
-      <!-- WebSockets -->
       <g transform="translate(130, 0)">
         <rect x="0" y="0" width="120" height="26" class="badge-blue" />
         <text x="60" y="16" class="mono status-text-blue">● WS STREAMING</text>
       </g>
-      <!-- Patent Node -->
       <g transform="translate(262, 0)">
         <rect x="0" y="0" width="118" height="26" class="badge-orange" />
         <text x="59" y="16" class="mono status-text-orange">★ PATENT ACTIVE</text>
