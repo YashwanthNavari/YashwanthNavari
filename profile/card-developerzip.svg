@@ -23,7 +23,7 @@
   <rect x="2" y="2" width="416" height="146" rx="10" fill="url(#pcardBg_DeveloperZip)" stroke="#334155" stroke-width="1.2" filter="url(#pcardShadow_DeveloperZip)" />
   <line x1="16" y1="36" x2="404" y2="36" stroke="#1E293B" stroke-width="1" />
 
-  <!-- Top Line: Title & Category -->
+  <!-- Top Line: Title and Category -->
   <g transform="translate(18, 24)">
     <text x="0" y="0" class="mono p-title">DeveloperZip</text>
     <text x="384" y="0" class="mono p-cat" text-anchor="end">Developer Tooling</text>
@@ -32,13 +32,13 @@
   <!-- Description -->
   <g transform="translate(18, 56)">
     <text x="0" y="0" class="mono p-desc">Intelligent AST-aware project compression</text>
-    <text x="0" y="16" class="mono p-desc">stripping node_modules & cache bloat by 80%.</text>
+    <text x="0" y="16" class="mono p-desc">stripping node_modules &amp; cache bloat by 80%.</text>
   </g>
 
-  <!-- Footer Tags & Metrics -->
+  <!-- Footer Tags and Metrics -->
   <g transform="translate(18, 102)">
-    <rect x="0" y="0" width="80" height="20" class="pill-box" stroke="#F97316" stroke-width="0.8" />
-    <text x="40" y="13.5" class="mono pill-txt">TypeScript / Desktop</text>
+    <rect x="0" y="0" width="86" height="20" class="pill-box" stroke="#F97316" stroke-width="0.8" />
+    <text x="43" y="13.5" class="mono pill-txt">TypeScript / Desktop</text>
 
     <text x="384" y="14" class="mono p-metric" text-anchor="end">⚡ Desktop Utility</text>
   </g>

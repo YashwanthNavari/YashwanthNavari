@@ -11,7 +11,6 @@
     .mono { font-family: 'Fira Code', 'JetBrains Mono', monospace; }
     .heading { font-size: 14px; font-weight: 700; fill: #F97316; letter-spacing: 1.2px; }
     .card-bg { fill: #0B1120; stroke: #1E293B; stroke-width: 1.2; rx: 8px; }
-    .card-bg:hover { stroke: #F97316; }
     .repo-name { font-size: 12px; font-weight: 700; fill: #38BDF8; }
     .repo-desc { font-size: 9.5px; fill: #94A3B8; }
     .pill { font-size: 8.5px; font-weight: 700; fill: #F1F5F9; }
@@ -28,71 +27,64 @@
   </g>
 
   <!-- 3x2 Grid -->
-  <!-- ROW 1 -->
   <!-- Card 1: SupportSphere-AI -->
   <g transform="translate(20, 48)">
     <rect x="0" y="0" width="268" height="98" class="card-bg" stroke="#F97316" />
     <text x="14" y="24" class="mono repo-name">SupportSphere-AI</text>
     <text x="14" y="44" class="mono repo-desc">Enterprise multi-agent customer</text>
     <text x="14" y="58" class="mono repo-desc">support with real-time AI resolution.</text>
-    <!-- Tag -->
-    <rect x="14" y="70" width="68" height="18" fill="#1E293B" class="pill-bg" />
+    <rect x="14" y="70" width="76" height="18" fill="#1E293B" class="pill-bg" />
     <circle cx="22" cy="79" r="3" fill="#3178C6" />
-    <text x="29" y="82" class="mono pill">TypeScript</text>
+    <text x="32" y="82" class="mono pill">TypeScript</text>
     <text x="254" y="83" class="mono" style="font-size: 9px; fill: #F97316;" text-anchor="end">★ AI Multi-Agent</text>
   </g>
 
-  <!-- Card 2: agrisathi--smart-farmer-assistant -->
+  <!-- Card 2: AgriSathi -->
   <g transform="translate(306, 48)">
     <rect x="0" y="0" width="268" height="98" class="card-bg" />
-    <text x="14" y="24" class="mono repo-name">agrisathi--smart-farmer</text>
+    <text x="14" y="24" class="mono repo-name">agrisathi-smart-farmer</text>
     <text x="14" y="44" class="mono repo-desc">ML-driven decision engine for soil</text>
     <text x="14" y="58" class="mono repo-desc">N-P-K crop &amp; disease prediction.</text>
-    <!-- Tag -->
-    <rect x="14" y="70" width="76" height="18" fill="#1E293B" class="pill-bg" />
+    <rect x="14" y="70" width="86" height="18" fill="#1E293B" class="pill-bg" />
     <circle cx="22" cy="79" r="3" fill="#3178C6" />
-    <text x="29" y="82" class="mono pill">TypeScript/ML</text>
-    <text x="254" y="83" class="mono" style="font-size: 9px; fill: #10B981;" text-anchor="end">★ 1 Star • Agri-Tech</text>
+    <text x="32" y="82" class="mono pill">TypeScript/ML</text>
+    <text x="254" y="83" class="mono" style="font-size: 9px; fill: #10B981;" text-anchor="end">★ 1 Star • Agri</text>
   </g>
 
-  <!-- Card 3: nuerovision-ml-platform -->
+  <!-- Card 3: NeuroVision -->
   <g transform="translate(592, 48)">
     <rect x="0" y="0" width="268" height="98" class="card-bg" />
     <text x="14" y="24" class="mono repo-name">nuerovision-ml-platform</text>
     <text x="14" y="44" class="mono repo-desc">Custom YOLO object detection engine</text>
     <text x="14" y="58" class="mono repo-desc">with OpenCV real-time inference.</text>
-    <!-- Tag -->
-    <rect x="14" y="70" width="70" height="18" fill="#1E293B" class="pill-bg" />
+    <rect x="14" y="70" width="80" height="18" fill="#1E293B" class="pill-bg" />
     <circle cx="22" cy="79" r="3" fill="#3572A5" />
-    <text x="29" y="82" class="mono pill">Python/YOLO</text>
+    <text x="32" y="82" class="mono pill">Python/YOLO</text>
     <text x="254" y="83" class="mono" style="font-size: 9px; fill: #38BDF8;" text-anchor="end">★ 1 Star • CV</text>
   </g>
 
-  <!-- ROW 2 -->
-  <!-- Card 4: smart-campus-network -->
+  <!-- Card 4: Smart Campus -->
   <g transform="translate(20, 156)">
     <rect x="0" y="0" width="268" height="98" class="card-bg" />
     <text x="14" y="24" class="mono repo-name">smart-campus-network</text>
     <text x="14" y="44" class="mono repo-desc">Zero-Trust smart campus network</text>
     <text x="14" y="58" class="mono repo-desc">with automatic access control rules.</text>
-    <!-- Tag -->
     <rect x="14" y="70" width="60" height="18" fill="#1E293B" class="pill-bg" />
     <circle cx="22" cy="79" r="3" fill="#3572A5" />
     <text x="29" y="82" class="mono pill">Python</text>
-    <text x="254" y="83" class="mono" style="font-size: 9px; fill: #EAB308;" text-anchor="end">★ 1 Star • Security</text>
+    <text x="254" y="83" class="mono" style="font-size: 9px; fill: #EAB308;" text-anchor="end">★ 1 Star • Sec</text>
   </g>
 
-  <!-- Card 5: -Cricbuzz-LiveStats -->
+  <!-- Card 5: Cricbuzz -->
   <g transform="translate(306, 156)">
     <rect x="0" y="0" width="268" height="98" class="card-bg" />
-    <text x="14" y="24" class="mono repo-name">-Cricbuzz-LiveStats</text>
+    <text x="14" y="24" class="mono repo-name">Cricbuzz-LiveStats</text>
     <text x="14" y="44" class="mono repo-desc">Real-time cricket telemetry analytics</text>
     <text x="14" y="58" class="mono repo-desc">with PostgreSQL, Streamlit &amp; APIs.</text>
-    <!-- Tag -->
-    <rect x="14" y="70" width="76" height="18" fill="#1E293B" class="pill-bg" />
+    <rect x="14" y="70" width="86" height="18" fill="#1E293B" class="pill-bg" />
     <circle cx="22" cy="79" r="3" fill="#3572A5" />
-    <text x="29" y="82" class="mono pill">PostgreSQL/ML</text>
-    <text x="254" y="83" class="mono" style="font-size: 9px; fill: #A855F7;" text-anchor="end">★ Streamlit Analytics</text>
+    <text x="32" y="82" class="mono pill">PostgreSQL/ML</text>
+    <text x="254" y="83" class="mono" style="font-size: 9px; fill: #A855F7;" text-anchor="end">★ Streamlit UI</text>
   </g>
 
   <!-- Card 6: DeveloperZip -->
@@ -101,10 +93,9 @@
     <text x="14" y="24" class="mono repo-name">DeveloperZip-Packager</text>
     <text x="14" y="44" class="mono repo-desc">Intelligent project compression &amp;</text>
     <text x="14" y="58" class="mono repo-desc">packaging tool for developers.</text>
-    <!-- Tag -->
-    <rect x="14" y="70" width="68" height="18" fill="#1E293B" class="pill-bg" />
+    <rect x="14" y="70" width="76" height="18" fill="#1E293B" class="pill-bg" />
     <circle cx="22" cy="79" r="3" fill="#3178C6" />
-    <text x="29" y="82" class="mono pill">TypeScript</text>
-    <text x="254" y="83" class="mono" style="font-size: 9px; fill: #F97316;" text-anchor="end">★ Tooling &amp; Desktop</text>
+    <text x="32" y="82" class="mono pill">TypeScript</text>
+    <text x="254" y="83" class="mono" style="font-size: 9px; fill: #F97316;" text-anchor="end">★ AST Tooling</text>
   </g>
 </svg>
