@@ -9,7 +9,7 @@
 <!-- 01. REAL-TIME COMMAND CENTER STATUS BAR (SELF-HOSTED) -->
 <!-- ==================================================================== -->
 <p align="center">
-  <img src="./profile/command-status-bar.svg" width="100%" alt="Command Center Real-Time Status" />
+  <img src="https://raw.githubusercontent.com/YashwanthNavari/YashwanthNavari/main/profile/command-status-bar.svg?v=2" width="100%" alt="Command Center Real-Time Status" />
 </p>
 
 <!-- ==================================================================== -->
@@ -61,7 +61,7 @@
 <!-- SECTION 1: THE CORE DIRECTIVES -->
 <!-- ==================================================================== -->
 <p align="center">
-  <img src="./profile/section-core-directives.svg" width="100%" alt="The Core Directives" />
+  <img src="https://raw.githubusercontent.com/YashwanthNavari/YashwanthNavari/main/profile/section-core-directives.svg?v=2" width="100%" alt="The Core Directives" />
 </p>
 
 I operate at the intersection of **Deep Learning Systems**, **Cyber-Physical IoT Hardware**, and **High-Availability Cloud Microservices**.
@@ -89,21 +89,21 @@ I operate at the intersection of **Deep Learning Systems**, **Cyber-Physical IoT
 <!-- SECTION 2: LIVE COMMAND TELEMETRY -->
 <!-- ==================================================================== -->
 <p align="center">
-  <img src="./profile/section-telemetry.svg" width="100%" alt="Live Command Telemetry" />
+  <img src="https://raw.githubusercontent.com/YashwanthNavari/YashwanthNavari/main/profile/section-telemetry.svg?v=2" width="100%" alt="Live Command Telemetry" />
 </p>
 
 <div align="center">
 
 <!-- ROW 1: TELEMETRY STATS & TOP COMPUTATIONAL LANGUAGES -->
 <p align="center">
-  <img src="./profile/stats-card.svg" width="49%" alt="Engineering Telemetry Stats" />
-  <img src="./profile/top-langs.svg" width="49%" alt="Top Computational Languages" />
+  <img src="https://raw.githubusercontent.com/YashwanthNavari/YashwanthNavari/main/profile/stats-card.svg?v=2" width="49%" alt="Engineering Telemetry Stats" />
+  <img src="https://raw.githubusercontent.com/YashwanthNavari/YashwanthNavari/main/profile/top-langs.svg?v=2" width="49%" alt="Top Computational Languages" />
 </p>
 
 <!-- ROW 2: DOMAIN RADAR & PIPELINE HEALTH -->
 <p align="center">
-  <img src="./profile/skill-radar.svg" width="49%" alt="Engineering Domain Radar Chart" />
-  <img src="./profile/pipeline-telemetry.svg" width="49%" alt="Pipeline & Runtime Telemetry" />
+  <img src="https://raw.githubusercontent.com/YashwanthNavari/YashwanthNavari/main/profile/skill-radar.svg?v=2" width="49%" alt="Engineering Domain Radar Chart" />
+  <img src="https://raw.githubusercontent.com/YashwanthNavari/YashwanthNavari/main/profile/pipeline-telemetry.svg?v=2" width="49%" alt="Pipeline & Runtime Telemetry" />
 </p>
 
 </div>
@@ -114,15 +114,15 @@ I operate at the intersection of **Deep Learning Systems**, **Cyber-Physical IoT
 <!-- SECTION 3: PATENTED HARDWARE -->
 <!-- ==================================================================== -->
 <p align="center">
-  <img src="./profile/section-hardware.svg" width="100%" alt="Patented Hardware" />
+  <img src="https://raw.githubusercontent.com/YashwanthNavari/YashwanthNavari/main/profile/section-hardware.svg?v=2" width="100%" alt="Patented Hardware" />
 </p>
 
 <p align="center">
-  <img src="./profile/patent-official-badge.svg" width="100%" alt="Official Patent Seal" />
+  <img src="https://raw.githubusercontent.com/YashwanthNavari/YashwanthNavari/main/profile/patent-official-badge.svg?v=2" width="100%" alt="Official Patent Seal" />
 </p>
 
 <p align="center">
-  <img src="./profile/hardware-patent-node.svg" width="100%" alt="Hardware Patent Node Schematic" />
+  <img src="https://raw.githubusercontent.com/YashwanthNavari/YashwanthNavari/main/profile/hardware-patent-node.svg?v=2" width="100%" alt="Hardware Patent Node Schematic" />
 </p>
 
 ---
@@ -131,11 +131,11 @@ I operate at the intersection of **Deep Learning Systems**, **Cyber-Physical IoT
 <!-- SECTION 4: AI & ML PIPELINE -->
 <!-- ==================================================================== -->
 <p align="center">
-  <img src="./profile/section-ai-pipeline.svg" width="100%" alt="AI Pipeline" />
+  <img src="https://raw.githubusercontent.com/YashwanthNavari/YashwanthNavari/main/profile/section-ai-pipeline.svg?v=2" width="100%" alt="AI Pipeline" />
 </p>
 
 <p align="center">
-  <img src="./profile/ai-pipeline-flow.svg" width="100%" alt="AI Pipeline Flow" />
+  <img src="https://raw.githubusercontent.com/YashwanthNavari/YashwanthNavari/main/profile/ai-pipeline-flow.svg?v=2" width="100%" alt="AI Pipeline Flow" />
 </p>
 
 ---
@@ -144,12 +144,12 @@ I operate at the intersection of **Deep Learning Systems**, **Cyber-Physical IoT
 <!-- SECTION 5: FLAGSHIP SYSTEMS & REPOSITORIES -->
 <!-- ==================================================================== -->
 <p align="center">
-  <img src="./profile/section-flagship-projects.svg" width="100%" alt="Flagship Projects" />
+  <img src="https://raw.githubusercontent.com/YashwanthNavari/YashwanthNavari/main/profile/section-flagship-projects.svg?v=2" width="100%" alt="Flagship Projects" />
 </p>
 
 <p align="center">
   <a href="https://github.com/YashwanthNavari?tab=repositories">
-    <img src="./profile/live-repo-grid.svg" width="100%" alt="Verified Flagship Repositories Grid" />
+    <img src="https://raw.githubusercontent.com/YashwanthNavari/YashwanthNavari/main/profile/live-repo-grid.svg?v=2" width="100%" alt="Verified Flagship Repositories Grid" />
   </a>
 </p>
 
@@ -157,18 +157,18 @@ I operate at the intersection of **Deep Learning Systems**, **Cyber-Physical IoT
 <div align="center">
 
 <p align="center">
-  <a href="https://github.com/YashwanthNavari/SupportSphere-AI"><img src="./profile/card-supportsphere.svg" width="49%" alt="SupportSphere Card" /></a>
-  <a href="https://github.com/YashwanthNavari/agrisathi--smart-farmer-assistant"><img src="./profile/card-agrisathi.svg" width="49%" alt="AgriSathi Card" /></a>
+  <a href="https://github.com/YashwanthNavari/SupportSphere-AI"><img src="https://raw.githubusercontent.com/YashwanthNavari/YashwanthNavari/main/profile/card-supportsphere.svg?v=2" width="49%" alt="SupportSphere Card" /></a>
+  <a href="https://github.com/YashwanthNavari/agrisathi--smart-farmer-assistant"><img src="https://raw.githubusercontent.com/YashwanthNavari/YashwanthNavari/main/profile/card-agrisathi.svg?v=2" width="49%" alt="AgriSathi Card" /></a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/YashwanthNavari/nuerovision-ml-platform"><img src="./profile/card-neurovision.svg" width="49%" alt="NeuroVision Card" /></a>
-  <a href="https://github.com/YashwanthNavari/smart-campus-network"><img src="./profile/card-smartcampus.svg" width="49%" alt="Smart Campus Card" /></a>
+  <a href="https://github.com/YashwanthNavari/nuerovision-ml-platform"><img src="https://raw.githubusercontent.com/YashwanthNavari/YashwanthNavari/main/profile/card-neurovision.svg?v=2" width="49%" alt="NeuroVision Card" /></a>
+  <a href="https://github.com/YashwanthNavari/smart-campus-network"><img src="https://raw.githubusercontent.com/YashwanthNavari/YashwanthNavari/main/profile/card-smartcampus.svg?v=2" width="49%" alt="Smart Campus Card" /></a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/YashwanthNavari/-Cricbuzz-LiveStats"><img src="./profile/card-cricbuzz.svg" width="49%" alt="Cricbuzz Card" /></a>
-  <a href="https://github.com/YashwanthNavari/DeveloperZip-Intelligent-Project-Packaging-for-Software-Developers"><img src="./profile/card-developerzip.svg" width="49%" alt="DeveloperZip Card" /></a>
+  <a href="https://github.com/YashwanthNavari/-Cricbuzz-LiveStats"><img src="https://raw.githubusercontent.com/YashwanthNavari/YashwanthNavari/main/profile/card-cricbuzz.svg?v=2" width="49%" alt="Cricbuzz Card" /></a>
+  <a href="https://github.com/YashwanthNavari/DeveloperZip-Intelligent-Project-Packaging-for-Software-Developers"><img src="https://raw.githubusercontent.com/YashwanthNavari/YashwanthNavari/main/profile/card-developerzip.svg?v=2" width="49%" alt="DeveloperZip Card" /></a>
 </p>
 
 </div>
@@ -384,7 +384,7 @@ An intelligent desktop application designed to optimize and simplify the compres
 <!-- SECTION 6: MASTER TECH ARSENAL -->
 <!-- ==================================================================== -->
 <p align="center">
-  <img src="./profile/section-tech-arsenal.svg" width="100%" alt="Master Tech Arsenal" />
+  <img src="https://raw.githubusercontent.com/YashwanthNavari/YashwanthNavari/main/profile/section-tech-arsenal.svg?v=2" width="100%" alt="Master Tech Arsenal" />
 </p>
 
 <div align="center">
@@ -421,7 +421,7 @@ An intelligent desktop application designed to optimize and simplify the compres
 <!-- SECTION 7: VERIFIED ACADEMIC CREDENTIALS -->
 <!-- ==================================================================== -->
 <p align="center">
-  <img src="./profile/section-credentials.svg" width="100%" alt="Academic Credentials" />
+  <img src="https://raw.githubusercontent.com/YashwanthNavari/YashwanthNavari/main/profile/section-credentials.svg?v=2" width="100%" alt="Academic Credentials" />
 </p>
 
 My engineering foundation is reinforced by rigorous coursework, practical certifications, and verified credentials across algorithms, systems design, quantum computing, and networking:
@@ -446,7 +446,7 @@ My engineering foundation is reinforced by rigorous coursework, practical certif
 <!-- SECTION 8: COMMAND NETWORK HANDSHAKE -->
 <!-- ==================================================================== -->
 <p align="center">
-  <img src="./profile/section-comm-links.svg" width="100%" alt="Command Network Handshake" />
+  <img src="https://raw.githubusercontent.com/YashwanthNavari/YashwanthNavari/main/profile/section-comm-links.svg?v=2" width="100%" alt="Command Network Handshake" />
 </p>
 
 <div align="center">
